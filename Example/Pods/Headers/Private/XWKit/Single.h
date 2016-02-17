@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/Manager/Single/Single.h

@@ -21,6 +21,25 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		767164A31C747FCF00747F44 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7671646F1C747FCF00747F44 /* .gitkeep */; };
+		767164A41C747FCF00747F44 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 767164711C747FCF00747F44 /* .gitkeep */; };
+		767164A51C747FCF00747F44 /* CLLocation+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164751C747FCF00747F44 /* CLLocation+Distance.m */; };
+		767164A61C747FCF00747F44 /* NSDate+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164781C747FCF00747F44 /* NSDate+XWCategory.m */; };
+		767164A71C747FCF00747F44 /* NSString+Secret.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671647A1C747FCF00747F44 /* NSString+Secret.m */; };
+		767164A81C747FCF00747F44 /* UIColor+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671647C1C747FCF00747F44 /* UIColor+XWCategory.m */; };
+		767164A91C747FCF00747F44 /* UIDevice+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671647E1C747FCF00747F44 /* UIDevice+XWCategory.m */; };
+		767164AA1C747FCF00747F44 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164801C747FCF00747F44 /* UIImage+Color.m */; };
+		767164AB1C747FCF00747F44 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164821C747FCF00747F44 /* ReplaceMe.m */; };
+		767164AC1C747FCF00747F44 /* UIViewController+XWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164851C747FCF00747F44 /* UIViewController+XWHUD.m */; };
+		767164AD1C747FCF00747F44 /* MKEnvObserverCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164881C747FCF00747F44 /* MKEnvObserverCenter.m */; };
+		767164AE1C747FCF00747F44 /* MKEnvObserverCenterApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671648A1C747FCF00747F44 /* MKEnvObserverCenterApplication.m */; };
+		767164AF1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671648C1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.m */; };
+		767164B01C747FCF00747F44 /* MKEnvObserverCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671648E1C747FCF00747F44 /* MKEnvObserverCoordinator.m */; };
+		767164B11C747FCF00747F44 /* MKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164901C747FCF00747F44 /* MKObserver.m */; };
+		767164B21C747FCF00747F44 /* XWChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164951C747FCF00747F44 /* XWChartManager.m */; };
+		767164B31C747FCF00747F44 /* XWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164981C747FCF00747F44 /* XWLocationManager.m */; };
+		767164B41C747FCF00747F44 /* XWMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671649A1C747FCF00747F44 /* XWMapManager.m */; };
+		767164B51C747FCF00747F44 /* XWSandBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164A21C747FCF00747F44 /* XWSandBoxHelper.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C0468668289E8AAA7B3DBDFE /* Pods_XWKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A025C0C5FB283EE4AC12D0 /* Pods_XWKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +82,42 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		721808A989DB0AA06ECC2628 /* XWKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XWKit.podspec; path = ../XWKit.podspec; sourceTree = "<group>"; };
 		72FA31946CE8AEDEFB912209 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7671646F1C747FCF00747F44 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		767164711C747FCF00747F44 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		767164741C747FCF00747F44 /* CLLocation+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Distance.h"; sourceTree = "<group>"; };
+		767164751C747FCF00747F44 /* CLLocation+Distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Distance.m"; sourceTree = "<group>"; };
+		767164771C747FCF00747F44 /* NSDate+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XWCategory.h"; sourceTree = "<group>"; };
+		767164781C747FCF00747F44 /* NSDate+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XWCategory.m"; sourceTree = "<group>"; };
+		767164791C747FCF00747F44 /* NSString+Secret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Secret.h"; sourceTree = "<group>"; };
+		7671647A1C747FCF00747F44 /* NSString+Secret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Secret.m"; sourceTree = "<group>"; };
+		7671647B1C747FCF00747F44 /* UIColor+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XWCategory.h"; sourceTree = "<group>"; };
+		7671647C1C747FCF00747F44 /* UIColor+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XWCategory.m"; sourceTree = "<group>"; };
+		7671647D1C747FCF00747F44 /* UIDevice+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XWCategory.h"; sourceTree = "<group>"; };
+		7671647E1C747FCF00747F44 /* UIDevice+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XWCategory.m"; sourceTree = "<group>"; };
+		7671647F1C747FCF00747F44 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		767164801C747FCF00747F44 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		767164821C747FCF00747F44 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		767164841C747FCF00747F44 /* UIViewController+XWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWHUD.h"; sourceTree = "<group>"; };
+		767164851C747FCF00747F44 /* UIViewController+XWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWHUD.m"; sourceTree = "<group>"; };
+		767164871C747FCF00747F44 /* MKEnvObserverCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEnvObserverCenter.h; sourceTree = "<group>"; };
+		767164881C747FCF00747F44 /* MKEnvObserverCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEnvObserverCenter.m; sourceTree = "<group>"; };
+		767164891C747FCF00747F44 /* MKEnvObserverCenterApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEnvObserverCenterApplication.h; sourceTree = "<group>"; };
+		7671648A1C747FCF00747F44 /* MKEnvObserverCenterApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEnvObserverCenterApplication.m; sourceTree = "<group>"; };
+		7671648B1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEnvObserverCenterNetworkStatus.h; sourceTree = "<group>"; };
+		7671648C1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEnvObserverCenterNetworkStatus.m; sourceTree = "<group>"; };
+		7671648D1C747FCF00747F44 /* MKEnvObserverCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEnvObserverCoordinator.h; sourceTree = "<group>"; };
+		7671648E1C747FCF00747F44 /* MKEnvObserverCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEnvObserverCoordinator.m; sourceTree = "<group>"; };
+		7671648F1C747FCF00747F44 /* MKObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKObserver.h; sourceTree = "<group>"; };
+		767164901C747FCF00747F44 /* MKObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKObserver.m; sourceTree = "<group>"; };
+		767164941C747FCF00747F44 /* XWChartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWChartManager.h; sourceTree = "<group>"; };
+		767164951C747FCF00747F44 /* XWChartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWChartManager.m; sourceTree = "<group>"; };
+		767164971C747FCF00747F44 /* XWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWLocationManager.h; sourceTree = "<group>"; };
+		767164981C747FCF00747F44 /* XWLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWLocationManager.m; sourceTree = "<group>"; };
+		767164991C747FCF00747F44 /* XWMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMapManager.h; sourceTree = "<group>"; };
+		7671649A1C747FCF00747F44 /* XWMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMapManager.m; sourceTree = "<group>"; };
+		7671649C1C747FCF00747F44 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		767164A11C747FCF00747F44 /* XWSandBoxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSandBoxHelper.h; sourceTree = "<group>"; };
+		767164A21C747FCF00747F44 /* XWSandBoxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWSandBoxHelper.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EA0948A181EB354138FE903F /* Pods-XWKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWKit_Example/Pods-XWKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +151,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				7671646D1C747FB300747F44 /* XWKitClasses */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for XWKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -180,6 +236,185 @@
 				72FA31946CE8AEDEFB912209 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		7671646D1C747FB300747F44 /* XWKitClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7671646E1C747FCF00747F44 /* Assets */,
+				767164701C747FCF00747F44 /* Classes */,
+			);
+			name = XWKitClasses;
+			sourceTree = "<group>";
+		};
+		7671646E1C747FCF00747F44 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7671646F1C747FCF00747F44 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		767164701C747FCF00747F44 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				767164711C747FCF00747F44 /* .gitkeep */,
+				767164721C747FCF00747F44 /* Cache */,
+				767164731C747FCF00747F44 /* Categories */,
+				767164861C747FCF00747F44 /* EnvObserver */,
+				767164911C747FCF00747F44 /* Image */,
+				767164921C747FCF00747F44 /* Manager */,
+				7671649D1C747FCF00747F44 /* Model */,
+				7671649E1C747FCF00747F44 /* Text */,
+				7671649F1C747FCF00747F44 /* Utility */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		767164721C747FCF00747F44 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		767164731C747FCF00747F44 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				767164741C747FCF00747F44 /* CLLocation+Distance.h */,
+				767164751C747FCF00747F44 /* CLLocation+Distance.m */,
+				767164761C747FCF00747F44 /* Foundation */,
+				767164811C747FCF00747F44 /* Quartz */,
+				767164821C747FCF00747F44 /* ReplaceMe.m */,
+				767164831C747FCF00747F44 /* UIKit */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		767164761C747FCF00747F44 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				767164771C747FCF00747F44 /* NSDate+XWCategory.h */,
+				767164781C747FCF00747F44 /* NSDate+XWCategory.m */,
+				767164791C747FCF00747F44 /* NSString+Secret.h */,
+				7671647A1C747FCF00747F44 /* NSString+Secret.m */,
+				7671647B1C747FCF00747F44 /* UIColor+XWCategory.h */,
+				7671647C1C747FCF00747F44 /* UIColor+XWCategory.m */,
+				7671647D1C747FCF00747F44 /* UIDevice+XWCategory.h */,
+				7671647E1C747FCF00747F44 /* UIDevice+XWCategory.m */,
+				7671647F1C747FCF00747F44 /* UIImage+Color.h */,
+				767164801C747FCF00747F44 /* UIImage+Color.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		767164811C747FCF00747F44 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
+		767164831C747FCF00747F44 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				767164841C747FCF00747F44 /* UIViewController+XWHUD.h */,
+				767164851C747FCF00747F44 /* UIViewController+XWHUD.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		767164861C747FCF00747F44 /* EnvObserver */ = {
+			isa = PBXGroup;
+			children = (
+				767164871C747FCF00747F44 /* MKEnvObserverCenter.h */,
+				767164881C747FCF00747F44 /* MKEnvObserverCenter.m */,
+				767164891C747FCF00747F44 /* MKEnvObserverCenterApplication.h */,
+				7671648A1C747FCF00747F44 /* MKEnvObserverCenterApplication.m */,
+				7671648B1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.h */,
+				7671648C1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.m */,
+				7671648D1C747FCF00747F44 /* MKEnvObserverCoordinator.h */,
+				7671648E1C747FCF00747F44 /* MKEnvObserverCoordinator.m */,
+				7671648F1C747FCF00747F44 /* MKObserver.h */,
+				767164901C747FCF00747F44 /* MKObserver.m */,
+			);
+			path = EnvObserver;
+			sourceTree = "<group>";
+		};
+		767164911C747FCF00747F44 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		767164921C747FCF00747F44 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				767164931C747FCF00747F44 /* ChartManger */,
+				767164961C747FCF00747F44 /* LocationManager */,
+				7671649B1C747FCF00747F44 /* Single */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		767164931C747FCF00747F44 /* ChartManger */ = {
+			isa = PBXGroup;
+			children = (
+				767164941C747FCF00747F44 /* XWChartManager.h */,
+				767164951C747FCF00747F44 /* XWChartManager.m */,
+			);
+			path = ChartManger;
+			sourceTree = "<group>";
+		};
+		767164961C747FCF00747F44 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				767164971C747FCF00747F44 /* XWLocationManager.h */,
+				767164981C747FCF00747F44 /* XWLocationManager.m */,
+				767164991C747FCF00747F44 /* XWMapManager.h */,
+				7671649A1C747FCF00747F44 /* XWMapManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		7671649B1C747FCF00747F44 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				7671649C1C747FCF00747F44 /* Single.h */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		7671649D1C747FCF00747F44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7671649E1C747FCF00747F44 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		7671649F1C747FCF00747F44 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				767164A01C747FCF00747F44 /* SandBox */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		767164A01C747FCF00747F44 /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				767164A11C747FCF00747F44 /* XWSandBoxHelper.h */,
+				767164A21C747FCF00747F44 /* XWSandBoxHelper.m */,
+			);
+			path = SandBox;
 			sourceTree = "<group>";
 		};
 		B75AA38CDD6D7F07D99241ED /* Pods */ = {
@@ -278,7 +513,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				767164A41C747FCF00747F44 /* .gitkeep in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				767164A31C747FCF00747F44 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +627,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767164B21C747FCF00747F44 /* XWChartManager.m in Sources */,
 				6003F59E195388D20070C39A /* XWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XWViewController.m in Sources */,
+				767164AB1C747FCF00747F44 /* ReplaceMe.m in Sources */,
+				767164A81C747FCF00747F44 /* UIColor+XWCategory.m in Sources */,
+				767164A51C747FCF00747F44 /* CLLocation+Distance.m in Sources */,
+				767164B51C747FCF00747F44 /* XWSandBoxHelper.m in Sources */,
+				767164A71C747FCF00747F44 /* NSString+Secret.m in Sources */,
+				767164A61C747FCF00747F44 /* NSDate+XWCategory.m in Sources */,
+				767164B11C747FCF00747F44 /* MKObserver.m in Sources */,
+				767164AF1C747FCF00747F44 /* MKEnvObserverCenterNetworkStatus.m in Sources */,
+				767164AC1C747FCF00747F44 /* UIViewController+XWHUD.m in Sources */,
+				767164B31C747FCF00747F44 /* XWLocationManager.m in Sources */,
+				767164AE1C747FCF00747F44 /* MKEnvObserverCenterApplication.m in Sources */,
+				767164B41C747FCF00747F44 /* XWMapManager.m in Sources */,
+				767164AA1C747FCF00747F44 /* UIImage+Color.m in Sources */,
+				767164B01C747FCF00747F44 /* MKEnvObserverCoordinator.m in Sources */,
+				767164A91C747FCF00747F44 /* UIDevice+XWCategory.m in Sources */,
+				767164AD1C747FCF00747F44 /* MKEnvObserverCenter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

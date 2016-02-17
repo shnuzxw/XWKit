@@ -90,7 +90,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-XWKit_Example/MBProgressHUD.framework"
   install_framework "Pods-XWKit_Example/PNChart.framework"
   install_framework "Pods-XWKit_Example/UICountingLabel.framework"
-  install_framework "Pods-XWKit_Example/XWKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-XWKit_Example/AFNetworking.framework"
@@ -99,5 +98,4 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-XWKit_Example/MBProgressHUD.framework"
   install_framework "Pods-XWKit_Example/PNChart.framework"
   install_framework "Pods-XWKit_Example/UICountingLabel.framework"
-  install_framework "Pods-XWKit_Example/XWKit.framework"
 fi
