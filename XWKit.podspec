@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Manager' do |manager|
-      manager.source_files = 'Pod/Classes/Manager/**/*.h'
+      manager.source_files = 'Pod/Classes/Manager/**/*.{h,m}'
       manager.public_header_files = 'Pod/Classes/Manager/**/*.h'
       manager.frameworks = 'MapKit'
       manager.dependency 'PNChart'
