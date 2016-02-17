@@ -6,7 +6,7 @@ target 'XWKit_Example', :exclusive => true do
 end
 
 target 'XWKit_Tests', :exclusive => true do
-#  pod 'XWKit', :path => '../'
+  pod 'XWKit', :path => '../'
 
   pod 'Specta'
   pod 'Expecta'

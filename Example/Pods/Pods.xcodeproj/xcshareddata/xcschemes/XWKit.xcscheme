@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '67F62A8E78C26688243444CD'
+               BlueprintIdentifier = '7FABA5C01A63EE28BDCB4C7B'
                BlueprintName = 'XWKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'XWKit.framework'>

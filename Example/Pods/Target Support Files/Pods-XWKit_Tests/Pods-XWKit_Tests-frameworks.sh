@@ -84,12 +84,26 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-XWKit_Tests/AFNetworking.framework"
+  install_framework "Pods-XWKit_Tests/BEMSimpleLineGraph.framework"
+  install_framework "Pods-XWKit_Tests/JBChartView.framework"
+  install_framework "Pods-XWKit_Tests/MBProgressHUD.framework"
+  install_framework "Pods-XWKit_Tests/PNChart.framework"
+  install_framework "Pods-XWKit_Tests/UICountingLabel.framework"
+  install_framework "Pods-XWKit_Tests/XWKit.framework"
   install_framework "Pods-XWKit_Tests/Expecta.framework"
   install_framework "Pods-XWKit_Tests/Expecta_Snapshots.framework"
   install_framework "Pods-XWKit_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-XWKit_Tests/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-XWKit_Tests/AFNetworking.framework"
+  install_framework "Pods-XWKit_Tests/BEMSimpleLineGraph.framework"
+  install_framework "Pods-XWKit_Tests/JBChartView.framework"
+  install_framework "Pods-XWKit_Tests/MBProgressHUD.framework"
+  install_framework "Pods-XWKit_Tests/PNChart.framework"
+  install_framework "Pods-XWKit_Tests/UICountingLabel.framework"
+  install_framework "Pods-XWKit_Tests/XWKit.framework"
   install_framework "Pods-XWKit_Tests/Expecta.framework"
   install_framework "Pods-XWKit_Tests/Expecta_Snapshots.framework"
   install_framework "Pods-XWKit_Tests/FBSnapshotTestCase.framework"
