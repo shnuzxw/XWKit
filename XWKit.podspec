@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "XWKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of XWKit."
+  s.summary          = "一个简单的Kit框架。"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                       一个简单的框架，如果您希望可以下载使用。
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/XWKit"
+  s.homepage         = "https://github.com/shnuzxw/XWKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Zhang Xiaowei" => "weixiao08@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/XWKit.git", :tag => s.version.to_s }
+  s.author           = { "shnuzxw" => "weixiao08@qq.com" }
+  s.source           = { :git => "https://github.com/shnuzxw/XWKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -35,6 +36,10 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'PNChart'
+  s.dependency 'JBChartView'
+  s.dependency 'BEMSimpleLineGraph'
+
 end

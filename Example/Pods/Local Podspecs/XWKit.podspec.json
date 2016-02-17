@@ -1,0 +1,25 @@
+{
+  "name": "XWKit",
+  "version": "0.1.0",
+  "summary": "A short description of XWKit.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/XWKit",
+  "license": "MIT",
+  "authors": {
+    "Zhang Xiaowei": "weixiao08@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/XWKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "XWKit": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
