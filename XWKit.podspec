@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
                        一个简单的框架，如果您希望可以下载使用。
                        DESC
@@ -34,24 +34,35 @@ Pod::Spec.new do |s|
 # s.resource_bundles = {
 #   'XWKit' => ['Pod/Assets/*.png']
 # }
-    s.subspec 'EnvObserver' do |Observer|
-        common.source_files = 'Pod/Classes/EnvObserver/*.{h,m}'
-        common.public_header_files = 'Pod/Classes/EnvObserver/*.h'
-    end
+  s.subspec 'EnvObserver' do |envObserver|
+      envObserver.source_files = 'Pod/Classes/EnvObserver/*.{h,m}'
+      envObserver.public_header_files = 'Pod/Classes/EnvObserver/*.h'
+      envObserver.dependency 'AFNetworking'
+  end
 
-    s.subspec 'Manager' do |Manager|
-        common.source_files = 'Pod/Classes/Manager/*.{h,m}'
-        common.public_header_files = 'Pod/Classes/Manager/*.h'
-    end
+  s.subspec 'Manager' do |manager|
+      manager.source_files = 'Pod/Classes/Manager/**/*.h'
+      manager.public_header_files = 'Pod/Classes/Manager/**/*.h'
+      manager.frameworks = 'MapKit'
+      manager.dependency 'PNChart'
+      manager.dependency 'JBChartView'
+      manager.dependency 'BEMSimpleLineGraph'
+  end
+
+  s.subspec 'Utility' do |utility|
+      utility.source_files = 'Pod/Classes/Utility/**/*.{h,m}'
+      utility.public_header_files = 'Pod/Classes/Utility/**/*.h'
+  end
+
+  s.subspec 'Category' do |category|
+      category.source_files = 'Pod/Classes/Categories/**/*.{h,m}'
+      category.public_header_files = 'Pod/Classes/Categories/**/*.h'
+      category.frameworks = 'UIKit'
+      category.dependency 'MBProgressHUD'
+  end
+
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
-
-  s.dependency 'AFNetworking'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'PNChart'
-  s.dependency 'JBChartView'
-  s.dependency 'BEMSimpleLineGraph'
 
 end
