@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "XWKit"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "一个简单的Kit框架。"
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
+
+  s.dependency 'AFNetworking'
   s.dependency 'MBProgressHUD'
   s.dependency 'PNChart'
   s.dependency 'JBChartView'
