@@ -1,5 +1,5 @@
 //
-//  SCLocationManager.h
+//  XWLocationManager.h
 //  ShareCar
 //
 //  Created by smile.zhang on 15/9/12.
@@ -12,13 +12,13 @@
 
 typedef void(^LocationSuccessBlock)(CLLocation *newLocation, BOOL isSuccess, CLAuthorizationStatus status);
 
-@interface SCLocationManager : NSObject
+@interface XWLocationManager : NSObject
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
 @property (nonatomic, strong) CLGeocoder *geoCoder;
 @property (nonatomic, strong, getter=location) CLLocation *location;
 
-SingletonInterface(SCLocationManager);
+SingletonInterface(XWLocationManager);
 
 - (BOOL)locationServicesEnabled;
 - (BOOL)requestWhenInUseAuthorization; // 8.0及其以上

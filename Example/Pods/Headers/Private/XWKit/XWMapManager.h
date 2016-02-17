@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Manager/LocationManager/XWMapManager.h

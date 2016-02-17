@@ -1,5 +1,5 @@
 //
-//  SCLocationManager.m
+//  XWLocationManager.m
 //  ShareCar
 //
 //  Created by smile.zhang on 15/9/12.
@@ -7,18 +7,18 @@
 //
 
 
-#import "SCLocationManager.h"
+#import "XWLocationManager.h"
 #import <UIKit/UIKit.h>
 
-@interface SCLocationManager()<CLLocationManagerDelegate>
+@interface XWLocationManager()<CLLocationManagerDelegate>
 @property (nonatomic, strong) NSMutableArray *requestBlocks;
 @property (nonatomic, strong) NSMutableArray *subscribeBlocks;
 @end
 
 
-@implementation SCLocationManager
+@implementation XWLocationManager
 
-SingletonImplementation(SCLocationManager);
+SingletonImplementation(XWLocationManager);
 
 - (void)addRequestLocationUpdateSuccessBlock:(LocationSuccessBlock)block{
     [self.requestBlocks addObject:block];

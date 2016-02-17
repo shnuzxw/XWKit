@@ -1,16 +1,16 @@
 {
   "name": "XWKit",
-  "version": "0.1.0",
-  "summary": "A short description of XWKit.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/XWKit",
+  "version": "0.0.1",
+  "summary": "一个简单的Kit框架。",
+  "description": "一个简单的框架，如果您希望可以下载使用。",
+  "homepage": "https://github.com/shnuzxw/XWKit",
   "license": "MIT",
   "authors": {
-    "Zhang Xiaowei": "weixiao08@qq.com"
+    "shnuzxw": "weixiao08@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/XWKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/shnuzxw/XWKit.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "7.0"
@@ -20,6 +20,27 @@
   "resource_bundles": {
     "XWKit": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "PNChart": [
+
+    ],
+    "JBChartView": [
+
+    ],
+    "BEMSimpleLineGraph": [
+
     ]
   }
 }
