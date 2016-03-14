@@ -1,20 +1,20 @@
 //
-//  MKEnvObserverCenterNetworkStatus.m
-//  LNUniversal
+//  XWEnvObserverCenterNetworkStatus.m
+//  XWKit
 //
-//  Created by liu nian on 15/5/25.
-//  Copyright (c) 2015年 Liu Nian site:http://iliunian.com. All rights reserved.
+//  Created by smile.Zhang on 16/3/15.
+//  Copyright (c) 2016年 Zhang Xiaowei site:http://devzhang.com. All rights reserved.
 //
 
-#import "MKEnvObserverCenterNetworkStatus.h"
+#import "XWEnvObserverCenterNetworkStatus.h"
 
-static MKEnvObserverCenterNetworkStatus * defaultCenter;
+static XWEnvObserverCenterNetworkStatus * defaultCenter;
 
-@implementation MKEnvObserverCenterNetworkStatus
-+ (MKEnvObserverCenterNetworkStatus *)defaultCenter
+@implementation XWEnvObserverCenterNetworkStatus
++ (XWEnvObserverCenterNetworkStatus *)defaultCenter
 {
     if (!defaultCenter) {
-        defaultCenter = [[MKEnvObserverCenterNetworkStatus alloc] init];
+        defaultCenter = [[XWEnvObserverCenterNetworkStatus alloc] init];
     }
     return defaultCenter;
 }
@@ -50,8 +50,8 @@ static MKEnvObserverCenterNetworkStatus * defaultCenter;
         return;
     }
     
-    for (MKObserver * ob in _observersAry) {
-        id<MKEnvObserverNetworkStatusProtocol> observer = ob.observer;
+    for (XWObserver * ob in _observersAry) {
+        id<XWEnvObserverNetworkStatusProtocol> observer = ob.observer;
         if ([observer respondsToSelector:@selector(mkEnvObserverNetworkStatusDidChangedFromStatus:toStatus:)]) {
             [observer mkEnvObserverNetworkStatusDidChangedFromStatus:fromStatus toStatus:_networkStatus];
         }

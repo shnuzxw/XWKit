@@ -1,15 +1,15 @@
 //
-//  MKEnvObserverCenter.h
-//  LNUniversal
+//  XWEnvObserverCenter.h
+//  XWKit
 //
-//  Created by liu nian on 15/5/25.
-//  Copyright (c) 2015年 Liu Nian site:http://iliunian.com. All rights reserved.
+//  Created by smile.Zhang on 16/3/15.
+//  Copyright (c) 2016年 Zhang Xiaowei site:http://devzhang.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "MKObserver.h"
+#import "XWObserver.h"
 
-@interface MKEnvObserverCenter : NSObject {
+@interface XWEnvObserverCenter : NSObject {
     NSMutableArray * _observersAry;
 }
 

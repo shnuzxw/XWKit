@@ -1,15 +1,15 @@
 //
-//  MKObserver.h
-//  LNUniversal
+//  XWObserver.h
+//  XWKit
 //
-//  Created by liu nian on 15/5/25.
-//  Copyright (c) 2015年 Liu Nian site:http://iliunian.com. All rights reserved.
+//  Created by smile.Zhang on 16/3/15.
+//  Copyright (c) 2016年 Zhang Xiaowei site:http://devzhang.com. All rights reserved.
 //
 
 // 用于保存observer的object instance
 #import <Foundation/Foundation.h>
 
-@interface MKObserver : NSObject {
+@interface XWObserver : NSObject {
     __unsafe_unretained id _observer;
 }
 

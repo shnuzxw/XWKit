@@ -1,13 +1,13 @@
 //
-//  MKEnvObserverCenterApplication.h
-//  LNUniversal
+//  XWEnvObserverCenterApplication.h
+//  XWKit
 //
-//  Created by liu nian on 15/5/25.
-//  Copyright (c) 2015年 Liu Nian site:http://iliunian.com. All rights reserved.
+//  Created by smile.Zhang on 16/3/15.
+//  Copyright (c) 2016年 Zhang Xiaowei site:http://devzhang.com. All rights reserved.
 //
 
-#import "MKEnvObserverCenter.h"
-@protocol MKEnvObserverApplicationProtocol <NSObject>
+#import "XWEnvObserverCenter.h"
+@protocol XWEnvObserverApplicationProtocol <NSObject>
 @optional
 - (void)mkEnvObserverApplicationDidEnterBackground:(NSNotification *)notification;
 - (void)mkEnvObserverApplicationWillEnterForeground:(NSNotification *)notification;
@@ -26,6 +26,6 @@
 
 @end
 
-@interface MKEnvObserverCenterApplication : MKEnvObserverCenter
-+ (MKEnvObserverCenterApplication *)defaultCenter;
+@interface XWEnvObserverCenterApplication : XWEnvObserverCenter
++ (XWEnvObserverCenterApplication *)defaultCenter;
 @end

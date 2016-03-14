@@ -1,20 +1,20 @@
 //
-//  MKObserver.m
-//  MoKe
+//  XWObserver.m
+//  XWKit
 //
 //  Created by Yan FENG on 3/5/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2016年 Zhang Xiaowei site:http://devzhang.com. All rights reserved.
 //
 
-#import "MKObserver.h"
+#import "XWObserver.h"
 
-@implementation MKObserver
+@implementation XWObserver
 
 @synthesize observer = _observer;
 
 + (id)createWithObejct:(id)obejct
 {
-    return [[MKObserver alloc] initWithObject:obejct];
+    return [[XWObserver alloc] initWithObject:obejct];
 }
 
 - (id)initWithObject:(id)object

@@ -1,26 +1,26 @@
 //
-//  MKEnvObserverCenterApplication.m
-//  LNUniversal
+//  XWEnvObserverCenterApplication.m
+//  XWKit
 //
-//  Created by liu nian on 15/5/25.
-//  Copyright (c) 2015年 Liu Nian site:http://iliunian.com. All rights reserved.
+//  Created by smile.Zhang on 16/3/15.
+//  Copyright (c) 2016年 Zhang Xiaowei site:http://devzhang.com. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#import "MKEnvObserverCenterApplication.h"
+#import "XWEnvObserverCenterApplication.h"
 
-static MKEnvObserverCenterApplication * defaultCenter;
+static XWEnvObserverCenterApplication * defaultCenter;
 
-@interface MKEnvObserverCenterApplication ()
+@interface XWEnvObserverCenterApplication ()
 - (void)appNotification:(NSNotification *)notification;
 @end
 
 
-@implementation MKEnvObserverCenterApplication
+@implementation XWEnvObserverCenterApplication
 
-+ (MKEnvObserverCenterApplication *)defaultCenter
++ (XWEnvObserverCenterApplication *)defaultCenter
 {
     if (!defaultCenter) {
-        defaultCenter = [[MKEnvObserverCenterApplication alloc] init];
+        defaultCenter = [[XWEnvObserverCenterApplication alloc] init];
     }
     return defaultCenter;
 }
@@ -137,8 +137,8 @@ static MKEnvObserverCenterApplication * defaultCenter;
     } else {
         return;
     }
-    for (MKObserver * ob in _observersAry) {
-        id<MKEnvObserverApplicationProtocol> observer = ob.observer;
+    for (XWObserver * ob in _observersAry) {
+        id<XWEnvObserverApplicationProtocol> observer = ob.observer;
         if ([observer respondsToSelector:s]) {       
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
