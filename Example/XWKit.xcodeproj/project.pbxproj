@@ -21,6 +21,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		762CC0D01C966AC800F6D477 /* XWEnvObserverCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0C71C966AC800F6D477 /* XWEnvObserverCenter.m */; };
+		762CC0D11C966AC800F6D477 /* XWEnvObserverCenterApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0C91C966AC800F6D477 /* XWEnvObserverCenterApplication.m */; };
+		762CC0D21C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0CB1C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.m */; };
+		762CC0D31C966AC800F6D477 /* XWEnvObserverCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0CD1C966AC800F6D477 /* XWEnvObserverCoordinator.m */; };
+		762CC0D41C966AC800F6D477 /* XWObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0CF1C966AC800F6D477 /* XWObserver.m */; };
 		767164A31C747FCF00747F44 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7671646F1C747FCF00747F44 /* .gitkeep */; };
 		767164A41C747FCF00747F44 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 767164711C747FCF00747F44 /* .gitkeep */; };
 		767164A51C747FCF00747F44 /* CLLocation+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164751C747FCF00747F44 /* CLLocation+Distance.m */; };
@@ -30,11 +35,6 @@
 		767164A91C747FCF00747F44 /* UIDevice+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671647E1C747FCF00747F44 /* UIDevice+XWCategory.m */; };
 		767164AA1C747FCF00747F44 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164801C747FCF00747F44 /* UIImage+Color.m */; };
 		767164AC1C747FCF00747F44 /* UIViewController+XWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164851C747FCF00747F44 /* UIViewController+XWHUD.m */; };
-		767164AD1C747FCF00747F44 /* XWEnvObserverCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164881C747FCF00747F44 /* XWEnvObserverCenter.m */; };
-		767164AE1C747FCF00747F44 /* XWEnvObserverCenterApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671648A1C747FCF00747F44 /* XWEnvObserverCenterApplication.m */; };
-		767164AF1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671648C1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.m */; };
-		767164B01C747FCF00747F44 /* XWEnvObserverCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671648E1C747FCF00747F44 /* XWEnvObserverCoordinator.m */; };
-		767164B11C747FCF00747F44 /* XWObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164901C747FCF00747F44 /* XWObserver.m */; };
 		767164B21C747FCF00747F44 /* XWChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164951C747FCF00747F44 /* XWChartManager.m */; };
 		767164B31C747FCF00747F44 /* XWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 767164981C747FCF00747F44 /* XWLocationManager.m */; };
 		767164B41C747FCF00747F44 /* XWMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671649A1C747FCF00747F44 /* XWMapManager.m */; };
@@ -81,6 +81,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		721808A989DB0AA06ECC2628 /* XWKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XWKit.podspec; path = ../XWKit.podspec; sourceTree = "<group>"; };
 		72FA31946CE8AEDEFB912209 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		762CC0C61C966AC800F6D477 /* XWEnvObserverCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenter.h; sourceTree = "<group>"; };
+		762CC0C71C966AC800F6D477 /* XWEnvObserverCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenter.m; sourceTree = "<group>"; };
+		762CC0C81C966AC800F6D477 /* XWEnvObserverCenterApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenterApplication.h; sourceTree = "<group>"; };
+		762CC0C91C966AC800F6D477 /* XWEnvObserverCenterApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterApplication.m; sourceTree = "<group>"; };
+		762CC0CA1C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenterNetworkStatus.h; sourceTree = "<group>"; };
+		762CC0CB1C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterNetworkStatus.m; sourceTree = "<group>"; };
+		762CC0CC1C966AC800F6D477 /* XWEnvObserverCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCoordinator.h; sourceTree = "<group>"; };
+		762CC0CD1C966AC800F6D477 /* XWEnvObserverCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCoordinator.m; sourceTree = "<group>"; };
+		762CC0CE1C966AC800F6D477 /* XWObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWObserver.h; sourceTree = "<group>"; };
+		762CC0CF1C966AC800F6D477 /* XWObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWObserver.m; sourceTree = "<group>"; };
 		7671646F1C747FCF00747F44 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		767164711C747FCF00747F44 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		767164741C747FCF00747F44 /* CLLocation+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Distance.h"; sourceTree = "<group>"; };
@@ -97,16 +107,6 @@
 		767164801C747FCF00747F44 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		767164841C747FCF00747F44 /* UIViewController+XWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWHUD.h"; sourceTree = "<group>"; };
 		767164851C747FCF00747F44 /* UIViewController+XWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWHUD.m"; sourceTree = "<group>"; };
-		767164871C747FCF00747F44 /* XWEnvObserverCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenter.h; sourceTree = "<group>"; };
-		767164881C747FCF00747F44 /* XWEnvObserverCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenter.m; sourceTree = "<group>"; };
-		767164891C747FCF00747F44 /* XWEnvObserverCenterApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenterApplication.h; sourceTree = "<group>"; };
-		7671648A1C747FCF00747F44 /* XWEnvObserverCenterApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterApplication.m; sourceTree = "<group>"; };
-		7671648B1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenterNetworkStatus.h; sourceTree = "<group>"; };
-		7671648C1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterNetworkStatus.m; sourceTree = "<group>"; };
-		7671648D1C747FCF00747F44 /* XWEnvObserverCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCoordinator.h; sourceTree = "<group>"; };
-		7671648E1C747FCF00747F44 /* XWEnvObserverCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCoordinator.m; sourceTree = "<group>"; };
-		7671648F1C747FCF00747F44 /* XWObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWObserver.h; sourceTree = "<group>"; };
-		767164901C747FCF00747F44 /* XWObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWObserver.m; sourceTree = "<group>"; };
 		767164941C747FCF00747F44 /* XWChartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWChartManager.h; sourceTree = "<group>"; };
 		767164951C747FCF00747F44 /* XWChartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWChartManager.m; sourceTree = "<group>"; };
 		767164971C747FCF00747F44 /* XWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWLocationManager.h; sourceTree = "<group>"; };
@@ -236,6 +236,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		762CC0C51C966AC800F6D477 /* XWEnvObserver */ = {
+			isa = PBXGroup;
+			children = (
+				762CC0C61C966AC800F6D477 /* XWEnvObserverCenter.h */,
+				762CC0C71C966AC800F6D477 /* XWEnvObserverCenter.m */,
+				762CC0C81C966AC800F6D477 /* XWEnvObserverCenterApplication.h */,
+				762CC0C91C966AC800F6D477 /* XWEnvObserverCenterApplication.m */,
+				762CC0CA1C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.h */,
+				762CC0CB1C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.m */,
+				762CC0CC1C966AC800F6D477 /* XWEnvObserverCoordinator.h */,
+				762CC0CD1C966AC800F6D477 /* XWEnvObserverCoordinator.m */,
+				762CC0CE1C966AC800F6D477 /* XWObserver.h */,
+				762CC0CF1C966AC800F6D477 /* XWObserver.m */,
+			);
+			path = XWEnvObserver;
+			sourceTree = "<group>";
+		};
 		7671646D1C747FB300747F44 /* XWKitClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,9 +274,9 @@
 			isa = PBXGroup;
 			children = (
 				767164711C747FCF00747F44 /* .gitkeep */,
+				762CC0C51C966AC800F6D477 /* XWEnvObserver */,
 				767164721C747FCF00747F44 /* Cache */,
 				767164731C747FCF00747F44 /* Categories */,
-				767164861C747FCF00747F44 /* EnvObserver */,
 				767164911C747FCF00747F44 /* Image */,
 				767164921C747FCF00747F44 /* Manager */,
 				7671649D1C747FCF00747F44 /* Model */,
@@ -319,23 +336,6 @@
 				767164851C747FCF00747F44 /* UIViewController+XWHUD.m */,
 			);
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		767164861C747FCF00747F44 /* EnvObserver */ = {
-			isa = PBXGroup;
-			children = (
-				767164871C747FCF00747F44 /* XWEnvObserverCenter.h */,
-				767164881C747FCF00747F44 /* XWEnvObserverCenter.m */,
-				767164891C747FCF00747F44 /* XWEnvObserverCenterApplication.h */,
-				7671648A1C747FCF00747F44 /* XWEnvObserverCenterApplication.m */,
-				7671648B1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.h */,
-				7671648C1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.m */,
-				7671648D1C747FCF00747F44 /* XWEnvObserverCoordinator.h */,
-				7671648E1C747FCF00747F44 /* XWEnvObserverCoordinator.m */,
-				7671648F1C747FCF00747F44 /* XWObserver.h */,
-				767164901C747FCF00747F44 /* XWObserver.m */,
-			);
-			path = EnvObserver;
 			sourceTree = "<group>";
 		};
 		767164911C747FCF00747F44 /* Image */ = {
@@ -624,24 +624,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762CC0D11C966AC800F6D477 /* XWEnvObserverCenterApplication.m in Sources */,
 				767164B21C747FCF00747F44 /* XWChartManager.m in Sources */,
+				762CC0D01C966AC800F6D477 /* XWEnvObserverCenter.m in Sources */,
+				762CC0D31C966AC800F6D477 /* XWEnvObserverCoordinator.m in Sources */,
 				6003F59E195388D20070C39A /* XWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XWViewController.m in Sources */,
 				767164A81C747FCF00747F44 /* UIColor+XWCategory.m in Sources */,
 				767164A51C747FCF00747F44 /* CLLocation+Distance.m in Sources */,
 				767164B51C747FCF00747F44 /* XWSandBoxHelper.m in Sources */,
+				762CC0D21C966AC800F6D477 /* XWEnvObserverCenterNetworkStatus.m in Sources */,
 				767164A71C747FCF00747F44 /* NSString+Secret.m in Sources */,
 				767164A61C747FCF00747F44 /* NSDate+XWCategory.m in Sources */,
-				767164B11C747FCF00747F44 /* XWObserver.m in Sources */,
-				767164AF1C747FCF00747F44 /* XWEnvObserverCenterNetworkStatus.m in Sources */,
 				767164AC1C747FCF00747F44 /* UIViewController+XWHUD.m in Sources */,
 				767164B31C747FCF00747F44 /* XWLocationManager.m in Sources */,
-				767164AE1C747FCF00747F44 /* XWEnvObserverCenterApplication.m in Sources */,
 				767164B41C747FCF00747F44 /* XWMapManager.m in Sources */,
+				762CC0D41C966AC800F6D477 /* XWObserver.m in Sources */,
 				767164AA1C747FCF00747F44 /* UIImage+Color.m in Sources */,
-				767164B01C747FCF00747F44 /* XWEnvObserverCoordinator.m in Sources */,
 				767164A91C747FCF00747F44 /* UIDevice+XWCategory.m in Sources */,
-				767164AD1C747FCF00747F44 /* XWEnvObserverCenter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
