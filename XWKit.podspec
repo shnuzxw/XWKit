@@ -34,9 +34,9 @@ Pod::Spec.new do |s|
 # s.resource_bundles = {
 #   'XWKit' => ['Pod/Assets/*.png']
 # }
-  s.subspec 'EnvObserver' do |envObserver|
+  s.subspec 'XWEnvObserver' do |envObserver|
       envObserver.source_files = 'Pod/Classes/EnvObserver/*.{h,m}'
-      envObserver.public_header_files = 'Pod/Classes/EnvObserver/*.h'
+      envObserver.public_header_files = 'Pod/Classes/XWEnvObserver/*.h'
       envObserver.dependency 'AFNetworking'
   end
 
