@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		760365DC1CA0F42E000050A9 /* XWLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 760365DB1CA0F42E000050A9 /* XWLocationConverter.m */; };
 		762CC1131C96807900F6D477 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 762CC0E61C96807900F6D477 /* .gitkeep */; };
 		762CC1141C96807900F6D477 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 762CC0E81C96807900F6D477 /* .gitkeep */; };
 		762CC1151C96807900F6D477 /* CLLocation+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0EB1C96807900F6D477 /* CLLocation+Distance.m */; };
@@ -81,6 +82,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		721808A989DB0AA06ECC2628 /* XWKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XWKit.podspec; path = ../XWKit.podspec; sourceTree = "<group>"; };
 		72FA31946CE8AEDEFB912209 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		760365DA1CA0F42E000050A9 /* XWLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWLocationConverter.h; sourceTree = "<group>"; };
+		760365DB1CA0F42E000050A9 /* XWLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWLocationConverter.m; sourceTree = "<group>"; };
 		762CC0E61C96807900F6D477 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		762CC0E81C96807900F6D477 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		762CC0EA1C96807900F6D477 /* CLLocation+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Distance.h"; sourceTree = "<group>"; };
@@ -321,6 +324,8 @@
 				762CC1001C96807900F6D477 /* XWLocationManager.m */,
 				762CC1011C96807900F6D477 /* XWMapManager.h */,
 				762CC1021C96807900F6D477 /* XWMapManager.m */,
+				760365DA1CA0F42E000050A9 /* XWLocationConverter.h */,
+				760365DB1CA0F42E000050A9 /* XWLocationConverter.m */,
 			);
 			path = LocationManager;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				762CC11E1C96807900F6D477 /* XWMapManager.m in Sources */,
 				762CC1181C96807900F6D477 /* UIColor+XWCategory.m in Sources */,
 				762CC1151C96807900F6D477 /* CLLocation+Distance.m in Sources */,
+				760365DC1CA0F42E000050A9 /* XWLocationConverter.m in Sources */,
 				762CC1171C96807900F6D477 /* NSString+Secret.m in Sources */,
 				762CC1221C96807900F6D477 /* XWEnvObserverCenterNetworkStatus.m in Sources */,
 				762CC11D1C96807900F6D477 /* XWLocationManager.m in Sources */,
