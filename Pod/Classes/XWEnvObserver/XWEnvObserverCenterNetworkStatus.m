@@ -52,8 +52,8 @@ static XWEnvObserverCenterNetworkStatus * defaultCenter;
     
     for (XWObserver * ob in _observersAry) {
         id<XWEnvObserverNetworkStatusProtocol> observer = ob.observer;
-        if ([observer respondsToSelector:@selector(mkEnvObserverNetworkStatusDidChangedFromStatus:toStatus:)]) {
-            [observer mkEnvObserverNetworkStatusDidChangedFromStatus:fromStatus toStatus:_networkStatus];
+        if ([observer respondsToSelector:@selector(xwEnvObserverNetworkStatusDidChangedFromStatus:toStatus:)]) {
+            [observer xwEnvObserverNetworkStatusDidChangedFromStatus:fromStatus toStatus:_networkStatus];
         }
     }
 }
