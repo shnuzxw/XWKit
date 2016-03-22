@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (XWCategory)
+
 // 根据16进制和alpha计算UIColor
-+ (UIColor *)HEX2Color:(NSInteger)hexCode inAlpha:(CGFloat)alpha;
++ (UIColor *)HEX2Color:(NSInteger)hexCode alpha:(CGFloat)alpha;
 + (UIColor *)colorWithHex:(NSInteger)hexCode;
 + (UIColor *)colorWithHex:(NSInteger)hexCode alpha:(CGFloat)alpha;
-+ (UIColor *)colorWithRandom;
++ (UIColor *)randomColor;
++ (UIColor *)randomColorWithAlpha:(CGFloat)alpha;
+
 @end

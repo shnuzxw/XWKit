@@ -9,20 +9,75 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (Secret)
-// MD5加密算法
-+ (NSString *)encodeMD5:(NSString*)entity;
 
-// BASE64加密算法
+/**
+ *  MD5加密算法
+ *
+ *  @param entity 字符串
+ *
+ *  @return 字符串
+ */
++ (NSString *)encodeMD5:(NSString *)entity;
+
+/**
+ *  BASE64加密算法
+ *
+ *  @param data NSData
+ *
+ *  @return String
+ */
 + (NSString*)encodeBASE64:(NSData *)data;
 
-// BASE64解密算法
+/**
+ *  BASE64解密算法
+ *
+ *  @param string string
+ *
+ *  @return NSData
+ */
 + (NSData*)decodeBASE64:(NSString *)string;
 
+/**
+ * 检验json的有效性
+ */
 + (BOOL)checkJson:(id)json withValidator:(id)validatorJson;
+
+/**
+ *  字符串格式的参数拼接
+ *
+ *  @param parameters 参数集合[字典]
+ *
+ *  @return 字符串
+ */
 + (NSString *)urlParametersStringFromParameters:(NSDictionary *)parameters;
-+ (NSString *)urlStringWithOriginUrlString:(NSString *)originUrlString appendParameters:(NSDictionary *)parameters;
-+ (NSString*)urlEncode:(NSString*)str;
-+ (NSString *)URLDecodedString:(NSString*)str;
-+ (NSString *)md5StringFromString:(NSString *)string;
+
+/**
+ *  为URLString拼接参数
+ *
+ *  @param urlString  URLString
+ *  @param parameters 参数集合[字典]
+ *
+ *  @return 字符串
+ */
++ (NSString *)urlString:(NSString *)urlString appendParameters:(NSDictionary *)parameters;
+
+/**
+ *  URL编码
+ *
+ *  @param url URLString
+ *
+ *  @return 字符串
+ */
++ (NSString *)URLEncode:(NSString *)url;
+
+/**
+ *  URL解码
+ *
+ *  @param url URLString
+ *
+ *  @return 字符串
+ */
++ (NSString *)URLDecodedString:(NSString *)url;
+
 
 @end

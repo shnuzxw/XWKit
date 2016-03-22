@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UIDevice (XWCategory)
+
 // 获取设备UUID地址，AABBCCDDEEFF
-+ (NSString * )macAddresses;
++ (NSString *)macAddresses;
 + (NSString *)idfaString;
 + (NSString *)idfvString;
 // 获取设备IP地址

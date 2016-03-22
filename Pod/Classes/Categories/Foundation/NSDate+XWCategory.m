@@ -22,11 +22,6 @@
     return destDate;
 }
 
-// 日期格式转换为字符串显示
-+ (NSString *)stringFromDate:(NSDate *)date{
-    return [self stringFromDate:date format:@"yyyy-MM-dd HH:mm:ss zzz"];
-}
-
 + (NSString *)monthAndDayFromDate:(NSDate *)date{
     return [self stringFromDate:date format:@"MM月dd日"];
 }
@@ -35,7 +30,12 @@
     return [self stringFromDate:date format:@"HH:mm"];
 }
 
-+ (NSString *)stringFromDate:(NSDate *)date format:(NSString*)format{
+// 日期格式转换为字符串显示
++ (NSString *)stringFromDate:(NSDate *)date{
+    return [self stringFromDate:date format:@"yyyy-MM-dd HH:mm:ss zzz"];
+}
+
++ (NSString *)stringFromDate:(NSDate *)date format:(NSString *)format{
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     //zzz表示时区，zzz可以删除，这样返回的日期字符将不包含时区信息。
     [dateFormatter setDateFormat:format];
@@ -43,16 +43,16 @@
     return destDateString;
 }
 
-+ (NSString *)weekdayStringFromDate:(NSDate*)inputDate{
-    if (!inputDate) return nil;
++ (NSString *)weekdayStringFromDate:(NSDate *)date{
+    if (!date) return nil;
     NSArray * arrWeek=[NSArray arrayWithObjects:@"星期日",@"星期一",@"星期二",@"星期三",@"星期四",@"星期五",@"星期六", nil];
-    NSDateComponents * comps = [self dateComponentsWithDate:inputDate];
+    NSDateComponents * comps = [self dateComponentsWithDate:date];
     NSInteger weekday = [comps weekday];
     if (weekday < 1 || weekday > 7) return nil;
     return [arrWeek objectAtIndex:weekday - 1];
 }
 
-+ (NSString*)monthStringFromDate:(NSDate*)date{
++ (NSString *)monthStringFromDate:(NSDate *)date{
     if (!date) return nil;
     NSArray * monthArray = @[@"一月",@"二月",@"三月",@"四月",@"五月",@"六月",@"七月",@"八月",@"九月",@"十月",@"十一月",@"十二月"];
     NSDateComponents * comps = [self dateComponentsWithDate:date];
@@ -61,7 +61,7 @@
     return [monthArray objectAtIndex:month - 1];
 }
 
-+ (NSDateComponents*)dateComponentsWithDate:(NSDate *)inputDate{
++ (NSDateComponents*)dateComponentsWithDate:(NSDate *)date{
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *comps = [[NSDateComponents alloc] init];
     NSInteger unitFlags;
@@ -70,12 +70,12 @@
 #else
     unitFlags = NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit|NSWeekdayCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit;
 #endif
-    comps = [calendar components:unitFlags fromDate:inputDate];
+    comps = [calendar components:unitFlags fromDate:date];
     return comps;
 }
 
 // NSDate -->> Weekday
-+ (XWWeekday)weekdayWithDate:(NSDate*)date{
++ (XWWeekday)weekdayWithDate:(NSDate *)date{
     NSDateComponents *comps = [self dateComponentsWithDate:date];
     XWWeekday weekday = comps.weekday - 1;
     return weekday;

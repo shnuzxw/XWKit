@@ -32,10 +32,10 @@
 #import <AVFoundation/AVFoundation.h>
 
 @implementation NSString (Secret)
-// MD5加密算法
+
+
 + (NSString *)encodeMD5:(NSString*)entity{
-    if(entity == nil || [entity length] == 0)
-    {
+    if(entity == nil || [entity length] == 0){
         return nil;
     }
     
@@ -51,8 +51,6 @@
     return outputString;
 }
 
-
-// BASE64加密算法
 + (NSString*)encodeBASE64:(NSData *)data{
     static char base64EncodingTable[64] = {
         'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
@@ -115,7 +113,6 @@
     return result;
 }
 
-// DecodeBASE64解密算法
 + (NSData*)decodeBASE64:(NSString *)string{
     unsigned long ixtext, lentext;
     unsigned char ch, inbuf[4], outbuf[4];
@@ -255,56 +252,40 @@
         for (NSString *key in parameters) {
             NSString *value = parameters[key];
             value = [NSString stringWithFormat:@"%@",value];
-            value = [self urlEncode:value];
+            value = [self URLEncode:value];
             [urlParametersString appendFormat:@"&%@=%@", key, value];
         }
     }
     return urlParametersString;
 }
 
-+ (NSString *)urlStringWithOriginUrlString:(NSString *)originUrlString appendParameters:(NSDictionary *)parameters {
-    NSString *filteredUrl = originUrlString;
++ (NSString *)urlString:(NSString *)urlString appendParameters:(NSDictionary *)parameters {
+    
+    NSString *filteredUrl = urlString;
     NSString *paraUrlString = [self urlParametersStringFromParameters:parameters];
     if (paraUrlString && paraUrlString.length > 0) {
-        if ([originUrlString rangeOfString:@"?"].location != NSNotFound) {
+        if ([urlString rangeOfString:@"?"].location != NSNotFound) {
             filteredUrl = [filteredUrl stringByAppendingString:paraUrlString];
         } else {
             filteredUrl = [filteredUrl stringByAppendingFormat:@"?%@", [paraUrlString substringFromIndex:1]];
         }
         return filteredUrl;
     } else {
-        return originUrlString;
+        return urlString;
     }
 }
 
 
-+ (NSString*)urlEncode:(NSString*)str {
++ (NSString *)URLEncode:(NSString *)url {
     //different library use slightly different escaped and unescaped set.
     //below is copied from AFNetworking but still escaped [] as AF leave them for Rails array parameter which we don't use.
     //https://github.com/AFNetworking/AFNetworking/pull/555
-    NSString *result = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)str, CFSTR("."), CFSTR(":/?#[]@!$&'()*+,;="), kCFStringEncodingUTF8);
+    NSString *result = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)url, CFSTR("."), CFSTR(":/?#[]@!$&'()*+,;="), kCFStringEncodingUTF8);
     return result;
 }
 
-+ (NSString *)URLDecodedString:(NSString*)str{
-    return [str stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-}
-
-+ (NSString *)md5StringFromString:(NSString *)string {
-    if(string == nil || [string length] == 0)
-        return nil;
-    
-    const char *value = [string UTF8String];
-    
-    unsigned char outputBuffer[CC_MD5_DIGEST_LENGTH];
-    CC_MD5(value, (CC_LONG)strlen(value), outputBuffer);
-    
-    NSMutableString *outputString = [[NSMutableString alloc] initWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
-    for(NSInteger count = 0; count < CC_MD5_DIGEST_LENGTH; count++){
-        [outputString appendFormat:@"%02x",outputBuffer[count]];
-    }
-    
-    return outputString;
++ (NSString *)URLDecodedString:(NSString *)url {
+    return [url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 }
 
 @end
