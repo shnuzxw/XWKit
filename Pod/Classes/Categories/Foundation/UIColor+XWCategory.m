@@ -26,7 +26,7 @@
 }
 
 + (UIColor *)colorWithHex:(NSInteger)hexCode alpha:(CGFloat)alpha{
-    return [self HEX2Color:hexCode inAlpha:alpha];
+    return [self HEX2Color:hexCode alpha:alpha];
 }
 
 + (UIColor *)randomColor {

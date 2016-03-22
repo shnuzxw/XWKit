@@ -32,7 +32,7 @@
 + (NSString *)deviceUUIDString;
 
 /**
- * [NSUUID UUIDString] 去出'-'
+ * [NSUUID UUIDString] 去除'-'
  */
 + (NSString *)deviceUUID;
 
