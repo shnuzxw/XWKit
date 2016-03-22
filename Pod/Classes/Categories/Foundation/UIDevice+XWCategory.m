@@ -33,14 +33,7 @@
 
 @implementation UIDevice (XWCategory)
 // 获取设备MAC地址，AABBCCDDEEFF
-+ (NSString *)getUUIDAddress{
-    NSString *outstring = [self deviceUUIDString];
-    // 去掉中间的横线
-    outstring = [outstring stringByReplacingOccurrencesOfString:@"-" withString:@""];
-    return outstring;
-}
-
-+ (NSString * )macString{
++ (NSString * )macAddresses{
     int mib[6];
     size_t len;
     char *buf;
@@ -128,7 +121,7 @@
 #define min(a,b)    ((a) < (b) ? (a) : (b))
 #define max(a,b)    ((a) > (b) ? (a) : (b))
 
-+ (NSString *)getWLanIPAddresses{
++ (NSString *)WLANIPAddresses{
     int                 len, flags;
     char                buffer[BUFFERSIZE], *ptr, *cptr;
     struct ifconf       ifc;
@@ -249,7 +242,7 @@
     return info;
 }
 
-+ (NSString *)appVersionString {
++ (NSString *)appVersion {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
@@ -261,19 +254,26 @@
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
 }
 
-+ (NSString *)systemVersionString{
++ (NSString *)systemVersion{
     return [NSString stringWithFormat:@"%@%@",[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion];
-}
-
-+(NSString *)deviceModelString{
-    return [UIDevice currentDevice].model;
 }
 
 + (NSString *)deviceUUIDString{
     return [[[UIDevice currentDevice] identifierForVendor] UUIDString];
 }
 
-+ (NSString*)deviceModel{
++ (NSString *)deviceUUID{
+    NSString *outstring = [self deviceUUIDString];
+    // 去掉中间的横线
+    outstring = [outstring stringByReplacingOccurrencesOfString:@"-" withString:@""];
+    return outstring;
+}
+
++ (NSString *)deviceModel{
+    return [UIDevice currentDevice].model;
+}
+
++ (NSString *)deviceModelType{
     struct utsname systemInfo;
     
     uname(&systemInfo);

@@ -10,25 +10,39 @@
 
 @interface UIDevice (XWCategory)
 // 获取设备UUID地址，AABBCCDDEEFF
-+ (NSString *)getUUIDAddress;
-//
-+ (NSString * )macString;
++ (NSString * )macAddresses;
 + (NSString *)idfaString;
 + (NSString *)idfvString;
 // 获取设备IP地址
-+ (NSString *)getWLanIPAddresses;
++ (NSString *)WLANIPAddresses;
 + (NSString *)getHWAddresses;
 
 // 取得用户接入的AP信息
 + (id)fetchSSIDInfo;
 
-+ (NSString *)appVersionString;
++ (NSString *)appVersion;
 + (NSString *)appBundleIdentifier;
 + (NSString *)appBuild;
-+ (NSString *)systemVersionString;
-+ (NSString *)deviceModelString;
++ (NSString *)systemVersion;
+
+/**
+ * [NSUUID UUIDString]
+ */
 + (NSString *)deviceUUIDString;
 
-+ (NSString*)deviceModel;
+/**
+ * [NSUUID UUIDString] 去出'-'
+ */
++ (NSString *)deviceUUID;
+
+/**
+ * "iPhone5, 3" : [UIDevice currentDevice].model
+ */
++ (NSString *)deviceModel;
+
+/**
+ * "iPhone 5c" : 经过处理后的Type
+ */
++ (NSString *)deviceModelType;
 
 @end
