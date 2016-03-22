@@ -10,12 +10,12 @@
 #import "XWEnvObserverCenterApplication.h"
 #import "XWEnvObserverCenterNetworkStatus.h"
 
-#define MKAddNetworkStatusObserver(X)       [MKEnvObserverCoordinator addNetworkStatusObserver:X]
-#define MKRemoveNetworkStatusObserver(X)    [MKEnvObserverCoordinator removeNetworkStatusObserver:X]
-#define MKGetCurrentNetworkStatus           [MKEnvObserverCoordinator getCurrentNetworkStatus]
+#define XWAddNetworkStatusObserver(X)       [XWEnvObserverCoordinator addNetworkStatusObserver:X]
+#define XWRemoveNetworkStatusObserver(X)    [XWEnvObserverCoordinator removeNetworkStatusObserver:X]
+#define XWGetCurrentNetworkStatus           [XWEnvObserverCoordinator getCurrentNetworkStatus]
 
-#define MKAddApplicationObserver(X)         [MKEnvObserverCoordinator addApplicationObserver:X]
-#define MKRemoveApplicationObserver(X)      [MKEnvObserverCoordinator removeApplicationObserver:X]
+#define XWAddApplicationObserver(X)         [XWEnvObserverCoordinator addApplicationObserver:X]
+#define XWRemoveApplicationObserver(X)      [XWEnvObserverCoordinator removeApplicationObserver:X]
 
 @interface XWEnvObserverCoordinator : NSObject
 + (XWEnvObserverCoordinator *)defaultCoordinator;

@@ -107,33 +107,33 @@ static XWEnvObserverCenterApplication * defaultCenter;
     NSString * name = [notification name];
     SEL s;
     if ([name isEqualToString:UIApplicationDidEnterBackgroundNotification]) {
-        s = @selector(mkEnvObserverApplicationDidEnterBackground:);
+        s = @selector(xwEnvObserverApplicationDidEnterBackground:);
     } else if ([name isEqualToString:UIApplicationWillEnterForegroundNotification]) {
-        s = @selector(mkEnvObserverApplicationWillEnterForeground:);
+        s = @selector(xwEnvObserverApplicationWillEnterForeground:);
     } else if ([name isEqualToString:UIApplicationDidFinishLaunchingNotification]) {
-        s = @selector(mkEnvObserverApplicationDidFinishLaunching:);
+        s = @selector(xwEnvObserverApplicationDidFinishLaunching:);
     } else if ([name isEqualToString:UIApplicationDidBecomeActiveNotification]) {
-        s = @selector(mkEnvObserverApplicationDidBecomeActive:);
+        s = @selector(xwEnvObserverApplicationDidBecomeActive:);
     } else if ([name isEqualToString:UIApplicationWillResignActiveNotification]) {
-        s = @selector(mkEnvObserverApplicationWillResignActive:);
+        s = @selector(xwEnvObserverApplicationWillResignActive:);
     } else if ([name isEqualToString:UIApplicationDidReceiveMemoryWarningNotification]) {
-        s = @selector(mkEnvObserverApplicationDidReceiveMemoryWarning:);
+        s = @selector(xwEnvObserverApplicationDidReceiveMemoryWarning:);
     } else if ([name isEqualToString:UIApplicationWillTerminateNotification]) {
-        s = @selector(mkEnvObserverApplicationWillTerminate:);
+        s = @selector(xwEnvObserverApplicationWillTerminate:);
     } else if ([name isEqualToString:UIApplicationSignificantTimeChangeNotification]) {
-        s = @selector(mkEnvObserverApplicationSignificantTimeChange:);
+        s = @selector(xwEnvObserverApplicationSignificantTimeChange:);
     } else if ([name isEqualToString:UIApplicationWillChangeStatusBarOrientationNotification]) {
-        s = @selector(mkEnvObserverApplicationWillChangeStatusBarOrientation:);
+        s = @selector(xwEnvObserverApplicationWillChangeStatusBarOrientation:);
     } else if ([name isEqualToString:UIApplicationDidChangeStatusBarOrientationNotification]) {
-        s = @selector(mkEnvObserverApplicationDidChangeStatusBarOrientation:);
+        s = @selector(xwEnvObserverApplicationDidChangeStatusBarOrientation:);
     } else if ([name isEqualToString:UIApplicationStatusBarOrientationUserInfoKey]) {
-        s = @selector(mkEnvObserverApplicationStatusBarOrientationUserInfoKey:);
+        s = @selector(xwEnvObserverApplicationStatusBarOrientationUserInfoKey:);
     } else if ([name isEqualToString:UIApplicationWillChangeStatusBarFrameNotification]) {
-        s = @selector(mkEnvObserverApplicationWillChangeStatusBarFrame:);
+        s = @selector(xwEnvObserverApplicationWillChangeStatusBarFrame:);
     } else if ([name isEqualToString:UIApplicationDidChangeStatusBarFrameNotification]) {
-        s = @selector(mkEnvObserverApplicationDidChangeStatusBarFrame:);
+        s = @selector(xwEnvObserverApplicationDidChangeStatusBarFrame:);
     } else if ([name isEqualToString:UIApplicationStatusBarFrameUserInfoKey]) {
-        s = @selector(mkEnvObserverApplicationStatusBarFrameUserInfoKey:);
+        s = @selector(xwEnvObserverApplicationStatusBarFrameUserInfoKey:);
     } else {
         return;
     }

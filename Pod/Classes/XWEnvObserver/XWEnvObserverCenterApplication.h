@@ -9,20 +9,20 @@
 #import "XWEnvObserverCenter.h"
 @protocol XWEnvObserverApplicationProtocol <NSObject>
 @optional
-- (void)mkEnvObserverApplicationDidEnterBackground:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationWillEnterForeground:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationDidFinishLaunching:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationDidBecomeActive:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationWillResignActive:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationDidReceiveMemoryWarning:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationWillTerminate:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationSignificantTimeChange:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationWillChangeStatusBarOrientation:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationDidChangeStatusBarOrientation:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationStatusBarOrientationUserInfoKey:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationWillChangeStatusBarFrame:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationDidChangeStatusBarFrame:(NSNotification *)notification;
-- (void)mkEnvObserverApplicationStatusBarFrameUserInfoKey:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationDidEnterBackground:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationWillEnterForeground:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationDidFinishLaunching:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationDidBecomeActive:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationWillResignActive:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationDidReceiveMemoryWarning:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationWillTerminate:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationSignificantTimeChange:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationWillChangeStatusBarOrientation:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationDidChangeStatusBarOrientation:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationStatusBarOrientationUserInfoKey:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationWillChangeStatusBarFrame:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationDidChangeStatusBarFrame:(NSNotification *)notification;
+- (void)xwEnvObserverApplicationStatusBarFrameUserInfoKey:(NSNotification *)notification;
 
 @end
 

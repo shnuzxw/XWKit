@@ -11,7 +11,7 @@
 
 @protocol XWEnvObserverNetworkStatusProtocol <NSObject>
 @optional
-- (void)mkEnvObserverNetworkStatusDidChangedFromStatus:(AFNetworkReachabilityStatus)fromStatus toStatus:(AFNetworkReachabilityStatus)toStatus;
+- (void)xwEnvObserverNetworkStatusDidChangedFromStatus:(AFNetworkReachabilityStatus)fromStatus toStatus:(AFNetworkReachabilityStatus)toStatus;
 @end
 
 @interface XWEnvObserverCenterNetworkStatus : XWEnvObserverCenter {
