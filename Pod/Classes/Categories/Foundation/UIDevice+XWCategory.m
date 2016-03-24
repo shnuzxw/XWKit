@@ -254,7 +254,7 @@
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
 }
 
-+ (NSString *)systemVersion{
++ (NSString *)sysVersion{
     return [NSString stringWithFormat:@"%@%@",[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion];
 }
 
