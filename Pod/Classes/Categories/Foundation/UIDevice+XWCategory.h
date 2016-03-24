@@ -24,7 +24,7 @@
 + (NSString *)appVersion;
 + (NSString *)appBundleIdentifier;
 + (NSString *)appBuild;
-+ (NSString *)systemVersion;
++ (NSString *)sysVersion;
 
 /**
  * [NSUUID UUIDString]
