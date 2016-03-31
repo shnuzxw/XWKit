@@ -79,5 +79,12 @@
  */
 + (NSString *)URLDecodedString:(NSString *)url;
 
+/**
+ *  加密算法
+ *
+ *  @return 加密结果
+ */
++ (NSString*)SHA1;
+
 
 @end
