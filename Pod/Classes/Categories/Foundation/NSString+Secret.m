@@ -34,12 +34,13 @@
 @implementation NSString (Secret)
 
 
-+ (NSString *)encodeMD5:(NSString*)entity{
-    if(entity == nil || [entity length] == 0){
+- (NSString *)encodeMD5 {
+    
+    if(self == nil || [self length] == 0){
         return nil;
     }
     
-    const char *value = [entity UTF8String];
+    const char *value = [self UTF8String];
     
     unsigned char outputBuffer[CC_MD5_DIGEST_LENGTH];
     CC_MD5(value, (uint32_t)strlen(value), outputBuffer);
@@ -113,7 +114,7 @@
     return result;
 }
 
-+ (NSData*)decodeBASE64:(NSString *)string{
+- (NSData*)decodeBASE64{
     unsigned long ixtext, lentext;
     unsigned char ch, inbuf[4], outbuf[4];
     short i, ixinbuf;
@@ -127,9 +128,9 @@
     
     ixtext = 0;
     
-    tempcstring = (const unsigned char *)[string UTF8String];
+    tempcstring = (const unsigned char *)[self UTF8String];
     
-    lentext = [string length];
+    lentext = [self length];
     
     theData = [NSMutableData dataWithCapacity: lentext];
     
@@ -259,36 +260,36 @@
     return urlParametersString;
 }
 
-+ (NSString *)urlString:(NSString *)urlString appendParameters:(NSDictionary *)parameters {
+- (NSString *)appendParameters:(NSDictionary *)parameters {
     
-    NSString *filteredUrl = urlString;
-    NSString *paraUrlString = [self urlParametersStringFromParameters:parameters];
+    NSString *filteredUrl = [self copy];
+    NSString *paraUrlString = [[self class] urlParametersStringFromParameters:parameters];
     if (paraUrlString && paraUrlString.length > 0) {
         if ([urlString rangeOfString:@"?"].location != NSNotFound) {
             filteredUrl = [filteredUrl stringByAppendingString:paraUrlString];
         } else {
             filteredUrl = [filteredUrl stringByAppendingFormat:@"?%@", [paraUrlString substringFromIndex:1]];
         }
-        return filteredUrl;
-    } else {
-        return urlString;
     }
+    return filteredUrl;
 }
 
 
-+ (NSString *)URLEncode:(NSString *)url {
+- (NSString *)URLEncode {
     //different library use slightly different escaped and unescaped set.
     //below is copied from AFNetworking but still escaped [] as AF leave them for Rails array parameter which we don't use.
     //https://github.com/AFNetworking/AFNetworking/pull/555
-    NSString *result = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)url, CFSTR("."), CFSTR(":/?#[]@!$&'()*+,;="), kCFStringEncodingUTF8);
+    NSString *result = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)self, CFSTR("."), CFSTR(":/?#[]@!$&'()*+,;="), kCFStringEncodingUTF8);
     return result;
 }
 
-+ (NSString *)URLDecodedString:(NSString *)url {
-    return [url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+- (NSString *)URLDecode {
+    
+    return [self stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 }
 
-+ (NSString*)SHA1 {
+- (NSString*)SHA1 {
+    
     const char *cstr = [self cStringUsingEncoding:NSUTF8StringEncoding];
     NSData *data = [NSData dataWithBytes:cstr length:self.length];
     

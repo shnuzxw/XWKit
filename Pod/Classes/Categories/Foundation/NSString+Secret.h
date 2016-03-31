@@ -11,13 +11,11 @@
 @interface NSString (Secret)
 
 /**
- *  MD5加密算法
- *
- *  @param entity 字符串
+ *  加密算法
  *
  *  @return 字符串
  */
-+ (NSString *)encodeMD5:(NSString *)entity;
+- (NSString *)encodeMD5;
 
 /**
  *  BASE64加密算法
@@ -31,11 +29,9 @@
 /**
  *  BASE64解密算法
  *
- *  @param string string
- *
  *  @return NSData
  */
-+ (NSData*)decodeBASE64:(NSString *)string;
+- (NSData*)decodeBASE64;
 
 /**
  * 检验json的有效性
@@ -59,7 +55,7 @@
  *
  *  @return 字符串
  */
-+ (NSString *)urlString:(NSString *)urlString appendParameters:(NSDictionary *)parameters;
+- (NSString *)appendParameters:(NSDictionary *)parameters;
 
 /**
  *  URL编码
@@ -68,7 +64,7 @@
  *
  *  @return 字符串
  */
-+ (NSString *)URLEncode:(NSString *)url;
+- (NSString *)URLEncode;
 
 /**
  *  URL解码
@@ -77,14 +73,14 @@
  *
  *  @return 字符串
  */
-+ (NSString *)URLDecodedString:(NSString *)url;
+- (NSString *)URLDecode;
 
 /**
  *  加密算法
  *
  *  @return 加密结果
  */
-+ (NSString*)SHA1;
+- (NSString*)SHA1;
 
 
 @end
