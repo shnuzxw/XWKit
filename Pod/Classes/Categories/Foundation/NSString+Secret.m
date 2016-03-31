@@ -115,6 +115,7 @@
 }
 
 - (NSData*)decodeBASE64{
+    
     unsigned long ixtext, lentext;
     unsigned char ch, inbuf[4], outbuf[4];
     short i, ixinbuf;
@@ -122,7 +123,7 @@
     const unsigned char *tempcstring;
     NSMutableData *theData;
     
-    if (string == nil) {
+    if (self == nil) {
         return [NSData data];
     }
     
@@ -204,6 +205,7 @@
 }
 
 + (BOOL)checkJson:(id)json withValidator:(id)validatorJson {
+    
     if ([json isKindOfClass:[NSDictionary class]] &&
         [validatorJson isKindOfClass:[NSDictionary class]]) {
         NSDictionary * dict = json;
@@ -248,12 +250,13 @@
 }
 
 + (NSString *)urlParametersStringFromParameters:(NSDictionary *)parameters {
+    
     NSMutableString *urlParametersString = [[NSMutableString alloc] initWithString:@""];
     if (parameters && parameters.count > 0) {
         for (NSString *key in parameters) {
             NSString *value = parameters[key];
             value = [NSString stringWithFormat:@"%@",value];
-            value = [self URLEncode:value];
+            value = [value URLEncode];
             [urlParametersString appendFormat:@"&%@=%@", key, value];
         }
     }
@@ -265,7 +268,7 @@
     NSString *filteredUrl = [self copy];
     NSString *paraUrlString = [[self class] urlParametersStringFromParameters:parameters];
     if (paraUrlString && paraUrlString.length > 0) {
-        if ([urlString rangeOfString:@"?"].location != NSNotFound) {
+        if ([filteredUrl rangeOfString:@"?"].location != NSNotFound) {
             filteredUrl = [filteredUrl stringByAppendingString:paraUrlString];
         } else {
             filteredUrl = [filteredUrl stringByAppendingFormat:@"?%@", [paraUrlString substringFromIndex:1]];
@@ -276,6 +279,7 @@
 
 
 - (NSString *)URLEncode {
+    
     //different library use slightly different escaped and unescaped set.
     //below is copied from AFNetworking but still escaped [] as AF leave them for Rails array parameter which we don't use.
     //https://github.com/AFNetworking/AFNetworking/pull/555
