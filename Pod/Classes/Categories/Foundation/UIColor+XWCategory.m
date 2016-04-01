@@ -40,7 +40,7 @@
                            alpha:alpha];
 }
 
-+ (UIColor *) colorWithHexString:(NSString *)hexString {
++ (UIColor *)colorWithHexString:(NSString *)hexString {
     NSString *cleanString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];
     if([cleanString length] == 3) {
         cleanString = [NSString stringWithFormat:@"%@%@%@%@%@%@",
