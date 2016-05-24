@@ -31,7 +31,7 @@
 #import <AdSupport/AdSupport.h>
 #import <AVFoundation/AVFoundation.h>
 
-@implementation NSString (Secret)
+@implementation NSString (XWSecret)
 
 
 - (NSString *)encodeMD5 {

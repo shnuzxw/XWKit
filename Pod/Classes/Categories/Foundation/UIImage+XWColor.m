@@ -1,5 +1,5 @@
 //
-//  UIImage+Color.m
+//  UIImage+XWColor.m
 //  XWCarCost
 //
 //  Created by smile.zhang on 15/12/22.
@@ -8,7 +8,7 @@
 
 #import "UIImage+Color.h"
 
-@implementation UIImage (Color)
+@implementation UIImage (XWColor)
 + (UIImage *)imageWithColor:(UIColor *)color{
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     return [self imageWithColor:color rect:rect];

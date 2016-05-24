@@ -1,5 +1,5 @@
 //
-//  UIImage+Color.h
+//  UIImage+XWColor.h
 //  XWCarCost
 //
 //  Created by smile.zhang on 15/12/22.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Color)
+@interface UIImage (XWColor)
 
 /**
  *  根据指定UIColor生产UIImage
