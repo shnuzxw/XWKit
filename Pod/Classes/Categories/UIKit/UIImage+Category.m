@@ -10,8 +10,7 @@
 #import <Accelerate/Accelerate.h>
 
 @implementation UIImage (Category)
-+ (UIImage*)decode:(UIImage*)image
-{
++ (UIImage*)decode:(UIImage*)image {
     if(image==nil){  return nil; }
     
     UIGraphicsBeginImageContext(image.size);
@@ -24,29 +23,25 @@
     return image;
 }
 
-+ (UIImage*)fastImageWithData:(NSData *)data
-{
++ (UIImage*)fastImageWithData:(NSData *)data {
     UIImage *image = [UIImage imageWithData:data];
     return [self decode:image];
 }
 
-+ (UIImage*)fastImageWithContentsOfFile:(NSString*)path
-{
++ (UIImage*)fastImageWithContentsOfFile:(NSString*)path {
     UIImage *image = [[UIImage alloc] initWithContentsOfFile:path];
     return [self decode:image];
 }
 
 #pragma mark- Copy
 
-- (UIImage*)deepCopy
-{
+- (UIImage*)deepCopy {
     return [UIImage decode:self];
 }
 
 #pragma mark- Resizing
 
-- (UIImage*)resize:(CGSize)size
-{
+- (UIImage*)resize:(CGSize)size {
     int W = size.width;
     int H = size.height;
     
@@ -86,19 +81,16 @@
     return newImage;
 }
 
-- (UIImage*)aspectFit:(CGSize)size
-{
+- (UIImage*)aspectFit:(CGSize)size {
     CGFloat ratio = MIN(size.width/self.size.width, size.height/self.size.height);
     return [self resize:CGSizeMake(self.size.width*ratio, self.size.height*ratio)];
 }
 
-- (UIImage*)aspectFill:(CGSize)size
-{
+- (UIImage*)aspectFill:(CGSize)size {
     return [self aspectFill:size offset:0];
 }
 
-- (UIImage*)aspectFill:(CGSize)size offset:(CGFloat)offset
-{
+- (UIImage*)aspectFill:(CGSize)size offset:(CGFloat)offset {
     int W  = size.width;
     int H  = size.height;
     int W0 = self.size.width;
@@ -154,8 +146,7 @@
 
 #pragma mark- Clipping
 
-- (UIImage*)crop:(CGRect)rect
-{
+- (UIImage*)crop:(CGRect)rect {
     CGPoint origin = CGPointMake(-rect.origin.x, -rect.origin.y);
     
     UIImage *img = nil;
@@ -170,8 +161,7 @@
 
 #pragma mark- Masking
 
-- (UIImage*)maskedImage:(UIImage*)maskImage
-{
+- (UIImage*)maskedImage:(UIImage*)maskImage {
     CGImageRef mask = CGImageMaskCreate(CGImageGetWidth(maskImage.CGImage),
                                         CGImageGetHeight(maskImage.CGImage),
                                         CGImageGetBitsPerComponent(maskImage.CGImage),
@@ -191,8 +181,7 @@
 
 #pragma mark- Blur
 
-- (UIImage*)gaussBlur:(CGFloat)blurLevel
-{
+- (UIImage*)gaussBlur:(CGFloat)blurLevel {
     blurLevel = MIN(1.0, MAX(0.0, blurLevel));
     
     int boxSize = (int)(blurLevel * 0.1 * MIN(self.size.width, self.size.height));
@@ -267,8 +256,7 @@
 
 #pragma mark - Private helper methods -
 
-- (CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size
-{
+- (CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size {
     CGColorSpaceRef colorSpace  = CGColorSpaceCreateDeviceGray();
     CGContextRef maskContext    = CGBitmapContextCreate(NULL, size.width, size.height, 8, 0, colorSpace, kCGBitmapByteOrderDefault | kCGImageAlphaNone);
     
@@ -287,15 +275,13 @@
 }
 
 #pragma mark - Public Category Methods -
-- (BOOL)hasAlpha
-{
+- (BOOL)hasAlpha {
     CGImageAlphaInfo alpha = CGImageGetAlphaInfo(self.CGImage);
     return (alpha == kCGImageAlphaFirst || alpha == kCGImageAlphaLast || alpha == kCGImageAlphaPremultipliedFirst || alpha == kCGImageAlphaPremultipliedLast);
 }
 
 // Returns a copy of the given image, adding an alpha channel if it doesn't already have one
-- (UIImage *)imageWithAlpha
-{
+- (UIImage *)imageWithAlpha {
     if ([self hasAlpha])
         return self;
     
@@ -316,8 +302,7 @@
     return alphaImage;
 }
 
-- (UIImage *)transparentBorderImage:(NSUInteger)borderSize
-{
+- (UIImage *)transparentBorderImage:(NSUInteger)borderSize {
     UIImage *image          = [self imageWithAlpha];
     CGRect frame            = CGRectMake(0, 0, image.size.width + borderSize * 2, image.size.height + borderSize * 2);
     CGContextRef bitmap     = CGBitmapContextCreate(NULL, frame.size.width, frame.size.height, CGImageGetBitsPerComponent(self.CGImage), 0, CGImageGetColorSpace(self.CGImage), CGImageGetBitmapInfo(self.CGImage));
@@ -338,8 +323,7 @@
     return transparentBorderImage;
 }
 
-+ (UIImage *)imageFromView:(UIView *)view
-{
++ (UIImage *)imageFromView:(UIView *)view {
     //The older UIGraphicsBeginImageContext function always assumes a scale of 1.0.
     //Replace 'YES' with 'NO' if you need the alpha channel.
     //UIGraphicsBeginImageContext(view.frame.size);
@@ -351,23 +335,20 @@
     return rasterizedView;
 }
 
-+ (UIImage *)imageFromColor:(UIColor *)color
-{
++ (UIImage *)imageFromColor:(UIColor *)color {
     UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 1, 1)];
     v.backgroundColor = color;
     return [UIImage imageFromView:v];
 }
 
-+ (UIImage *)imageFromColor:(UIColor *)color withSize:(CGSize)size
-{
++ (UIImage *)imageFromColor:(UIColor *)color withSize:(CGSize)size {
     UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
     v.backgroundColor = color;
     return [UIImage imageFromView:v];
 }
 
 //UIKit坐标系统原点在左上角，y方向向下的（坐标系A），但在Quartz中坐标系原点在左下角，y方向向上的(坐标系B)。图片绘制也是颠倒的。
-static void addRoundedRectToPath(CGContextRef context, CGRect rect, float radius, UIImageRoundedCorner cornerMask)
-{
+static void addRoundedRectToPath(CGContextRef context, CGRect rect, float radius, UIImageRoundedCorner cornerMask) {
     //原点在左下方，y方向向上。移动到线条2的起点。
     CGContextMoveToPoint(context, rect.origin.x, rect.origin.y + radius);
     
@@ -431,13 +412,11 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float radius
     CGContextClosePath(context);
 }
 
-- (UIImage *)roundedRectWith:(float)radius
-{
+- (UIImage *)roundedRectWith:(float)radius {
     return [self roundedRectWith:radius cornerMask:UIImageRoundedCornerBottomLeft | UIImageRoundedCornerBottomRight | UIImageRoundedCornerTopLeft | UIImageRoundedCornerTopRight];
 }
 
-- (UIImage *)roundedRectWith:(float)radius cornerMask:(UIImageRoundedCorner)cornerMask
-{
+- (UIImage *)roundedRectWith:(float)radius cornerMask:(UIImageRoundedCorner)cornerMask {
     UIImageView *bkImageViewTmp = [[UIImageView alloc] initWithImage:self];
     
     int w = self.size.width;
@@ -465,8 +444,7 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float radius
 }
 
 
-static CGImageRef CreateGradientImage (int pixelsWide, int pixelsHigh, CGFloat endPoint)
-{
+static CGImageRef CreateGradientImage (int pixelsWide, int pixelsHigh, CGFloat endPoint) {
     CGImageRef theCGImage = NULL;
     
     // gradient is always black-white and the mask must be in the gray colorspace
@@ -728,8 +706,7 @@ static CGContextRef MyCreateBitmapContext (int pixelsWide, int pixelsHigh) {
     return img;
 }
 
--(UIImage *)tintImage:(UIColor *)color
-{
+- (UIImage *)tintImage:(UIColor *)color {
     CGContextRef ctx = CGBitmapContextCreate(NULL, self.size.width, self.size.height,
                                              CGImageGetBitsPerComponent(self.CGImage), 0,
                                              CGImageGetColorSpace(self.CGImage),
@@ -747,8 +724,7 @@ static CGContextRef MyCreateBitmapContext (int pixelsWide, int pixelsHigh) {
     return img;
 }
 
--(UIImage *)addText:(UIImage *)img text:(NSString *)text
-{
+- (UIImage *)addText:(UIImage *)img text:(NSString *)text {
     //get image width and height
     int w = img.size.width;
     int h = img.size.height;

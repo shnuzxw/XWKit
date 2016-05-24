@@ -46,8 +46,8 @@ typedef enum {
 - (UIImage *)reflectionRotatedWithAlpha:(float)pcnt;
 
 - (UIImage *)fixOrientation;
--(UIImage *)tintImage:(UIColor *)color;
+- (UIImage *)tintImage:(UIColor *)color;
 
--(UIImage *)addText:(UIImage *)img text:(NSString *)text;
+- (UIImage *)addText:(UIImage *)img text:(NSString *)text;
 
 @end
