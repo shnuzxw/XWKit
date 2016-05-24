@@ -10,4 +10,41 @@
 
 @interface NSString (XWRegularExpression)
 
+/**
+ *  是否合法
+ *
+ *  @param regex 正则表达式
+ *
+ *  @return YES:合法;NO:不合法.
+ */
+- (BOOL)isValidWithRegex:(NSString *)regex;
+
+/**
+ *  URL是否合法
+ *
+ *  @return YES:合法;NO:不合法.
+ */
+- (BOOL)isValidUrl;
+
+/**
+ *  EMail是否合法
+ *
+ *  @return YES:合法;NO:不合法.
+ */
+- (BOOL)isValidEMail;
+
+/**
+ *  移动电话是否合法
+ *
+ *  @return YES:合法;NO:不合法.
+ */
+- (BOOL)isValidMobilePhone;
+
+/**
+ *  固定电话是否合法
+ *
+ *  @return YES:合法;NO:不合法.
+ */
+- (BOOL)isValidTelephone;
+
 @end

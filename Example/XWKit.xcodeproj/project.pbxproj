@@ -26,10 +26,10 @@
 		762CC1141C96807900F6D477 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 762CC0E81C96807900F6D477 /* .gitkeep */; };
 		762CC1151C96807900F6D477 /* CLLocation+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0EB1C96807900F6D477 /* CLLocation+Distance.m */; };
 		762CC1161C96807900F6D477 /* NSDate+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0EE1C96807900F6D477 /* NSDate+XWCategory.m */; };
-		762CC1171C96807900F6D477 /* NSString+Secret.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F01C96807900F6D477 /* NSString+Secret.m */; };
+		762CC1171C96807900F6D477 /* NSString+XWSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F01C96807900F6D477 /* NSString+XWSecret.m */; };
 		762CC1181C96807900F6D477 /* UIColor+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F21C96807900F6D477 /* UIColor+XWCategory.m */; };
 		762CC1191C96807900F6D477 /* UIDevice+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F41C96807900F6D477 /* UIDevice+XWCategory.m */; };
-		762CC11A1C96807900F6D477 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F61C96807900F6D477 /* UIImage+Color.m */; };
+		762CC11A1C96807900F6D477 /* UIImage+XWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F61C96807900F6D477 /* UIImage+XWColor.m */; };
 		762CC11B1C96807900F6D477 /* UIViewController+XWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0F91C96807900F6D477 /* UIViewController+XWHUD.m */; };
 		762CC11C1C96807900F6D477 /* XWChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC0FD1C96807900F6D477 /* XWChartManager.m */; };
 		762CC11D1C96807900F6D477 /* XWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC1001C96807900F6D477 /* XWLocationManager.m */; };
@@ -40,6 +40,7 @@
 		762CC1221C96807900F6D477 /* XWEnvObserverCenterNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC10E1C96807900F6D477 /* XWEnvObserverCenterNetworkStatus.m */; };
 		762CC1231C96807900F6D477 /* XWEnvObserverCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC1101C96807900F6D477 /* XWEnvObserverCoordinator.m */; };
 		762CC1241C96807900F6D477 /* XWObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC1121C96807900F6D477 /* XWObserver.m */; };
+		76CB46631CF3FF1B003D3A34 /* NSString+XWRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CB46621CF3FF1B003D3A34 /* NSString+XWRegularExpression.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C0468668289E8AAA7B3DBDFE /* Pods_XWKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A025C0C5FB283EE4AC12D0 /* Pods_XWKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -90,14 +91,14 @@
 		762CC0EB1C96807900F6D477 /* CLLocation+Distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Distance.m"; sourceTree = "<group>"; };
 		762CC0ED1C96807900F6D477 /* NSDate+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XWCategory.h"; sourceTree = "<group>"; };
 		762CC0EE1C96807900F6D477 /* NSDate+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XWCategory.m"; sourceTree = "<group>"; };
-		762CC0EF1C96807900F6D477 /* NSString+Secret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Secret.h"; sourceTree = "<group>"; };
-		762CC0F01C96807900F6D477 /* NSString+Secret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Secret.m"; sourceTree = "<group>"; };
+		762CC0EF1C96807900F6D477 /* NSString+XWSecret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XWSecret.h"; sourceTree = "<group>"; };
+		762CC0F01C96807900F6D477 /* NSString+XWSecret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XWSecret.m"; sourceTree = "<group>"; };
 		762CC0F11C96807900F6D477 /* UIColor+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XWCategory.h"; sourceTree = "<group>"; };
 		762CC0F21C96807900F6D477 /* UIColor+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XWCategory.m"; sourceTree = "<group>"; };
 		762CC0F31C96807900F6D477 /* UIDevice+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XWCategory.h"; sourceTree = "<group>"; };
 		762CC0F41C96807900F6D477 /* UIDevice+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XWCategory.m"; sourceTree = "<group>"; };
-		762CC0F51C96807900F6D477 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		762CC0F61C96807900F6D477 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		762CC0F51C96807900F6D477 /* UIImage+XWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XWColor.h"; sourceTree = "<group>"; };
+		762CC0F61C96807900F6D477 /* UIImage+XWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XWColor.m"; sourceTree = "<group>"; };
 		762CC0F81C96807900F6D477 /* UIViewController+XWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWHUD.h"; sourceTree = "<group>"; };
 		762CC0F91C96807900F6D477 /* UIViewController+XWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWHUD.m"; sourceTree = "<group>"; };
 		762CC0FC1C96807900F6D477 /* XWChartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWChartManager.h; sourceTree = "<group>"; };
@@ -119,6 +120,8 @@
 		762CC1101C96807900F6D477 /* XWEnvObserverCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCoordinator.m; sourceTree = "<group>"; };
 		762CC1111C96807900F6D477 /* XWObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWObserver.h; sourceTree = "<group>"; };
 		762CC1121C96807900F6D477 /* XWObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWObserver.m; sourceTree = "<group>"; };
+		76CB46611CF3FF1B003D3A34 /* NSString+XWRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XWRegularExpression.h"; sourceTree = "<group>"; };
+		76CB46621CF3FF1B003D3A34 /* NSString+XWRegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XWRegularExpression.m"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EA0948A181EB354138FE903F /* Pods-XWKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWKit_Example/Pods-XWKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,14 +280,16 @@
 			children = (
 				762CC0ED1C96807900F6D477 /* NSDate+XWCategory.h */,
 				762CC0EE1C96807900F6D477 /* NSDate+XWCategory.m */,
-				762CC0EF1C96807900F6D477 /* NSString+Secret.h */,
-				762CC0F01C96807900F6D477 /* NSString+Secret.m */,
+				762CC0EF1C96807900F6D477 /* NSString+XWSecret.h */,
+				762CC0F01C96807900F6D477 /* NSString+XWSecret.m */,
 				762CC0F11C96807900F6D477 /* UIColor+XWCategory.h */,
 				762CC0F21C96807900F6D477 /* UIColor+XWCategory.m */,
 				762CC0F31C96807900F6D477 /* UIDevice+XWCategory.h */,
 				762CC0F41C96807900F6D477 /* UIDevice+XWCategory.m */,
-				762CC0F51C96807900F6D477 /* UIImage+Color.h */,
-				762CC0F61C96807900F6D477 /* UIImage+Color.m */,
+				762CC0F51C96807900F6D477 /* UIImage+XWColor.h */,
+				762CC0F61C96807900F6D477 /* UIImage+XWColor.m */,
+				76CB46611CF3FF1B003D3A34 /* NSString+XWRegularExpression.h */,
+				76CB46621CF3FF1B003D3A34 /* NSString+XWRegularExpression.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -592,14 +597,15 @@
 				762CC1181C96807900F6D477 /* UIColor+XWCategory.m in Sources */,
 				762CC1151C96807900F6D477 /* CLLocation+Distance.m in Sources */,
 				760365DC1CA0F42E000050A9 /* XWLocationConverter.m in Sources */,
-				762CC1171C96807900F6D477 /* NSString+Secret.m in Sources */,
+				762CC1171C96807900F6D477 /* NSString+XWSecret.m in Sources */,
 				762CC1221C96807900F6D477 /* XWEnvObserverCenterNetworkStatus.m in Sources */,
 				762CC11D1C96807900F6D477 /* XWLocationManager.m in Sources */,
 				762CC1161C96807900F6D477 /* NSDate+XWCategory.m in Sources */,
 				762CC11F1C96807900F6D477 /* XWSandBoxHelper.m in Sources */,
-				762CC11A1C96807900F6D477 /* UIImage+Color.m in Sources */,
+				762CC11A1C96807900F6D477 /* UIImage+XWColor.m in Sources */,
 				762CC11B1C96807900F6D477 /* UIViewController+XWHUD.m in Sources */,
 				762CC1241C96807900F6D477 /* XWObserver.m in Sources */,
+				76CB46631CF3FF1B003D3A34 /* NSString+XWRegularExpression.m in Sources */,
 				762CC1191C96807900F6D477 /* UIDevice+XWCategory.m in Sources */,
 				762CC11C1C96807900F6D477 /* XWChartManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
