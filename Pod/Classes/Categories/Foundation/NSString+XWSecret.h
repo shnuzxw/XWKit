@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Secret)
+@interface NSString (XWSecret)
 
 /**
  *  加密算法
