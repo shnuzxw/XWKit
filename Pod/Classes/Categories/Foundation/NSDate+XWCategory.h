@@ -21,6 +21,16 @@ typedef NS_ENUM(NSInteger, XWWeekday){
 @interface NSDate (XWCategory)
 
 /**
+ *  日期比较:转换成"yyyy-MM-dd"后的比较
+ *
+ *  @param fromDate 前者
+ *  @param toDate   后者
+ *
+ *  @return 比较结果
+ */
++ (NSComparisonResult)compareFromDate:(NSDate*)fromDate toDate:(NSDate*)toDate;
+
+/**
  *  字符串->日期格式
  *
  *  @param dateString 格式"yyyy-MM-dd HH:mm:ss zzz"的日期
@@ -83,7 +93,26 @@ typedef NS_ENUM(NSInteger, XWWeekday){
  *
  *  @return 星期几
  */
-+ (NSString *)weekdayStringFromDate:(NSDate*)date; // "星期几"
++ (NSString *)weekday1FromDate:(NSDate *)date;
+
+/**
+ *  日期->周几
+ *
+ *  @param inputDate 日期
+ *
+ *  @return 周几
+ */
++ (NSString *)weekday2FromDate:(NSDate *)date;
+
+/**
+ *  根据日期、weekday数组，返回星期几或周几等
+ *
+ *  @param date     日期
+ *  @param weekdays weekdays数组
+ *
+ *  @return 自定义的星期字符串
+ */
++ (NSString *)weekdayStringFromDate:(NSDate *)date weekdays:(NSArray *)weekdays;
 
 /**
  *  日期->几月
@@ -113,6 +142,20 @@ typedef NS_ENUM(NSInteger, XWWeekday){
 + (XWWeekday)weekdayWithDate:(NSDate *)date;
 
 /**
+ *  日期->20160421 (integer)
+ *
+ *  @param date 日期
+ *
+ *  @return 处理后的integer的日期
+ */
++ (NSInteger)integerDateWithDate:(NSDate *)date;
+
+/**
+ * 预订用：十三位时间戳
+ */
++ (long long)bookingTimeIntervalSince1970;
+
+/**
  *  几月几日
  */
 - (NSString *)monthAndDay;
@@ -139,7 +182,12 @@ typedef NS_ENUM(NSInteger, XWWeekday){
 /**
  * 星期几
  */
-- (NSString *)weekdayString;
+- (NSString *)weekday1;
+
+/**
+ * 周几
+ */
+- (NSString *)weekday2;
 
 /**
  *  返回XWWeekday
@@ -156,5 +204,19 @@ typedef NS_ENUM(NSInteger, XWWeekday){
  */
 - (NSDateComponents *)dateComponments;
 
+/**
+ *  今天/明天/后天
+ */
+- (NSString *)todayString;
+
+/**
+ *  20160421 (integer)
+ */
+- (NSInteger)integerDate;
+
+/**
+ * 预订用：十三位时间戳
+ */
+- (NSInteger)bookingTimeIntervalSince1970;
 
 @end

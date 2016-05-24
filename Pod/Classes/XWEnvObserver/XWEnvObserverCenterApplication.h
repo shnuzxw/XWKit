@@ -7,6 +7,7 @@
 //
 
 #import "XWEnvObserverCenter.h"
+
 @protocol XWEnvObserverApplicationProtocol <NSObject>
 @optional
 - (void)xwEnvObserverApplicationDidEnterBackground:(NSNotification *)notification;

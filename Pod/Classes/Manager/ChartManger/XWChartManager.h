@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Single.h"
-#import <PNChart/PNChart.h>
-#import <JBChartView/JBChartView.h>
-#import <BEMSimpleLineGraph/BEMSimpleLineGraphView.h>
+//#import <PNChart/PNChart.h>
+//#import <JBChartView/JBChartView.h>
+//#import <BEMSimpleLineGraph/BEMSimpleLineGraphView.h>
 
 @interface XWChartManager : NSObject
 

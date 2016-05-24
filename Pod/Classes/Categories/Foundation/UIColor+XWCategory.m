@@ -11,7 +11,7 @@
 @implementation UIColor (XWCategory)
 
 // 根据16进制和alpha计算UIColor
-+ (UIColor *)HEX2Color:(NSInteger)hexCode alpha:(CGFloat)alpha{
++ (UIColor *)HEX2Color:(NSInteger)hexCode alpha:(CGFloat)alpha {
     float red   = ((hexCode >> 16) & 0x000000FF)/255.0f;
     float green = ((hexCode >> 8) & 0x000000FF)/255.0f;
     float blue  = ((hexCode) & 0x000000FF)/255.0f;
@@ -21,11 +21,11 @@
                            alpha:alpha];
 }
 
-+ (UIColor *)colorWithHex:(NSInteger)hexCode{
++ (UIColor *)colorWithHex:(NSInteger)hexCode {
     return [self HEX2Color:hexCode alpha:1.0f];
 }
 
-+ (UIColor *)colorWithHex:(NSInteger)hexCode alpha:(CGFloat)alpha{
++ (UIColor *)colorWithHex:(NSInteger)hexCode alpha:(CGFloat)alpha {
     return [self HEX2Color:hexCode alpha:alpha];
 }
 

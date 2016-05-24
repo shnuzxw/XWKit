@@ -13,7 +13,7 @@
     NSMutableArray * _observersAry;
 }
 
-@property (nonatomic,readonly) NSArray * observers;
+@property (nonatomic, readonly) NSArray *observers;
 
 - (void)addEnvObserver:(id)observer;
 - (void)removeEnvObserver:(id)observer;

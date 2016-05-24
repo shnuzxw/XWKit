@@ -8,19 +8,17 @@
 
 #import "XWEnvObserverCenterNetworkStatus.h"
 
-static XWEnvObserverCenterNetworkStatus * defaultCenter;
+static XWEnvObserverCenterNetworkStatus *defaultCenter;
 
 @implementation XWEnvObserverCenterNetworkStatus
-+ (XWEnvObserverCenterNetworkStatus *)defaultCenter
-{
++ (XWEnvObserverCenterNetworkStatus *)defaultCenter {
     if (!defaultCenter) {
         defaultCenter = [[XWEnvObserverCenterNetworkStatus alloc] init];
     }
     return defaultCenter;
 }
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (self) {
         
@@ -37,13 +35,11 @@ static XWEnvObserverCenterNetworkStatus * defaultCenter;
     return self;
 }
 
-- (AFNetworkReachabilityStatus)getCurrentNetworkStatus
-{
+- (AFNetworkReachabilityStatus)getCurrentNetworkStatus {
     return _networkStatus;
 }
 
-- (void)reachabilityChanged:(NSNotification *)notification
-{
+- (void)reachabilityChanged:(NSNotification *)notification {
     AFNetworkReachabilityStatus fromStatus = _networkStatus;
     _networkStatus = [_host networkReachabilityStatus];;
     if (fromStatus == _networkStatus) {

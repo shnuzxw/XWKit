@@ -22,11 +22,11 @@
 }
 
 - (void)xw_showLoding:(NSString *)loding inView:(UIView *)view{
-    __weak typeof(view) wv = view;
-    __weak typeof(self) ws = self;
+    __block typeof(view) wv = view;
     dispatch_async(dispatch_get_main_queue(), ^{
-        [MBProgressHUD showHUDAddedTo:ws.view animated:YES];
-        if (wv == nil) wv = [UIApplication sharedApplication].keyWindow;
+        if (wv == nil) {
+            wv = [UIApplication sharedApplication].keyWindow;
+        }
         // 快速显示一个提示信息
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
         hud.labelText = loding;
@@ -90,10 +90,11 @@
 }
 
 - (void)xw_showImage:(UIImage *)image message:(NSString *)msg inView:(UIView *)view delay:(NSTimeInterval)delay animation:(BOOL)animation{
-    __weak typeof(view) wv = view;
-    __weak typeof(self) ws = self;
+    __block typeof(view) wv = view;
     dispatch_async(dispatch_get_main_queue(), ^{
-        if (wv == nil) wv = [UIApplication sharedApplication].keyWindow;
+        if (wv == nil) {
+            wv = [UIApplication sharedApplication].keyWindow;
+        }
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:animation];
         if (msg.length > 10) {
             hud.detailsLabelText = msg;

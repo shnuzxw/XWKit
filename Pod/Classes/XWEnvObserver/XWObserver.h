@@ -13,7 +13,7 @@
     __unsafe_unretained id _observer;
 }
 
-@property (nonatomic,assign) id observer;
+@property (nonatomic, assign) id observer;
 
 + (id)createWithObejct:(id)obejct;
 - (id)initWithObject:(id)object;

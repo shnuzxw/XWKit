@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "XWEnvObserverCenterApplication.h"
 
-static XWEnvObserverCenterApplication * defaultCenter;
+static XWEnvObserverCenterApplication *defaultCenter;
 
 @interface XWEnvObserverCenterApplication ()
 - (void)appNotification:(NSNotification *)notification;
@@ -17,16 +17,14 @@ static XWEnvObserverCenterApplication * defaultCenter;
 
 @implementation XWEnvObserverCenterApplication
 
-+ (XWEnvObserverCenterApplication *)defaultCenter
-{
++ (XWEnvObserverCenterApplication *)defaultCenter {
     if (!defaultCenter) {
         defaultCenter = [[XWEnvObserverCenterApplication alloc] init];
     }
     return defaultCenter;
 }
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (self) {  
         [[NSNotificationCenter defaultCenter] addObserver:self 
@@ -102,8 +100,7 @@ static XWEnvObserverCenterApplication * defaultCenter;
     return self;
 }
 
-- (void)appNotification:(NSNotification *)notification
-{
+- (void)appNotification:(NSNotification *)notification {
     NSString * name = [notification name];
     SEL s;
     if ([name isEqualToString:UIApplicationDidEnterBackgroundNotification]) {

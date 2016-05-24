@@ -18,6 +18,7 @@
     AFNetworkReachabilityManager * _host;
     AFNetworkReachabilityStatus _networkStatus;
 }
+
 + (XWEnvObserverCenterNetworkStatus *)defaultCenter;
 - (AFNetworkReachabilityStatus)getCurrentNetworkStatus;
 @end

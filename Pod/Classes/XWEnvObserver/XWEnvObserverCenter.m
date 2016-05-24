@@ -11,16 +11,15 @@
 @implementation XWEnvObserverCenter
 @synthesize observers = _observersAry;
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (self) {
         _observersAry = [[NSMutableArray alloc] initWithCapacity:0];
     }
     return self;
 }
-- (void)addEnvObserver:(id)observer
-{
+
+- (void)addEnvObserver:(id)observer {
     if (observer == nil) {
         return;
     }
@@ -33,8 +32,7 @@
     [_observersAry addObject:ob];
 }
 
-- (void)removeEnvObserver:(id)observer
-{
+- (void)removeEnvObserver:(id)observer {
     for (NSInteger i = 0; i < [_observersAry count]; i++) {
         XWObserver * ob = [_observersAry objectAtIndex:i];
         if (ob.observer == observer) {
@@ -44,24 +42,21 @@
     }
 }
 
-- (void)noticeObervers:(SEL)selector
-{
+- (void)noticeObervers:(SEL)selector {
     [_observersAry enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         XWObserver * observer = obj;
         [observer noticeOberver:selector];
     }];
 }
 
-- (void)noticeObervers:(SEL)selector withObject:(id)object
-{
+- (void)noticeObervers:(SEL)selector withObject:(id)object {
     [_observersAry enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         XWObserver * observer = obj;
         [observer noticeOberver:selector withObject:object];
     }];
 }
 
-- (void)noticeObervers:(SEL)selector withObject:(id)object1 withObject:(id)object2
-{
+- (void)noticeObervers:(SEL)selector withObject:(id)object1 withObject:(id)object2 {
     [_observersAry enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         XWObserver * observer = obj;
         [observer noticeOberver:selector withObject:object1 withObject:object2];
