@@ -38,6 +38,7 @@
 		762CC1231C96807900F6D477 /* XWEnvObserverCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC1101C96807900F6D477 /* XWEnvObserverCoordinator.m */; };
 		762CC1241C96807900F6D477 /* XWObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CC1121C96807900F6D477 /* XWObserver.m */; };
 		765DC6CC1CF59EDA0015BDF7 /* XWKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 765DC6CB1CF59EDA0015BDF7 /* XWKeyboard.m */; };
+		765DC6CF1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 765DC6CE1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.m */; };
 		76CB46631CF3FF1B003D3A34 /* NSString+XWRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CB46621CF3FF1B003D3A34 /* NSString+XWRegularExpression.m */; };
 		76CB466C1CF40251003D3A34 /* NSDictionary+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CB46651CF40251003D3A34 /* NSDictionary+XWCategory.m */; };
 		76CB466D1CF40251003D3A34 /* NSString+XWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CB46671CF40251003D3A34 /* NSString+XWCategory.m */; };
@@ -128,6 +129,8 @@
 		762CC1121C96807900F6D477 /* XWObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWObserver.m; sourceTree = "<group>"; };
 		765DC6CA1CF59EDA0015BDF7 /* XWKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWKeyboard.h; sourceTree = "<group>"; };
 		765DC6CB1CF59EDA0015BDF7 /* XWKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWKeyboard.m; sourceTree = "<group>"; };
+		765DC6CD1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenterUIKeyboard.h; sourceTree = "<group>"; };
+		765DC6CE1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterUIKeyboard.m; sourceTree = "<group>"; };
 		76CB46611CF3FF1B003D3A34 /* NSString+XWRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XWRegularExpression.h"; sourceTree = "<group>"; };
 		76CB46621CF3FF1B003D3A34 /* NSString+XWRegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XWRegularExpression.m"; sourceTree = "<group>"; };
 		76CB46641CF40251003D3A34 /* NSDictionary+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XWCategory.h"; sourceTree = "<group>"; };
@@ -418,6 +421,8 @@
 				762CC10A1C96807900F6D477 /* XWEnvObserverCenter.m */,
 				762CC10B1C96807900F6D477 /* XWEnvObserverCenterApplication.h */,
 				762CC10C1C96807900F6D477 /* XWEnvObserverCenterApplication.m */,
+				765DC6CD1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.h */,
+				765DC6CE1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.m */,
 				762CC10D1C96807900F6D477 /* XWEnvObserverCenterNetworkStatus.h */,
 				762CC10E1C96807900F6D477 /* XWEnvObserverCenterNetworkStatus.m */,
 				762CC10F1C96807900F6D477 /* XWEnvObserverCoordinator.h */,
@@ -666,6 +671,7 @@
 				762CC1231C96807900F6D477 /* XWEnvObserverCoordinator.m in Sources */,
 				6003F5A7195388D20070C39A /* XWViewController.m in Sources */,
 				762CC11E1C96807900F6D477 /* XWMapManager.m in Sources */,
+				765DC6CF1CF5A02D0015BDF7 /* XWEnvObserverCenterUIKeyboard.m in Sources */,
 				76CB466E1CF40251003D3A34 /* NSTimer+Addition.m in Sources */,
 				762CC1151C96807900F6D477 /* CLLocation+Distance.m in Sources */,
 				765DC6CC1CF59EDA0015BDF7 /* XWKeyboard.m in Sources */,
