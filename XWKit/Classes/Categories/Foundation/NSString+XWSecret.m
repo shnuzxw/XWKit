@@ -6,7 +6,7 @@
 //  Copyright © 2015年 Zhang Xiaowei. All rights reserved.
 //
 
-#import "NSString+Secret.h"
+#import "NSString+XWSecret.h"
 #include <netdb.h>
 #include <stdlib.h>
 #include <string.h>

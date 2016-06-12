@@ -7,7 +7,6 @@
 //
 
 #import "UIScrollView+XWEmptyView.h"
-#import "Macro.h"
 
 @implementation UIScrollView (XWEmptyView)
 
@@ -24,7 +23,7 @@
 }
 
 - (void)showEmptyViewWithImage:(UIImage *)image title:(NSString *)title subTitle:(NSString *)subTitle {
-    kdispatch_main_async_safe(^{
+    dispatch_async(dispatch_get_main_queue(), ^{
         FOREmptyAssistantConfiger *configer = [FOREmptyAssistantConfiger new];
         configer.emptyCenterOffset = CGPointMake(0, -40);
         configer.emptySpaceHeight = 20.0;

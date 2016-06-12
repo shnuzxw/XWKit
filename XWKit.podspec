@@ -60,6 +60,7 @@ Pod::Spec.new do |s|
       category.frameworks = 'UIKit'
       category.dependency 'MBProgressHUD'
       category.dependency 'DZNEmptyDataSet'
+      category.dependency 'MJRefresh'
   end
 
 

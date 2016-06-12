@@ -6,7 +6,7 @@
 //  Copyright © 2015年 Zhang Xiaowei. All rights reserved.
 //
 
-#import "UIImage+Color.h"
+#import "UIImage+XWColor.h"
 
 @implementation UIImage (XWColor)
 + (UIImage *)imageWithColor:(UIColor *)color{
