@@ -1,11 +1,11 @@
 # XWKit
 
-[![CI Status](http://img.shields.io/travis/Zhang Xiaowei/XWKit.svg?style=flat)](https://travis-ci.org/shnuzxw/XWKit)
+[![CI Status](http://img.shields.io/travis/张校玮/XWKit.svg?style=flat)](https://travis-ci.org/张校玮/XWKit)
 [![Version](https://img.shields.io/cocoapods/v/XWKit.svg?style=flat)](http://cocoapods.org/pods/XWKit)
 [![License](https://img.shields.io/cocoapods/l/XWKit.svg?style=flat)](http://cocoapods.org/pods/XWKit)
 [![Platform](https://img.shields.io/cocoapods/p/XWKit.svg?style=flat)](http://cocoapods.org/pods/XWKit)
 
-## Usage
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -22,7 +22,7 @@ pod "XWKit"
 
 ## Author
 
-shnuzxw, weixiao08@qq.com
+张校玮, weixiao08@qq.com
 
 ## License
 

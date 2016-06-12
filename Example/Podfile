@@ -1,26 +1,14 @@
-source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'XWKit_Example', :exclusive => true do
-#  pod 'XWKit', :path => '../'
-  pod 'AFNetworking'
-  pod 'MBProgressHUD'
-  pod 'PNChart'
-  pod 'JBChartView'
-  pod 'BEMSimpleLineGraph'
-end
+target 'XWKit_Example' do
+  pod 'XWKit', :path => '../'
 
-target 'XWKit_Tests', :exclusive => true do
-#  pod 'XWKit', :path => '../'
+  target 'XWKit_Tests' do
+    inherit! :search_paths
 
-  pod 'AFNetworking'
-  pod 'MBProgressHUD'
-  pod 'PNChart'
-  pod 'JBChartView'
-  pod 'BEMSimpleLineGraph'
-
-  pod 'Specta'
+    pod 'Specta'
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
+  end
 end

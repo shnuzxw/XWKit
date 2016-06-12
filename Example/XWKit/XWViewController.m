@@ -2,8 +2,8 @@
 //  XWViewController.m
 //  XWKit
 //
-//  Created by Zhang Xiaowei on 02/17/2016.
-//  Copyright (c) 2016 Zhang Xiaowei. All rights reserved.
+//  Created by 张校玮 on 06/12/2016.
+//  Copyright (c) 2016 张校玮. All rights reserved.
 //
 
 #import "XWViewController.h"

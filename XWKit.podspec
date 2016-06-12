@@ -27,22 +27,22 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/shnuzxw/XWKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-#s.source_files = 'Pod/Classes/**/*'
+#s.source_files = 'XWKit/Classes/**/*'
 # s.resource_bundles = {
 #   'XWKit' => ['Pod/Assets/*.png']
 # }
   s.subspec 'XWEnvObserver' do |envObserver|
-      envObserver.source_files = 'Pod/Classes/XWEnvObserver/*.{h,m}'
-      envObserver.public_header_files = 'Pod/Classes/XWEnvObserver/*.h'
+      envObserver.source_files = 'XWKit/Classes/XWEnvObserver/*.{h,m}'
+      envObserver.public_header_files = 'XWKit/Classes/XWEnvObserver/*.h'
       envObserver.dependency 'AFNetworking'
   end
 
   s.subspec 'Manager' do |manager|
-      manager.source_files = 'Pod/Classes/Manager/**/*.{h,m}'
-      manager.public_header_files = 'Pod/Classes/Manager/**/*.h'
+      manager.source_files = 'XWKit/Classes/Manager/**/*.{h,m}'
+      manager.public_header_files = 'XWKit/Classes/Manager/**/*.h'
       manager.frameworks = 'MapKit'
       manager.dependency 'PNChart'
       manager.dependency 'JBChartView'
@@ -50,19 +50,19 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Utility' do |utility|
-      utility.source_files = 'Pod/Classes/Utility/**/*.{h,m}'
-      utility.public_header_files = 'Pod/Classes/Utility/**/*.h'
+      utility.source_files = 'XWKit/Classes/Utility/**/*.{h,m}'
+      utility.public_header_files = 'XWKit/Classes/Utility/**/*.h'
   end
 
   s.subspec 'Category' do |category|
-      category.source_files = 'Pod/Classes/Categories/**/*.{h,m}'
-      category.public_header_files = 'Pod/Classes/Categories/**/*.h'
+      category.source_files = 'XWKit/Classes/Categories/**/*.{h,m}'
+      category.public_header_files = 'XWKit/Classes/Categories/**/*.h'
       category.frameworks = 'UIKit'
       category.dependency 'MBProgressHUD'
   end
 
 
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'XWKit/Classes/**/*.h'
 
 end

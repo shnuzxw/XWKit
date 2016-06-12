@@ -13,34 +13,52 @@
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "XWKit": [
-      "Pod/Assets/*.png"
-    ]
-  },
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ],
-  "dependencies": {
-    "AFNetworking": [
+  "subspecs": [
+    {
+      "name": "XWEnvObserver",
+      "source_files": "XWKit/Classes/XWEnvObserver/*.{h,m}",
+      "public_header_files": "XWKit/Classes/XWEnvObserver/*.h",
+      "dependencies": {
+        "AFNetworking": [
 
-    ],
-    "MBProgressHUD": [
+        ]
+      }
+    },
+    {
+      "name": "Manager",
+      "source_files": "XWKit/Classes/Manager/**/*.{h,m}",
+      "public_header_files": "XWKit/Classes/Manager/**/*.h",
+      "frameworks": "MapKit",
+      "dependencies": {
+        "PNChart": [
 
-    ],
-    "PNChart": [
+        ],
+        "JBChartView": [
 
-    ],
-    "JBChartView": [
+        ],
+        "BEMSimpleLineGraph": [
 
-    ],
-    "BEMSimpleLineGraph": [
+        ]
+      }
+    },
+    {
+      "name": "Utility",
+      "source_files": "XWKit/Classes/Utility/**/*.{h,m}",
+      "public_header_files": "XWKit/Classes/Utility/**/*.h"
+    },
+    {
+      "name": "Category",
+      "source_files": "XWKit/Classes/Categories/**/*.{h,m}",
+      "public_header_files": "XWKit/Classes/Categories/**/*.h",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "MBProgressHUD": [
 
-    ]
-  }
+        ]
+      }
+    }
+  ]
 }
