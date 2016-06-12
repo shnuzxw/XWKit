@@ -17,7 +17,7 @@
  *
  *  @return YES:合法;NO:不合法.
  */
-- (BOOL)isValidWithRegex:(NSString *)regex;
+- (BOOL)isValidWithRegex:(NSString *)regexString;
 
 /**
  *  URL是否合法

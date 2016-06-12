@@ -59,6 +59,7 @@ Pod::Spec.new do |s|
       category.public_header_files = 'XWKit/Classes/Categories/**/*.h'
       category.frameworks = 'UIKit'
       category.dependency 'MBProgressHUD'
+      category.dependency 'DZNEmptyDataSet'
   end
 
 
