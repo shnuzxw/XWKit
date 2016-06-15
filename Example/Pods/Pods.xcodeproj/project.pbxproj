@@ -210,6 +210,10 @@
 		73457B81D7A2C6D89AE96FF2DF2A8C58 /* UICountingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CE2A04E887EE69CDCC6055FAD7E1DC /* UICountingLabel.framework */; };
 		750193834DF919BF9123690BB1AAFA4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDDBB86B48B846D15A553C6564450A5 /* Foundation.framework */; };
 		7519BD107D2DF2EFF9E541DA4E0CD7F3 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1745885C18665A9E4EFA2D909D4F6F3F /* JBBarChartView.m */; };
+		76390A4F1D110A6B0071663C /* XWMoneyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 76390A4B1D110A6B0071663C /* XWMoneyTextField.h */; };
+		76390A501D110A6B0071663C /* XWMoneyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76390A4C1D110A6B0071663C /* XWMoneyTextField.m */; };
+		76390A511D110A6B0071663C /* XWMoneyTextFieldLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 76390A4D1D110A6B0071663C /* XWMoneyTextFieldLimit.h */; };
+		76390A521D110A6B0071663C /* XWMoneyTextFieldLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 76390A4E1D110A6B0071663C /* XWMoneyTextFieldLimit.m */; };
 		76CCABE79C04444450153424D7CE1DC1 /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = BC478E2A3E81592BC4532797FF4FBC4B /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76D337327C10A7555447B69AA1562647 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = E31929363AC4DF3F12F3C367B2AF14C8 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		772A2D7A16396C92206C4F8C0BAB8BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDDBB86B48B846D15A553C6564450A5 /* Foundation.framework */; };
@@ -822,6 +826,10 @@
 		75B7801800474C9B5658A3592C97CE75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		75C62BA84365A783BC62DCFDF73E4216 /* PNPieChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPieChart.m; path = PNChart/PNPieChart.m; sourceTree = "<group>"; };
 		75E44F0043EF50BDFE4C2620BC54729D /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
+		76390A4B1D110A6B0071663C /* XWMoneyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMoneyTextField.h; sourceTree = "<group>"; };
+		76390A4C1D110A6B0071663C /* XWMoneyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMoneyTextField.m; sourceTree = "<group>"; };
+		76390A4D1D110A6B0071663C /* XWMoneyTextFieldLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMoneyTextFieldLimit.h; sourceTree = "<group>"; };
+		76390A4E1D110A6B0071663C /* XWMoneyTextFieldLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMoneyTextFieldLimit.m; sourceTree = "<group>"; };
 		763A0BA2B26524CB4C209993F8A2F934 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		767662A026847B4CB1D3B8BA1A629224 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		76EA1E90C5348EB81D36E32D0D9BA0E4 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
@@ -1742,6 +1750,17 @@
 			path = "../Target Support Files/DZNEmptyDataSet";
 			sourceTree = "<group>";
 		};
+		76390A4A1D110A6B0071663C /* XWMoneyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				76390A4B1D110A6B0071663C /* XWMoneyTextField.h */,
+				76390A4C1D110A6B0071663C /* XWMoneyTextField.m */,
+				76390A4D1D110A6B0071663C /* XWMoneyTextFieldLimit.h */,
+				76390A4E1D110A6B0071663C /* XWMoneyTextFieldLimit.m */,
+			);
+			path = XWMoneyTextField;
+			sourceTree = "<group>";
+		};
 		780CBFCEA73C9640485135414BA8A547 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -2106,6 +2125,7 @@
 		E80CCA294753161A08C8505DC9715808 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				76390A4A1D110A6B0071663C /* XWMoneyTextField */,
 				EB72364415186925D6B074DB5F3B1242 /* SandBox */,
 				3A53E91120098A0208C805D79ACFA58A /* XWKeyboard */,
 			);
@@ -2325,12 +2345,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76390A4F1D110A6B0071663C /* XWMoneyTextField.h in Headers */,
 				CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */,
 				AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */,
 				5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */,
 				1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */,
 				EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */,
 				E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */,
+				76390A511D110A6B0071663C /* XWMoneyTextFieldLimit.h in Headers */,
 				68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */,
 				C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */,
 				20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */,
@@ -2882,8 +2904,10 @@
 				DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */,
 				B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */,
 				707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */,
+				76390A501D110A6B0071663C /* XWMoneyTextField.m in Sources */,
 				6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */,
+				76390A521D110A6B0071663C /* XWMoneyTextFieldLimit.m in Sources */,
 				2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */,
 				5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */,
 				174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */,
