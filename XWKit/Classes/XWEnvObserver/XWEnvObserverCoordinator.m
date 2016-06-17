@@ -20,30 +20,6 @@ static XWEnvObserverCoordinator *defaultCoordinator;
     return defaultCoordinator;
 }
 
-+ (void)addNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer {
-    [[XWEnvObserverCenterNetworkStatus defaultCenter] addEnvObserver:observer];
-}
-
-+ (void)removeNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer {
-    [[XWEnvObserverCenterNetworkStatus defaultCenter] removeEnvObserver:observer];
-}
-
-+ (AFNetworkReachabilityStatus)getCurrentNetworkStatus {
-    return [[XWEnvObserverCenterNetworkStatus defaultCenter] getCurrentNetworkStatus];
-}
-
-- (void)addNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer {
-    [[self class] addNetworkStatusObserver:observer];
-}
-
-- (void)removeNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer {
-    [[self class] removeNetworkStatusObserver:observer];
-}
-
-- (AFNetworkReachabilityStatus)getCurrentNetworkStatus {
-    return [[self class] getCurrentNetworkStatus];
-}
-
 + (void)addApplicationObserver:(id<XWEnvObserverApplicationProtocol>)observer {
     [[XWEnvObserverCenterApplication defaultCenter] addEnvObserver:observer];
 }

@@ -151,7 +151,6 @@
 		4C92153472C1E30C419C8FE80D820F09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA013B0436316B3DE376EB077DB2272E /* UIKit.framework */; };
 		4D05FB8DA7185611612A386D92AE490A /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95403C7BF11FC4623506B2E8FBF4EC58 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81C369D3E0B276CC20A53959960B22 /* CoreGraphics.framework */; };
-		4F567741C8FEE791928BE0672C29415E /* XWEnvObserverCenterNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FD6B73C6272A6B90586C8F6F31D6DC /* XWEnvObserverCenterNetworkStatus.m */; };
 		4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B7801800474C9B5658A3592C97CE75 /* MobileCoreServices.framework */; };
 		5185EE40B00B0C1B29AD983337395ECA /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8283716E7E1758BE564C6D5324B0C /* UIView+MJExtension.m */; };
 		51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 776A8E7FCD575A85C4AB9F85209A4ADC /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -176,7 +175,6 @@
 		5CEEED05603620B5FE88C31F362E7512 /* JBLineChartDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 556AF9E81C42E9BA3DA4548F3E92C192 /* JBLineChartDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BC3481A4FA3BB6EA0A575C839752B8 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0168FB46BC32173485124DEE87E6B2 /* UIProgressView+AFNetworking.m */; };
-		6004B1345A5A3C060C3E1E8C5BAC69DE /* XWEnvObserverCenterNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D4106B368C1DD95CF2047D0D55A4F4 /* XWEnvObserverCenterNetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BED8A3B4A4CB8AD4E1426E12395DF1 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61F3A55E5A1FE393CB05F55030883C3F /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA51DEC11FE8492CB1B3D7D724F97E62 /* UIApplication+StrictKeyWindow.m */; };
 		62D42DEE53B7F76AD9D8E853BB43FD36 /* XWChartManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 555BCA3F0CF8E4843ADBE9FCFDD1306F /* XWChartManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -728,7 +726,6 @@
 		42FBC503BA57CBB21CEB985BA9F568AA /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		43C0780633F61A51C9305B974CAA19CB /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		43C3D5BE872B36007875974948163F73 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
-		43D4106B368C1DD95CF2047D0D55A4F4 /* XWEnvObserverCenterNetworkStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenterNetworkStatus.h; sourceTree = "<group>"; };
 		4423549254289F97714EDE61CDA644DD /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		446F6ACF91E23EF66ADCBC77891B7595 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		451782D8D6241C8E387A5B83EBF17821 /* XWEnvObserverCenterApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterApplication.m; sourceTree = "<group>"; };
@@ -946,7 +943,6 @@
 		B8D6F9B32148F0ACF00DED7C8E24E23B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		B96D38111B9B194877C89DC8467E2DED /* Pods-XWKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9BFF95BAD49056FEB4FB365D1ADA20F /* UIImage+XWColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XWColor.m"; sourceTree = "<group>"; };
-		B9FD6B73C6272A6B90586C8F6F31D6DC /* XWEnvObserverCenterNetworkStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenterNetworkStatus.m; sourceTree = "<group>"; };
 		BA23B866E8FB00E3C7CD858C32D43B32 /* UIScrollView+XWEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XWEmptyView.h"; sourceTree = "<group>"; };
 		BA7642F9AD81DC0D105EA4A73EAD8F67 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		BBB975B0C48DBF0C1AAFB177FF187AF1 /* PNChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNChart-prefix.pch"; sourceTree = "<group>"; };
@@ -1912,8 +1908,6 @@
 				3A65A48BC59A2274D7CEB185D68E740D /* XWEnvObserverCenter.m */,
 				52EF634C91BFD0E520C5DBF876FC590B /* XWEnvObserverCenterApplication.h */,
 				451782D8D6241C8E387A5B83EBF17821 /* XWEnvObserverCenterApplication.m */,
-				43D4106B368C1DD95CF2047D0D55A4F4 /* XWEnvObserverCenterNetworkStatus.h */,
-				B9FD6B73C6272A6B90586C8F6F31D6DC /* XWEnvObserverCenterNetworkStatus.m */,
 				344F183855CF85036C1FDE0E9AF4A82F /* XWEnvObserverCenterUIKeyboard.h */,
 				F9A97517886BB348310BD7368AEF1D8C /* XWEnvObserverCenterUIKeyboard.m */,
 				DA6F14A2071CB94A0D52C1467A99EC18 /* XWEnvObserverCoordinator.h */,
@@ -2400,7 +2394,6 @@
 				62D42DEE53B7F76AD9D8E853BB43FD36 /* XWChartManager.h in Headers */,
 				C6CA79A0E7EFB59A2B7698D58700B0B5 /* XWEnvObserverCenter.h in Headers */,
 				7B5E438F0A1CE1BA4B0A8945F484292F /* XWEnvObserverCenterApplication.h in Headers */,
-				6004B1345A5A3C060C3E1E8C5BAC69DE /* XWEnvObserverCenterNetworkStatus.h in Headers */,
 				CEF2A56BB366A0AF4FCB325A6C2D3816 /* XWEnvObserverCenterUIKeyboard.h in Headers */,
 				F16E67975B506A728DBFA71E31FA7EB3 /* XWEnvObserverCoordinator.h in Headers */,
 				02C3B796467234DD6F32FA07C306DE72 /* XWKeyboard.h in Headers */,
@@ -3144,7 +3137,6 @@
 				108364E7DC0FDB26114146F9C9C69593 /* XWChartManager.m in Sources */,
 				16BB2E4B321D23398DCBAC2EC7FC9613 /* XWEnvObserverCenter.m in Sources */,
 				7900F744D3B97F1CB3879A6842F25E3E /* XWEnvObserverCenterApplication.m in Sources */,
-				4F567741C8FEE791928BE0672C29415E /* XWEnvObserverCenterNetworkStatus.m in Sources */,
 				E0A8B56E40138DEDE12387CA0CFE26A5 /* XWEnvObserverCenterUIKeyboard.m in Sources */,
 				7F42B8E01A75100235759F040889BECB /* XWEnvObserverCoordinator.m in Sources */,
 				1350F676807668AB7D01D7069AF82ECE /* XWKeyboard.m in Sources */,

@@ -8,12 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XWEnvObserverCenterApplication.h"
-#import "XWEnvObserverCenterNetworkStatus.h"
 #import "XWEnvObserverCenterUIKeyboard.h"
-
-#define XWAddNetworkStatusObserver(X)       [XWEnvObserverCoordinator addNetworkStatusObserver:X]
-#define XWRemoveNetworkStatusObserver(X)    [XWEnvObserverCoordinator removeNetworkStatusObserver:X]
-#define XWGetCurrentNetworkStatus           [XWEnvObserverCoordinator getCurrentNetworkStatus]
 
 #define XWAddApplicationObserver(X)         [XWEnvObserverCoordinator addApplicationObserver:X]
 #define XWRemoveApplicationObserver(X)      [XWEnvObserverCoordinator removeApplicationObserver:X]
@@ -23,14 +18,6 @@
 
 @interface XWEnvObserverCoordinator : NSObject
 + (XWEnvObserverCoordinator *)defaultCoordinator;
-
-#pragma mark - NetworkStatusObserver
-+ (void)addNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer;
-+ (void)removeNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer;
-+ (AFNetworkReachabilityStatus)getCurrentNetworkStatus;
-- (void)addNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer;
-- (void)removeNetworkStatusObserver:(id<XWEnvObserverNetworkStatusProtocol>)observer;
-- (AFNetworkReachabilityStatus)getCurrentNetworkStatus;
 
 #pragma mark - ApplicationObserver
 + (void)addApplicationObserver:(id<XWEnvObserverApplicationProtocol>)observer;

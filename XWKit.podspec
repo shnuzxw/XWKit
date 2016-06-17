@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "shnuzxw" => "weixiao08@qq.com" }
-  s.source           = { :git => "https://github.com/shnuzxw/XWKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/shnuzxw/XWKit.git", :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
@@ -37,7 +37,6 @@ Pod::Spec.new do |s|
   s.subspec 'XWEnvObserver' do |envObserver|
       envObserver.source_files = 'XWKit/Classes/XWEnvObserver/*.{h,m}'
       envObserver.public_header_files = 'XWKit/Classes/XWEnvObserver/*.h'
-      envObserver.dependency 'AFNetworking'
   end
 
   s.subspec 'Manager' do |manager|
@@ -62,6 +61,7 @@ Pod::Spec.new do |s|
       category.dependency 'DZNEmptyDataSet'
       category.dependency 'MJRefresh'
   end
+    s.dependency 'AFNetworking'
 
 
 
