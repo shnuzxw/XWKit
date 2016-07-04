@@ -9,7 +9,7 @@
 #ifndef XWFoundationCategory_h
 #define XWFoundationCategory_h
 
-#import "NSData+XWCategory.h"
+#import "NSDate+XWCategory.h"
 #import "NSArray+XWCategory.h"
 #import "NSDictionary+XWCategory.h"
 #import "NSString+XWCategory.h"
