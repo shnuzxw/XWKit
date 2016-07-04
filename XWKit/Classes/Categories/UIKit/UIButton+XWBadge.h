@@ -1,14 +1,14 @@
 //
-//  UIBarButtonItem+Badge.h
-//  therichest
+//  UIButton+XWBadge.h
+//  Pods
 //
-//  Created by Mike on 2014-05-05.
-//  Copyright (c) 2014 Valnet Inc. All rights reserved.
+//  Created by smile.zhang on 16/7/4.
+//
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIButton (Badge)
+@interface UIButton (XWBadge)
 
 @property (strong, nonatomic) UILabel *badge;
 
@@ -31,5 +31,4 @@
 @property BOOL shouldHideBadgeAtZero;
 // Badge has a bounce animation when value changes
 @property BOOL shouldAnimateBadge;
-
 @end

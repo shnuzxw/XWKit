@@ -1,14 +1,14 @@
 //
-//  UIBarButtonItem+Badge.h
-//  therichest
+//  UIBarButtonItem+XWBadge.h
+//  Pods
 //
-//  Created by Mike on 2014-05-05.
-//  Copyright (c) 2014 Valnet Inc. All rights reserved.
+//  Created by smile.zhang on 16/7/4.
+//
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIBarButtonItem (Badge)
+@interface UIBarButtonItem (XWBadge)
 
 @property (strong, atomic) UILabel *badge;
 

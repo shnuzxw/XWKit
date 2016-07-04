@@ -9,16 +9,15 @@
 #ifndef UIKit_XWCategory_h
 #define UIKit_XWCategory_h
 
-#import "UIBarButtonItem+Badge.h"
-#import "UIButton+Badge.h"
+#import "UIBarButtonItem+XWBadge.h"
+#import "UIButton+XWBadge.h"
 #import "UIColor+XWCategory.h"
 #import "UIDevice+XWCategory.h"
-#import "UIImage++XWCategory.h"
+#import "UIImage+XWCategory.h"
 #import "UIImage+ImageEffects.h"
-#import "UIImage+XWColor.H"
+#import "UIImage+XWColor.h"
 #import "UIScrollView+XWEmptyView.h"
-#import "UIScrollView+XWLodingMore.h"
 #import "UIScrollView+XWRefresh.h"
-#import "UIViewController+XWHUD.H"
+#import "UIViewController+XWHUD.h"
 
 #endif /* UIKit_XWCategory_h */

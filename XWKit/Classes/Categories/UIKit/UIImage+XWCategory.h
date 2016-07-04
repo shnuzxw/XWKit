@@ -1,12 +1,13 @@
 //
-//  UIImage+Category.h
-//  NoWait
+//  UIImage+XWCategory.h
+//  Pods
 //
-//  Created by liu nian on 15/4/9.
-//  Copyright (c) 2015年 Shanghai Puscene Information Technology Co.,Ltd. All rights reserved.
+//  Created by smile.zhang on 16/7/4.
+//
 //
 
 #import <UIKit/UIKit.h>
+
 typedef enum {
     UIImageRoundedCornerTopLeft = 1,
     UIImageRoundedCornerTopRight = 1 << 1,
@@ -14,7 +15,7 @@ typedef enum {
     UIImageRoundedCornerBottomLeft = 1 << 3
 } UIImageRoundedCorner;
 
-@interface UIImage (Category)
+@interface UIImage (XWCategory)
 + (UIImage*)fastImageWithData:(NSData*)data;
 + (UIImage*)fastImageWithContentsOfFile:(NSString*)path;
 + (UIImage *)imageFromView:(UIView *)view;
@@ -49,5 +50,4 @@ typedef enum {
 - (UIImage *)tintImage:(UIColor *)color;
 
 - (UIImage *)addText:(UIImage *)img text:(NSString *)text;
-
 @end
