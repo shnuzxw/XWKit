@@ -8,7 +8,6 @@
 
 #import "UIButton+XWBadge.h"
 #import <objc/runtime.h>
-#import "UIButton+Badge.h"
 
 NSString const *UIButton_badgeKey                 = @"UIButton_badgeKey";
 NSString const *UIButton_badgeBGColorKey          = @"UIButton_badgeBGColorKey";
