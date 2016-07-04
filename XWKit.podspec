@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/shnuzxw/XWKit"
   s.license          = 'MIT'
   s.author           = { "shnuzxw" => "weixiao08@qq.com" }
-  s.source           = { :git => "https://github.com/shnuzxw/XWKit.git", :branch => s.version }
+  s.source           = { :git => "https://github.com/shnuzxw/XWKit.git", :tag => s.version }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
