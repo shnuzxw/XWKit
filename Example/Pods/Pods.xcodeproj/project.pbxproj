@@ -823,8 +823,6 @@
 		76390A4E1D110A6B0071663C /* XWMoneyTextFieldLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMoneyTextFieldLimit.m; sourceTree = "<group>"; };
 		763A0BA2B26524CB4C209993F8A2F934 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		767662A026847B4CB1D3B8BA1A629224 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		76E7D1C51D2A524C004A53A7 /* XWFoundationCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWFoundationCategory.h; sourceTree = "<group>"; };
-		76E7D1C61D2A5269004A53A7 /* UIKit_XWCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_XWCategory.h; sourceTree = "<group>"; };
 		76E7D1C71D2AA062004A53A7 /* UIImage+XWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XWCategory.h"; sourceTree = "<group>"; };
 		76E7D1C81D2AA062004A53A7 /* UIImage+XWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XWCategory.m"; sourceTree = "<group>"; };
 		76E7D1CB1D2AA0CE004A53A7 /* UIBarButtonItem+XWBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XWBadge.h"; sourceTree = "<group>"; };
@@ -1848,7 +1846,6 @@
 				28236CCFA9A8B8904B7E2BEE05AEF108 /* UIViewController+XWHUD.h */,
 				5B2BF0AEE17F5C42559427C5054C6951 /* UIViewController+XWHUD.m */,
 				308CA73674361B002D8A86BB3DDD68CD /* EmptyAssistant */,
-				76E7D1C61D2A5269004A53A7 /* UIKit_XWCategory.h */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -2109,7 +2106,6 @@
 				568189A62B580E36770DB9CC60C3C25C /* NSTimer+Addition.m */,
 				2C5B8177389DD677C422FB28EF92D6DF /* NSTimer+Block.h */,
 				14E57FCA8050450657682790456568E4 /* NSTimer+Block.m */,
-				76E7D1C51D2A524C004A53A7 /* XWFoundationCategory.h */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
