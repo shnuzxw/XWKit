@@ -17,15 +17,8 @@ XWKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XWKit' #引用整个XWKit库
-pod "XWKit/XWCalendar" #引用XWCalendar日历子库, 子库是可以单独引用的
-pod 'XWKit/Manager'
-pod 'XWKit/Utility'
-pod 'XWKit/Category'
+pod "XWKit"
 ```
-
-## 关于XWCalendar
-[XWCalendar](XWCalendar.md)
 
 ## Author
 

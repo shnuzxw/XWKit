@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		76BD4D541D2B4B8200E82A70 /* XWCalendarExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BD4D531D2B4B8200E82A70 /* XWCalendarExampleController.m */; };
 		76BD4D561D2B890000E82A70 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BD4D551D2B890000E82A70 /* Launch Screen.storyboard */; };
+		76BD4D581D2B987600E82A70 /* XWCalendar.md in Sources */ = {isa = PBXBuildFile; fileRef = 76BD4D571D2B987600E82A70 /* XWCalendar.md */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		76BD4D521D2B4B8200E82A70 /* XWCalendarExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCalendarExampleController.h; sourceTree = "<group>"; };
 		76BD4D531D2B4B8200E82A70 /* XWCalendarExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCalendarExampleController.m; sourceTree = "<group>"; };
 		76BD4D551D2B890000E82A70 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		76BD4D571D2B987600E82A70 /* XWCalendar.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XWCalendar.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		92BD76CDD1241B5DF7EA6358 /* Pods-XWKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWKit_Tests/Pods-XWKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96C7B688E1FF1AF5871D0378 /* Pods_XWKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				D1652D209212B5AD1EE2ABDD /* XWKit.podspec */,
+				76BD4D571D2B987600E82A70 /* XWCalendar.md */,
 				988DE6AB903A5CF96A447D2B /* README.md */,
 				BE54B2EBCB749260EA97474E /* LICENSE */,
 			);
@@ -408,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XWAppDelegate.m in Sources */,
+				76BD4D581D2B987600E82A70 /* XWCalendar.md in Sources */,
 				76BD4D541D2B4B8200E82A70 /* XWCalendarExampleController.m in Sources */,
 				6003F5A7195388D20070C39A /* XWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
