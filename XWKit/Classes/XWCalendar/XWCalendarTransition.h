@@ -16,5 +16,6 @@ typedef NS_ENUM(NSUInteger, XWCalendarTransitionType) {
 @interface XWCalendarTransition : NSObject <UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning>
 
 - (instancetype)initWithType:(XWCalendarTransitionType)type;
++ (instancetype)transitionWithType:(XWCalendarTransitionType)type;
 
 @end

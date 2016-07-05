@@ -22,6 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		76BD4D541D2B4B8200E82A70 /* XWCalendarExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BD4D531D2B4B8200E82A70 /* XWCalendarExampleController.m */; };
+		76BD4D561D2B890000E82A70 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BD4D551D2B890000E82A70 /* Launch Screen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		728CF73270B13CD0F7EA708C /* Pods-XWKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWKit_Example/Pods-XWKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		76BD4D521D2B4B8200E82A70 /* XWCalendarExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCalendarExampleController.h; sourceTree = "<group>"; };
+		76BD4D531D2B4B8200E82A70 /* XWCalendarExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCalendarExampleController.m; sourceTree = "<group>"; };
+		76BD4D551D2B890000E82A70 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		92BD76CDD1241B5DF7EA6358 /* Pods-XWKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWKit_Tests/Pods-XWKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96C7B688E1FF1AF5871D0378 /* Pods_XWKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XWViewController.h */,
 				6003F5A6195388D20070C39A /* XWViewController.m */,
+				76BD4D551D2B890000E82A70 /* Launch Screen.storyboard */,
+				76BD4D511D2B4AA400E82A70 /* XWCalendar */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -180,6 +187,15 @@
 				BE54B2EBCB749260EA97474E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		76BD4D511D2B4AA400E82A70 /* XWCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				76BD4D521D2B4B8200E82A70 /* XWCalendarExampleController.h */,
+				76BD4D531D2B4B8200E82A70 /* XWCalendarExampleController.m */,
+			);
+			name = XWCalendar;
 			sourceTree = "<group>";
 		};
 		EF47CC077B4AA2D419F6C8FB /* Pods */ = {
@@ -278,6 +294,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				76BD4D561D2B890000E82A70 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XWAppDelegate.m in Sources */,
+				76BD4D541D2B4B8200E82A70 /* XWCalendarExampleController.m in Sources */,
 				6003F5A7195388D20070C39A /* XWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -512,13 +530,14 @@
 			baseConfigurationReference = 728CF73270B13CD0F7EA708C /* Pods-XWKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XWKit/XWKit-Prefix.pch";
 				INFOPLIST_FILE = "XWKit/XWKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,13 +547,14 @@
 			baseConfigurationReference = DFEA2682988D7A0C86E48474 /* Pods-XWKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XWKit/XWKit-Prefix.pch";
 				INFOPLIST_FILE = "XWKit/XWKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

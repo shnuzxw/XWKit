@@ -26,6 +26,10 @@
     return self;
 }
 
++ (instancetype)transitionWithType:(XWCalendarTransitionType)type {
+    return [[XWCalendarTransition alloc] initWithType:type];
+}
+
 #pragma mark - UIViewControllerTransitioningDelegate
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     _isDismiss = NO;
@@ -128,7 +132,7 @@
 }
 
 - (void)animationEnded:(BOOL)transitionCompleted {
-    NSLog(@"动画结束");
+//    NSLog(@"动画结束");
 }
 
 @end

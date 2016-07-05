@@ -7,6 +7,7 @@
 //
 
 #import "XWViewController.h"
+#import "XWCalendarExampleController.h"
 
 NSString * const kCellIdentifier = @"Cell";
 
@@ -36,7 +37,7 @@ NSString * const kCellIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-
+    self.title = @"XWKit";
     [self tableView];
 }
 
@@ -61,11 +62,20 @@ NSString * const kCellIdentifier = @"Cell";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
 
-
+    cell.textLabel.text = [self titleWithIndexPath:indexPath];
 
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 30;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return [self modelWithSection:section].title;
 }
 
 #pragma mark - UITableViewDelegate
@@ -78,7 +88,7 @@ NSString * const kCellIdentifier = @"Cell";
     NSInteger row = indexPath.row;
     if (section == 0) {
         if (row == 0) {
-
+            [self pushXWCalendarExampleController];
         } else if (row == 1) {
 
         }
@@ -99,7 +109,7 @@ NSString * const kCellIdentifier = @"Cell";
     return [self.dataSourece objectAtIndex:section];
 }
 
-- (NSString *)rowTitleWithIndexPath:(NSIndexPath *)indexPath {
+- (NSString *)titleWithIndexPath:(NSIndexPath *)indexPath {
     return [[self modelWithSection:indexPath.section].dataSource objectAtIndex:indexPath.row];
 }
 
@@ -135,11 +145,15 @@ NSString * const kCellIdentifier = @"Cell";
 
 // Push Present视图控制器
 #pragma mark Push Present
+- (void)pushXWCalendarExampleController {
+    XWCalendarExampleController *controller = [[XWCalendarExampleController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 
 // Get方法
 #pragma mark - Getter
 #pragma mark -
-- (UITableView *)tableView{
+- (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _tableView.delegate = self;
@@ -155,7 +169,7 @@ NSString * const kCellIdentifier = @"Cell";
 - (NSMutableArray *)dataSourece {
     if (!_dataSourece) {
         _dataSourece = @[
-                         [SectionModel modelWithTitle:@"XWCalendar" dataSource:@[@"View",@"ViewController"]],
+                         [SectionModel modelWithTitle:@"XWCalendar" dataSource:@[@"XWCalendarView"]],
                          ].mutableCopy;
     }
     return _dataSourece;

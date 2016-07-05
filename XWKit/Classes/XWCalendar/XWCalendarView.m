@@ -48,8 +48,8 @@
     
 }
 
-@property (nonatomic, weak) id<XWCalendarViewDelegate>   delegate;
-@property (nonatomic, weak) id<XWCalendarViewDataSource> dataSource;
+@property (nonatomic, weak  ) id<XWCalendarViewDelegate  > delegate;
+@property (nonatomic, weak  ) id<XWCalendarViewDataSource> dataSource;
 @property (nonatomic, strong) UIToolbar                  *toolBar;// 工具栏
 @property (nonatomic, strong) UIView                     *contentView;// 内容视图（包含下面所有视图）
 @property (nonatomic, strong) UIToolbar                  *controlBar;// 控件视图（年月切换等）
@@ -58,22 +58,22 @@
 @property (nonatomic, strong) UICollectionView           *daysView;// 日期视图
 @property (nonatomic, strong) UICollectionViewFlowLayout *daysLayout;
 
-@property (nonatomic, strong) UIBarButtonItem *leftItem;// 向左
-@property (nonatomic, strong) UIBarButtonItem *rightItem;// 向右
-@property (nonatomic, strong) UIBarButtonItem *upItem;// 向上
-@property (nonatomic, strong) UIBarButtonItem *downItem;// 向下
-@property (nonatomic, strong) UIBarButtonItem *titleItem;
-@property (nonatomic, strong) UILabel         *controlViewTitleLabel;// 当前年月
-@property (nonatomic, strong) UIBarButtonItem *okButtonItem;// 确定
-@property (nonatomic, strong) UIBarButtonItem *cancelButtonItem;// 取消
-@property (nonatomic, strong) UIBarButtonItem *todayButtonItem;// 今天
-@property (nonatomic, strong) UIBarButtonItem *spaceButtonItem;
+@property (nonatomic, strong) UIBarButtonItem            *leftItem;// 向左
+@property (nonatomic, strong) UIBarButtonItem            *rightItem;// 向右
+@property (nonatomic, strong) UIBarButtonItem            *upItem;// 向上
+@property (nonatomic, strong) UIBarButtonItem            *downItem;// 向下
+@property (nonatomic, strong) UIBarButtonItem            *titleItem;
+@property (nonatomic, strong) UILabel                    *controlViewTitleLabel;// 当前年月
+@property (nonatomic, strong) UIBarButtonItem            *okButtonItem;// 确定
+@property (nonatomic, strong) UIBarButtonItem            *cancelButtonItem;// 取消
+@property (nonatomic, strong) UIBarButtonItem            *todayButtonItem;// 今天
+@property (nonatomic, strong) UIBarButtonItem            *spaceButtonItem;
 
-@property (nonatomic, strong) XWCalendarUnit *unit;
-@property (nonatomic, strong) XWCalendarViewConfig *config;
+@property (nonatomic, strong) XWCalendarUnit             *unit; // 日历工具
+@property (nonatomic, strong) XWCalendarViewConfig       *config; // 日历配置
 
-@property (nonatomic, strong) NSDateComponents *selectedDateComponents;
-@property (nonatomic, strong) NSMutableArray *selectedDateComponentsArray;
+@property (nonatomic, strong) NSDateComponents           *selectedDateComponents;
+@property (nonatomic, strong) NSMutableArray             *selectedDateComponentsArray;
 @end
 
 
