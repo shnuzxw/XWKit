@@ -1,6 +1,6 @@
 {
   "name": "XWKit",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "summary": "一个简单的Kit框架。",
   "description": "一个简单的框架，如果您希望可以下载使用。",
   "homepage": "https://github.com/shnuzxw/XWKit",
@@ -10,22 +10,22 @@
   },
   "source": {
     "git": "https://github.com/shnuzxw/XWKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "XWEnvObserver",
       "source_files": "XWKit/Classes/XWEnvObserver/*.{h,m}",
-      "public_header_files": "XWKit/Classes/XWEnvObserver/*.h",
-      "dependencies": {
-        "AFNetworking": [
-
-        ]
-      }
+      "public_header_files": "XWKit/Classes/XWEnvObserver/*.h"
     },
     {
       "name": "Manager",
@@ -65,6 +65,12 @@
 
         ]
       }
+    },
+    {
+      "name": "XWCalendar",
+      "source_files": "XWKit/Classes/XWCalendar/**/*.{h,m}",
+      "public_header_files": "XWKit/Classes/XWCalendar/**/*.h",
+      "frameworks": "UIKit"
     }
   ]
 }
