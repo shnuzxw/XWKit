@@ -246,16 +246,16 @@
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
-+ (NSString *)appBundleIdentifier{
++ (NSString *)appBundleIdentifier {
     return [[NSBundle mainBundle] bundleIdentifier];
 }
 
-+ (NSString *)appBuild{
++ (NSString *)appBuild {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
 }
 
-+ (NSString *)sysVersion{
-    return [NSString stringWithFormat:@"%@%@",[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion];
++ (NSString *)sysVersion {
+    return [NSString stringWithFormat:@"%@ %@",[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion];
 }
 
 + (NSString *)deviceUUIDString{
@@ -296,6 +296,10 @@
     if ([platform isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
     if ([platform isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
     if ([platform isEqualToString:@"iPhone8,2"])    return @"iPhone 6s Plus";
+    if ([platform isEqualToString:@"iPhone8,4"])    return @"iPhone SE";
+    if ([platform isEqualToString:@"iPhone9,1"])    return @"iPhone 7";
+    if ([platform isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
+
     
     if ([platform isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([platform isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";

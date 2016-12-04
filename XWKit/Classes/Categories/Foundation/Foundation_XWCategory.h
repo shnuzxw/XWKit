@@ -11,7 +11,7 @@
 #import "NSDate+XWCategory.h"
 #import "NSDictionary+XWCategory.h"
 #import "NSString+XWSecret.h"
-#import "NSString+XWRegularExpression.h"
+#import "NSString+XWRegular.h"
 #import "NSString+XWCategory.h"
 #import "NSTimer+Addition.h"
 #import "NSTimer+Block.h"

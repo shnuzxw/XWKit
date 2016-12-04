@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "XWKit"
-    s.version          = "0.0.9"
+    s.version          = "0.0.10"
     s.summary          = "一个简单的Kit框架。"
     s.description      = <<-DESC
                        一个简单的框架，如果您希望可以下载使用。
