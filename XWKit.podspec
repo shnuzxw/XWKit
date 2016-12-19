@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.version          = "0.0.11"
     s.summary          = "一个简单的Kit框架。"
     s.description      = <<-DESC
-                       一个简单的框架，如果您希望可以下载使用。
+                       一个简单的框架，如果您需要，可以下载使用。
                        DESC
 
     s.homepage         = "https://github.com/shnuzxw/XWKit"

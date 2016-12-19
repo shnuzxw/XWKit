@@ -1,8 +1,8 @@
 {
   "name": "XWKit",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "summary": "一个简单的Kit框架。",
-  "description": "一个简单的框架，如果您希望可以下载使用。",
+  "description": "一个简单的框架，如果您需要，可以下载使用。",
   "homepage": "https://github.com/shnuzxw/XWKit",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/shnuzxw/XWKit.git",
-    "tag": "0.0.10"
+    "tag": "0.0.11"
   },
   "platforms": {
     "ios": "8.0"
