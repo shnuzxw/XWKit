@@ -1231,13 +1231,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0494E38F6EF66749DD37670655532F19 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		074C16C579B77544EDF7BD70ED18745C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1434,14 +1427,6 @@
 			path = XWKit;
 			sourceTree = "<group>";
 		};
-		4848003D21BDA0634C83FFA2A7AD53B8 /* XWKit */ = {
-			isa = PBXGroup;
-			children = (
-				0494E38F6EF66749DD37670655532F19 /* Classes */,
-			);
-			path = XWKit;
-			sourceTree = "<group>";
-		};
 		49C540EFDE04AD661AAD129B671B5250 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1614,14 +1599,6 @@
 				F2BF6CDA683A7C266DBAAEF695909D62 /* XWMapManager.m */,
 			);
 			path = LocationManager;
-			sourceTree = "<group>";
-		};
-		8B4424CC1ACD754764CCDB77354C7FCA /* XWCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				4848003D21BDA0634C83FFA2A7AD53B8 /* XWKit */,
-			);
-			name = XWCalendar;
 			sourceTree = "<group>";
 		};
 		8CF3872345C7722CD37545E9B1B01D8B /* XWKit */ = {
@@ -1913,7 +1890,6 @@
 				25C068B6A76078741A639C11FCB5EFB5 /* Manager */,
 				56FE8A04F418A26F87F00FAD1E534964 /* Support Files */,
 				FD1D3A3B9792976AB97D74FC7733DEE2 /* Utility */,
-				8B4424CC1ACD754764CCDB77354C7FCA /* XWCalendar */,
 				942499D4543D289200291E1EB9C94F1C /* XWEnvObserver */,
 			);
 			name = XWKit;
