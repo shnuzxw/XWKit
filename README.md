@@ -24,9 +24,6 @@ pod 'XWKit/Utility'
 pod 'XWKit/Category'
 ```
 
-## 关于XWCalendar
-[XWCalendar](XWCalendar.md)
-
 ## Author
 
 张校玮, weixiao08@qq.com
