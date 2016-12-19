@@ -7,7 +7,7 @@
 //
 
 #import "XWViewController.h"
-#import "XWCalendarExampleController.h"
+//#import "XWCalendarExampleController.h"
 
 NSString * const kCellIdentifier = @"Cell";
 
@@ -88,7 +88,7 @@ NSString * const kCellIdentifier = @"Cell";
     NSInteger row = indexPath.row;
     if (section == 0) {
         if (row == 0) {
-            [self pushXWCalendarExampleController];
+
         } else if (row == 1) {
 
         }
@@ -145,10 +145,6 @@ NSString * const kCellIdentifier = @"Cell";
 
 // Push Present视图控制器
 #pragma mark Push Present
-- (void)pushXWCalendarExampleController {
-    XWCalendarExampleController *controller = [[XWCalendarExampleController alloc] init];
-    [self.navigationController pushViewController:controller animated:YES];
-}
 
 // Get方法
 #pragma mark - Getter

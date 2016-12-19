@@ -40,7 +40,6 @@
 		12F36D590677B18E9993CC59D2550B28 /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = B671096673FEE20A2ED5DC1CCF4ACF64 /* BEMSimpleLineGraphView.m */; };
 		137CDF723F2FB6C00F77F7D1F80D08AC /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3C26A7637EDA2B93C22B9C8F795B56 /* MJRefresh.framework */; };
 		139DF8B9AD013E4DE9C795B72D6B215A /* JBGradientBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1859D6D037276ED097AA7F48BD113E /* JBGradientBarView.m */; };
-		14018DCB7B12890CBE98B0B39901D081 /* XWWeekCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5A51C1B4933A3EE2F3A3324A68274A /* XWWeekCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F92454F10861EBC9487C134D828042E8 /* UIActivityIndicatorView+AFNetworking.m */; };
 		146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935B6F8C22A0AADA85519EFACB79822 /* SPTCallSite.m */; };
 		1492F065F5EFD049EE05C202CDDF78F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ABC3BF2418E8FFA68683997D9EE6F5 /* QuartzCore.framework */; };
@@ -101,7 +100,6 @@
 		3951AA0F503376DDF9D6FF81717EC1DB /* PNScatterChart.h in Headers */ = {isa = PBXBuildFile; fileRef = A092C7723114D2F71B6DDC0C57A633F5 /* PNScatterChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AFD533C942D8681B68B17BCD3C995F6 /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 61687BBA9253D1E4490AE91066DABE6D /* PNGenericChart.m */; };
 		3B059AE9D1BCDB673D012857263B9D4C /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FC61DBC48D69BED0FC0CEC5F41DFB0 /* JBBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B6406BB54CAAC7A9799719134AC8101 /* XWCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1D916760D67E5D5B7A0D0CD23D7C2C /* XWCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CE55069DF4B4E55CAEA162B4CBDD356 /* Foundation_XWCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F21230EB031C1C256CB52E0632F69EE /* Foundation_XWCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71939D873215275CC6994E10A291BD1 /* Foundation.framework */; };
 		3D2FC3F52768A76618C54CC89643D3E9 /* XWLocationConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA48FE359E8661E55D7FF0D6E403FC6 /* XWLocationConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -222,8 +220,6 @@
 		89456D1FFDB323E816213F9A5CF4089D /* JBGradientLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2054846E35A54FE28B7039A7730ADF7A /* JBGradientLineLayer.m */; };
 		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C7AF1ED544BD5AE4F07935B57C80C /* MBProgressHUD.m */; };
 		8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 103F9960B66959518D15DAF4613F48D3 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B53B4C9DAD1618E68E93F5F034D84B9 /* XWCalendarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = ED774B845078E9659B6F8474BFD08499 /* XWCalendarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B62E599CA14ED1CD6F87FECF66F9B3F /* XWCalendarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9541FE41DA7E43E98F99963CA4DFC545 /* XWCalendarTransition.m */; };
 		8B855A73B75155FB2C0CB05B54FDDE0D /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA05EC67C32A1CE91C697FC0594A8C /* UIScrollView+MJRefresh.m */; };
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = F40196F719DDF48EA8D714B3E2AE26C7 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 18826C88BD18019354621E182CE5449C /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -283,7 +279,6 @@
 		A54967FA2ACCBFEB309CB157A92E0047 /* XWChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1198ECD682C868A92E58F772AC77C0A /* XWChartManager.m */; };
 		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5245C9B0C41FD227078BC0B688183 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A63CDF2F0879C1B64D5B7EFB3D8DAF92 /* JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E94A58BAADADCD33807C32F78F0352 /* JBChartView-dummy.m */; };
-		A63E6A8DF875190385E8870C5FC0A39F /* XWCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B439E7081D8B132385A35D7C485816 /* XWCalendarViewController.m */; };
 		A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A84CB5EA0859F044C1E4E4A70E440 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A72D242BEF61E27D6C29092DF4666A4A /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA51D510DFB863C276D3B953AD6A164 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A39D63C8E300E093E5A452108220AC3 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -326,18 +321,14 @@
 		C0D64AC07D5D6B103BB6987EE9D7B3BA /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F4B2FFB049C025727BD9212B468D9B /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791C3B423C43DD5F9EE80CD29DDD484 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C15304393C45B98493D02C0785E761C4 /* XWMoneyTextFieldLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A0721A6913C340DFE93C7EE361CF16 /* XWMoneyTextFieldLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1D957482ED2E912A140073EBF1C372A /* XWCalendarUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D79957F7A95B3B267541EA4525807BFB /* XWCalendarUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1DF1378F608A031627FBF81B6A9C6E5 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD20DB643ED89F6F4F86C626538718D /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2A5778BF81AB896BD95E466A9FEEBD6 /* XWDayCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B6B818BDB930D0FE19CEA19208E27D /* XWDayCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2C2239B3B25C62D8778F3CDF5E11E97 /* XWMoneyTextFieldLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A385FBB4EF66B2595AC99F96E3629 /* XWMoneyTextFieldLimit.m */; };
 		C3AC438A1C30E99D9B4A2143C7E173F8 /* Pods-XWKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B081481DF881B119B05AF8BF97A24E8 /* Pods-XWKit_Tests-dummy.m */; };
-		C3EBE50D448A27512A6742A36DC23A25 /* XWCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8BC8B27556CC6E27ADD1325D3D3B6 /* XWCalendarView.m */; };
 		C516B672FFC9DB635E0E53DA8FC9CF88 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5452D88F7141A02B07733837C7D8 /* FBSnapshotTestCase.m */; };
 		C5A6F1F3F0C84AE88F9F96AD83F0062C /* JBLineChartLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BCE5D774770E37E3C1EBF3D0FC8E3C /* JBLineChartLinesView.m */; };
 		C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B400BE84826329C6778D060E1895DFA0 /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C6FEDEF2BF068C71424B2A5ABC9F5D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71939D873215275CC6994E10A291BD1 /* Foundation.framework */; };
 		C8291FF9EB9DFF1D78EDDF416F1A5325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71939D873215275CC6994E10A291BD1 /* Foundation.framework */; };
-		C87A40936208EB231491032996D7CF0E /* XWWeekCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9879AE63D579D763307A8912AB804545 /* XWWeekCollectionViewCell.m */; };
 		CA12FB380E35F806A03D6094BC278F1B /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4B433124F09B17AB06F9C5E4DC8997 /* Expecta.framework */; };
 		CA847ADF445C8C5454B1999A89D1F137 /* PNChartDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBB3E4091F37B2EFE5476F3015F976B /* PNChartDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 879E92CFFD049B2E56381CDA35297AAC /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -376,12 +367,10 @@
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE0C0BB80112019C19979371EB982F2 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCB7CC08FC235B33EDC5F8957848B565 /* PNGenericChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 806EDF05B216B97DD6F97F1A1E5EC91C /* PNGenericChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 678FA3A3E103EE3E096B5E2CCF60A4DA /* AFNetworkReachabilityManager.m */; };
-		DD8C1092BA3DD326DC723D85A310C6FA /* XWDayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 557FB552B1BC07E8C7E92CBBA3857195 /* XWDayCollectionViewCell.m */; };
 		DE17E4C2C6EADE5D2D531268B1695405 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C795535D538F282FB3E0ED33FF355574 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CE5727FDB6D2DE5D11C421E59C44E0 /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE6526945B14474F9855EFBE41C2986B /* XWSandBoxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1AFDCCD53A0580033CDC913B1F06E8 /* XWSandBoxHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B489803FF1E39A9F53022BC7E66ADD5 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0BFAB0B908B511C073482E12DC7EFB /* XWCalendarUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6B50D37BA174A9CCF8E163B36F9985 /* XWCalendarUnit.m */; };
 		DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = F94E7EC43D59EDE8E090F1F88EBEA915 /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DF8F4C447D73F08682A89276EB7924E7 /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 592DA5EC0A1B7FA2B066C8AA72F37699 /* PNPieChartDataItem.m */; };
 		E0CBB13926B8E929C3A94C8043FE4D6A /* XWMapManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F9887DEE091DFA1B9C7800C3173449 /* XWMapManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -408,7 +397,6 @@
 		EBEB72F80DCD10DEB82BF5F856D467FD /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F64F2A09CBB220B778095280896CB6A /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE07F5EF0438884ACB7AFD610F904032 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEC16D7A14B73215C4DB14E495EC7A53 /* NSString+XWSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = E25084233534E430187FF61AB1BEF7BF /* NSString+XWSecret.m */; };
-		EF8983525FA3BE5D9E7B59ED7C1B916E /* XWCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 069ADA9820FF5278C19D6220ABC2B9A0 /* XWCalendarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B7583ADB8C0DACD2EA571F9605F0FF /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 614BA136C3D246CE03BE98D0BFF99E76 /* FBSnapshotTestCasePlatform.m */; };
 		F1368202090A3C673492C5C5B738679E /* XWEnvObserverCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 68568161520C67D7013CDE71667B28C7 /* XWEnvObserverCenter.m */; };
@@ -624,13 +612,12 @@
 		058D5B67A67E704E3490E45C94B8F668 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		05AA346503F01FF38C9A14C7657E74D5 /* JBChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBChartView.m; path = Classes/Base/JBChartView.m; sourceTree = "<group>"; };
 		05B550B947019B26D2C17583A21E0DBE /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNScatterChartDataItem.m; path = PNChart/PNScatterChartDataItem.m; sourceTree = "<group>"; };
-		069ADA9820FF5278C19D6220ABC2B9A0 /* XWCalendarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWCalendarViewController.h; sourceTree = "<group>"; };
 		06BAB283EE99470D3393305939BDD11E /* PNScatterChartData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNScatterChartData.h; path = PNChart/PNScatterChartData.h; sourceTree = "<group>"; };
-		06D2DDB44A799C2E5818ED20712AD514 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D2DDB44A799C2E5818ED20712AD514 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0784252C8E12DA240CE53F466354AC4F /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
 		07D2B0E2AECE162F6B8B9109A0B3F7CA /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
-		0911BA98FA2C9A46832569D4C6856EFF /* Pods_XWKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XWKit_Example.framework; path = "Pods-XWKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0922C9F7F7920311DEDA3CF68CB365F6 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0911BA98FA2C9A46832569D4C6856EFF /* Pods_XWKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0922C9F7F7920311DEDA3CF68CB365F6 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		096783FBB40744F994578454E37802DB /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		09B918E7BD1D1E9F77DD6B4F630E24CB /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		0A843FCABA3B3B2CD7CA9CFE686B4FD4 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
@@ -652,13 +639,13 @@
 		13B4530894F2923E844CD5353DE93635 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		143335B4DF98B065479CB827B7660057 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		1585F831DB5D5A358D775E136D0722AB /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
-		15ADFD05287F313E1FC84312BF615D0B /* UICountingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UICountingLabel.modulemap; sourceTree = "<group>"; };
+		15ADFD05287F313E1FC84312BF615D0B /* UICountingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UICountingLabel.modulemap; sourceTree = "<group>"; };
 		15E82826730F0E0A13EF012D81B23554 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		17335D0ACC3FFC60141C837DB6822981 /* JBLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = Classes/Line/JBLineChartView.m; sourceTree = "<group>"; };
 		17ABC3BF2418E8FFA68683997D9EE6F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		18826C88BD18019354621E182CE5449C /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		18F732C20E16CE90B914C704EF732C85 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
-		18F90AC5CB28D0F1B1B36884C8294B06 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F90AC5CB28D0F1B1B36884C8294B06 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5DB6BBD3B881BEA7D0539F0C68CAAE /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		1A9235FE4227C822D57B2F14F3F9FC82 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		1B168358372407D60B8E60518C9F4B40 /* Pods-XWKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XWKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -668,7 +655,7 @@
 		1B9BCC929CAC2EBC78B9350BB99839A6 /* UIImage+XWCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XWCategory.m"; sourceTree = "<group>"; };
 		1BD74E4F748339C25AE6393D7FAEEC8A /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		1C23B071C90507A9D8C650525C742A9B /* JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBChartView.xcconfig; sourceTree = "<group>"; };
-		1D3E643D140F4F8A49A62490EE343382 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZNEmptyDataSet.framework; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3E643D140F4F8A49A62490EE343382 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7EFA7421F6C3A3272E679DEFDD8A4D /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		1E4B433124F09B17AB06F9C5E4DC8997 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDB0E1D63B9B4EF9DE6297F3C55869F /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
@@ -697,15 +684,14 @@
 		28C245CFFE4FB3DF0E00E42465CA9F51 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		29BC48412E58052594D3DA8DC810C529 /* UIDevice+XWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XWCategory.h"; sourceTree = "<group>"; };
 		2A936C86005315920B27A5455E4988F3 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AA1A4E758325D4037CF8AA9EF9B7E34 /* BEMSimpleLineGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMSimpleLineGraph.modulemap; sourceTree = "<group>"; };
+		2AA1A4E758325D4037CF8AA9EF9B7E34 /* BEMSimpleLineGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BEMSimpleLineGraph.modulemap; sourceTree = "<group>"; };
 		2AB589CD9AA66DB86FCB1F16ACEB353B /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		2B388E9295EC82CC61AACC041E0C6F5F /* Pods-XWKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2B470EC2C81C564B1F60FE86C9F99501 /* PNChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PNChart-dummy.m"; sourceTree = "<group>"; };
 		2B89CF6580FF822A219D602D150DE6F8 /* Pods-XWKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2BE8BC8B27556CC6E27ADD1325D3D3B6 /* XWCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWCalendarView.m; sourceTree = "<group>"; };
 		2CE5245C9B0C41FD227078BC0B688183 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		2E251DC12DA0F564BB1747AE6539804F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E3F46168E951783CEB651CEE5181AFB /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		2E3F46168E951783CEB651CEE5181AFB /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		2E750ADA77950AF3FE7F011EB62B23CA /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		2F3AEDF8FB5CAC5E527F8D5D4B63E2F6 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		2F82CEBE2A18B7AAE3B92B0832B30265 /* NSString+XWRegular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XWRegular.h"; sourceTree = "<group>"; };
@@ -721,7 +707,7 @@
 		35D777D45C8820B1D5A6E4ED4BF72D2F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		371CE466AF853038E02CEDF0E005386E /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		3730D6BC24372152A14D6EEC48E224A8 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
-		377D87FA60C82CBE7781561FE7E8DF6B /* Pods_XWKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XWKit_Tests.framework; path = "Pods-XWKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		377D87FA60C82CBE7781561FE7E8DF6B /* Pods_XWKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FAAD62FC577291675287A9348A37CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		399888131E2450EC3A0925C87D9961FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A18CC7E899388D324E81E4F471766C3 /* JBLineChartDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartDotView.h; path = Classes/Line/Views/JBLineChartDotView.h; sourceTree = "<group>"; };
@@ -730,9 +716,9 @@
 		3B9286AB1293F0691C31AB5467C077C5 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		3C01FA82E4A42DC647F1140B0D171C52 /* XWMoneyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWMoneyTextField.m; sourceTree = "<group>"; };
 		3C12B3C204B073AA6BBA9A2AFD5FBFFB /* BEMSimpleLineGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMSimpleLineGraph-umbrella.h"; sourceTree = "<group>"; };
-		3C163F4885EFA6DEECDABFF0BC27334E /* XWKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XWKit.framework; path = XWKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C163F4885EFA6DEECDABFF0BC27334E /* XWKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XWKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AA8B2FA27B2B478FACD842B153370 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		3C937151B23AA69DD9315016FFB17BE9 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
+		3C937151B23AA69DD9315016FFB17BE9 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		3DA1385BE99684956DB260FD27D700A7 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		3EC7A375DE3756330DD1394A9BAAFCA7 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		3EEA27C87275FFD6807323ED912373EA /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
@@ -760,7 +746,7 @@
 		4D7DE6D5672809C72C13F7F91F31F950 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		4D8A385FBB4EF66B2595AC99F96E3629 /* XWMoneyTextFieldLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWMoneyTextFieldLimit.m; sourceTree = "<group>"; };
 		4DD18A705507C5CD3736FCD090DC8D55 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		4E3D2CABD3B2DE0DB76FE06E344CFE37 /* BEMSimpleLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMSimpleLineGraph.framework; path = BEMSimpleLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3D2CABD3B2DE0DB76FE06E344CFE37 /* BEMSimpleLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEMSimpleLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5B71B30456C0386B179E03B7971A44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED4813352687A2E82A6FD24A9F7C6F9 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		4F0B0DA484F054CB83DBF195C258926E /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
@@ -771,7 +757,7 @@
 		51298A17199471DAE3A5138724263EB8 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		515706CF104FC8981963E93F66BE6CD2 /* PNRadarChartDataItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNRadarChartDataItem.h; path = PNChart/PNRadarChartDataItem.h; sourceTree = "<group>"; };
 		5159307358F1A24824B36D7FF8F2C551 /* UIDevice+XWCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XWCategory.m"; sourceTree = "<group>"; };
-		516EB6C346590C5BCDC0F3E6A1784E90 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Expecta.modulemap; sourceTree = "<group>"; };
+		516EB6C346590C5BCDC0F3E6A1784E90 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Expecta.modulemap; sourceTree = "<group>"; };
 		51DA35BDB00B59E305D64D7911524FB8 /* BEMLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMLine.h; path = Classes/BEMLine.h; sourceTree = "<group>"; };
 		52568D5FC4137EAFC42B7922838E74FA /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		535857FF154BA5017B0F738B0D06C9B3 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
@@ -782,9 +768,8 @@
 		542244199A10C262E583AF17F9B196CD /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		546C4A3982A85ED0F098834E27950C71 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		54994AECB2721F94C5B3E0CB8D5CFF33 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		54C2370F6AB5BAA8DD5FD7B6F570387D /* XWKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XWKit.modulemap; sourceTree = "<group>"; };
+		54C2370F6AB5BAA8DD5FD7B6F570387D /* XWKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XWKit.modulemap; sourceTree = "<group>"; };
 		5550E9E0B1E7A89A8A94105E04F2D9CE /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
-		557FB552B1BC07E8C7E92CBBA3857195 /* XWDayCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWDayCollectionViewCell.m; sourceTree = "<group>"; };
 		562019E00DE48D27F7B494FD305FB258 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		57B07B9BB848B50A2D7314279A813560 /* PNLineChartData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLineChartData.h; path = PNChart/PNLineChartData.h; sourceTree = "<group>"; };
 		58B43B9B0A0901A94781464F1C7D46BA /* XWKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XWKit-dummy.m"; sourceTree = "<group>"; };
@@ -803,7 +788,7 @@
 		5EFD66F89BA1F30C81E7C3A6EDAD185F /* UICountingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICountingLabel.xcconfig; sourceTree = "<group>"; };
 		5F0A6D6BB9892ADDC2EDAD15EE54272D /* XWLocationConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWLocationConverter.m; sourceTree = "<group>"; };
 		5F1A1FA5FC98155182FCB2D4D6459492 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		5F4A5ED08F58AADCD0A4A2DB380BC8E1 /* JBChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JBChartView.framework; path = JBChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4A5ED08F58AADCD0A4A2DB380BC8E1 /* JBChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60208D20ACF36F88B5095341FB95C0C0 /* XWEnvObserverCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWEnvObserverCenter.h; sourceTree = "<group>"; };
 		60D1CBFFE0962DB585B2B190F03974D4 /* PNPieChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPieChart.m; path = PNChart/PNPieChart.m; sourceTree = "<group>"; };
 		614BA136C3D246CE03BE98D0BFF99E76 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -815,7 +800,7 @@
 		630EEC4CDCFBD380B687775F2184017B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		631EBD7DFFF6135AB3893D6F267A80C1 /* Pods-XWKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		65CE2A04E887EE69CDCC6055FAD7E1DC /* UICountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66B094F3A0F9850B94F35EB535B045DF /* UICountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICountingLabel.framework; path = UICountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B094F3A0F9850B94F35EB535B045DF /* UICountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		678FA3A3E103EE3E096B5E2CCF60A4DA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		68568161520C67D7013CDE71667B28C7 /* XWEnvObserverCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCenter.m; sourceTree = "<group>"; };
 		68585B3DDBA6E9AFCF4DCA99B156ED11 /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
@@ -842,7 +827,7 @@
 		75F5BA602F5615C241BAD4D697783D4D /* UIViewController+XWHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWHUD.m"; sourceTree = "<group>"; };
 		7620AE56A8F899F9E07BF83C34165615 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		7651E182F79CA9FD687DADCD3CD07CB0 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		765818C246C0F00A5CA3C22663D6FD5D /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Specta.modulemap; sourceTree = "<group>"; };
+		765818C246C0F00A5CA3C22663D6FD5D /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Specta.modulemap; sourceTree = "<group>"; };
 		773EF5B00A76E6FC1166921E2BAE884E /* JBLineChartPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartPoint.h; path = Classes/Line/Models/JBLineChartPoint.h; sourceTree = "<group>"; };
 		786F59BFA31275E16DF309D2AB654412 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		7888D316FAE7E2D9B78321647BACBB9F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
@@ -853,12 +838,11 @@
 		7A6B7B306471B3C12FF147CD42C146CA /* BEMSimpleLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEMSimpleLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3C26A7637EDA2B93C22B9C8F795B56 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B870389ED2D1C4F99FB2DCE60DFDDEF /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		7C1D916760D67E5D5B7A0D0CD23D7C2C /* XWCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWCalendarView.h; sourceTree = "<group>"; };
 		7C6301599A238F23AF9F44DDB570D921 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
 		7D152A2BE527F02863EE8B5B73AE76FB /* JBChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBChartView-umbrella.h"; sourceTree = "<group>"; };
 		7ECFB1ABA88E8F710F116613A3607CB7 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		7EEDF2EFC3C2584AB3944DE54440000B /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
-		7F9C45DC0E1DFDE7E5BAFE1C6632A2B0 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9C45DC0E1DFDE7E5BAFE1C6632A2B0 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806EDF05B216B97DD6F97F1A1E5EC91C /* PNGenericChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNGenericChart.h; path = PNChart/PNGenericChart.h; sourceTree = "<group>"; };
 		80D08872A3A1507CAAF3A0EDF13E5D04 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
 		80E43310876453BFA35347C69F031A57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -877,7 +861,7 @@
 		8801EDCBF134A1ACE4ABAB11CDEB1D72 /* UICountingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 		8813840D881E38389229201EC4D20B3F /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		88BCB5A2121AFDB68DD7289E2B76D507 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		8996262BBD457EF673DE23C207878500 /* PNChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PNChart.framework; path = PNChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8996262BBD457EF673DE23C207878500 /* PNChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PNChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B594503E763737B77232ACCF7F1ECC /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNScatterChartDataItem.h; path = PNChart/PNScatterChartDataItem.h; sourceTree = "<group>"; };
 		89BADBEF3BEAF4EAD0DE1D2411F0E213 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		89F41E77228501D7E9FCB97D96A5FAA4 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
@@ -891,20 +875,17 @@
 		8DC25DB0411DBA5DD57963BE5BCBF56E /* XWLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWLocationManager.m; sourceTree = "<group>"; };
 		8DEF171FCE6DAD1C39D1BB1A34787C1E /* PNBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNBar.h; path = PNChart/PNBar.h; sourceTree = "<group>"; };
 		8EA5E7E31C380A7447D94019CCBB0A5D /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		90B439E7081D8B132385A35D7C485816 /* XWCalendarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWCalendarViewController.m; sourceTree = "<group>"; };
 		91CE38ADD3BE3F110F5657982A961380 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
 		92F67094EA7B0BAF9B94267EE74E1C73 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93F825DDFB849E474F83C68D60893973 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		944D445A9FE89BF6BE1B84A0CF3D1810 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949B3563E11F383AC4511F254EE3BB20 /* Pods-XWKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		94A935BD98E40D61B81E0533816B0684 /* Pods-XWKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9541FE41DA7E43E98F99963CA4DFC545 /* XWCalendarTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWCalendarTransition.m; sourceTree = "<group>"; };
 		96EFF2F3B367D31F994A193A3C8C9BCB /* DZNEmptyDataSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-umbrella.h"; sourceTree = "<group>"; };
 		9740C4E4C3BC8F422F74AF8561E04C21 /* BEMPermanentPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPermanentPopupView.h; path = Classes/BEMPermanentPopupView.h; sourceTree = "<group>"; };
 		977425B8DC4D3D0A77AAB5FD9FDE4836 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		983F30B1278E7F58D00CE58F72AC2AC0 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
-		9879AE63D579D763307A8912AB804545 /* XWWeekCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWWeekCollectionViewCell.m; sourceTree = "<group>"; };
 		98B183242463608CB3393B3F14A51FAB /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		98CAC414A33F9D9C4F2F619259BFD415 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		98DF3D5E5F22AD6FAB961DA8D6615EB9 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
@@ -914,7 +895,6 @@
 		9A76BD002099BE7DF8D5220E01647D74 /* XWKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWKeyboard.m; sourceTree = "<group>"; };
 		9AC9A8B0BB43D8F49E061C43BD3C4781 /* XWEnvObserverCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWEnvObserverCoordinator.m; sourceTree = "<group>"; };
 		9B2291C9F6F6A07F12458A1588D8AAF8 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		9B6B50D37BA174A9CCF8E163B36F9985 /* XWCalendarUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWCalendarUnit.m; sourceTree = "<group>"; };
 		9B78338884F8FC480F19E8CE7818AF49 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		9B90FA88A043F1E1D9423408F80A02B4 /* UICountingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountingLabel-umbrella.h"; sourceTree = "<group>"; };
 		9D1BBB656B409675FCC53AE890D4675F /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
@@ -955,12 +935,11 @@
 		AD1AFDCCD53A0580033CDC913B1F06E8 /* XWSandBoxHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWSandBoxHelper.h; sourceTree = "<group>"; };
 		AD1FB8A25ADE034D1EA9BE45CB8D830C /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		AEDC9BBE55A63003F862FFFEB04E7FA8 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		AF547B590BF27CABA79188253CD0DC64 /* Pods-XWKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XWKit_Example.modulemap"; sourceTree = "<group>"; };
+		AF547B590BF27CABA79188253CD0DC64 /* Pods-XWKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XWKit_Example.modulemap"; sourceTree = "<group>"; };
 		B04C91298349A3DD8967FB86C3341052 /* UIViewController+XWHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWHUD.h"; sourceTree = "<group>"; };
-		B127E9FD3C4AA4D3F0F12FABB9E4DAD5 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		B127E9FD3C4AA4D3F0F12FABB9E4DAD5 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		B2A09A62B72A763B9FD3F124E2A73BAB /* PNChartLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChartLabel.m; path = PNChart/PNChartLabel.m; sourceTree = "<group>"; };
 		B2EDA5D918CAAC8B5D9F8FA1BA53A17A /* FOREmptyAssistantConfiger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FOREmptyAssistantConfiger.m; sourceTree = "<group>"; };
-		B3B6B818BDB930D0FE19CEA19208E27D /* XWDayCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWDayCollectionViewCell.h; sourceTree = "<group>"; };
 		B400BE84826329C6778D060E1895DFA0 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
 		B45C4A17256D80BDBA9671324D105C81 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		B4F8C98367B1DFEDA1A6F1567573448B /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
@@ -999,10 +978,10 @@
 		C95A1CA4A39F5FECA98EBACDEDE4D66C /* NSArray+XWCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XWCategory.m"; sourceTree = "<group>"; };
 		C98CC2F057DBE29B9E93507B441C1518 /* PNScatterChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNScatterChart.m; path = PNChart/PNScatterChart.m; sourceTree = "<group>"; };
 		C9FED77B9F3DAD6F1479935060C04864 /* NSDictionary+XWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XWCategory.h"; sourceTree = "<group>"; };
-		CAA9CDD167749E574100F90264ECAA8D /* JBChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JBChartView.modulemap; sourceTree = "<group>"; };
+		CAA9CDD167749E574100F90264ECAA8D /* JBChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JBChartView.modulemap; sourceTree = "<group>"; };
 		CAE0C0BB80112019C19979371EB982F2 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		CB19BA4ACAA02D0A8AF2DF8BAE1E4E69 /* NSDate+XWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+XWCategory.h"; sourceTree = "<group>"; };
-		CB7337F4C6B42491B9D2EF3834493E2D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7337F4C6B42491B9D2EF3834493E2D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C9FEE984B97D7D7A23E8AB07EEBB1 /* CLLocation+Distance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Distance.m"; sourceTree = "<group>"; };
 		CC0CF2AE9A8EE97443DE42A7E2DD7B02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC30BFA5D812FC231056958ED9E6EA4F /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -1011,12 +990,12 @@
 		CDF93D9CC3362618FB8F72A2E9530DF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE00EAD9B569C98932350ADD5C53B867 /* JBLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartView.h; path = Classes/Line/JBLineChartView.h; sourceTree = "<group>"; };
 		CE2CA6A6B3DBB858E1A26B3A792311EB /* UIColor+XWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+XWCategory.h"; sourceTree = "<group>"; };
-		CEEE6563852903257D8172EFAA874836 /* DZNEmptyDataSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZNEmptyDataSet.modulemap; sourceTree = "<group>"; };
+		CEEE6563852903257D8172EFAA874836 /* DZNEmptyDataSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZNEmptyDataSet.modulemap; sourceTree = "<group>"; };
 		D0C59A607A54F55754FE778F98A4B82D /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
-		D0F302A89171DA9B3B482F08AB001660 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		D0F302A89171DA9B3B482F08AB001660 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		D1198ECD682C868A92E58F772AC77C0A /* XWChartManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWChartManager.m; sourceTree = "<group>"; };
 		D1C5836DC6FE30AA505474A03A26EDB6 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
-		D2007B5C72A2CFD9FBDC7225241C7EFA /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2007B5C72A2CFD9FBDC7225241C7EFA /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28F44FA3BD85B3188BB51F5C67A36B4 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		D2BC57E12F0312C1EA50FB9E97AB2A21 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		D348CE5ADE3313445DDD441DC58A15C6 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
@@ -1027,7 +1006,6 @@
 		D724E7821AAE793B4ECB737D7ECB7845 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		D73D61558CFC1ABF389CB548422808C5 /* FORScrollViewEmptyAssistant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FORScrollViewEmptyAssistant.h; sourceTree = "<group>"; };
 		D74ABAC568C83633A8973557855E5CF5 /* PNCircleChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNCircleChart.m; path = PNChart/PNCircleChart.m; sourceTree = "<group>"; };
-		D79957F7A95B3B267541EA4525807BFB /* XWCalendarUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWCalendarUnit.h; sourceTree = "<group>"; };
 		D7DFD960B4B02D2CD58C5D83A5A34D2F /* JBLineChartLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartLine.m; path = Classes/Line/Models/JBLineChartLine.m; sourceTree = "<group>"; };
 		D8F4E1E4ABFDFC2185DC303940C951D6 /* XWSandBoxHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XWSandBoxHelper.m; sourceTree = "<group>"; };
 		DB18ABA868AEFED8104F4A6C3D0FB8A3 /* Pods-XWKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWKit_Example-resources.sh"; sourceTree = "<group>"; };
@@ -1041,12 +1019,12 @@
 		E25F2391298BDED83C58DC5FFE4E9F20 /* PNChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNChart-prefix.pch"; sourceTree = "<group>"; };
 		E261B8FF61C0B8B23AFDF6929D1BA602 /* UICountingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICountingLabel-dummy.m"; sourceTree = "<group>"; };
 		E263A367109F9B93199D295971D97DF0 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
-		E2F02134C39DC0496B61D7FD4899652C /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		E2F02134C39DC0496B61D7FD4899652C /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		E3DC00CB1D3B210D24F2B96127D2B372 /* NSMutableArray+JBStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+JBStack.m"; path = "Classes/Additions/NSMutableArray+JBStack.m"; sourceTree = "<group>"; };
 		E45A06E28610DBB78B0318BE7F8F8B4D /* XWKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWKeyboard.h; sourceTree = "<group>"; };
 		E4AA64C9C5A8B159F7AEFE8DC8C671C4 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		E4B8E68ADE5E654450D99F5D4C73BB1C /* PNLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLineChart.h; path = PNChart/PNLineChart.h; sourceTree = "<group>"; };
-		E4CD4894484607E0D95FB6B61A66BFFC /* Pods-XWKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XWKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E4CD4894484607E0D95FB6B61A66BFFC /* Pods-XWKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XWKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E550944D6C8CAE6EB5D6B44F34229673 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		E6078BBD59CEB195DF5F77552247D555 /* BEMAverageLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAverageLine.m; path = Classes/BEMAverageLine.m; sourceTree = "<group>"; };
 		E6CFE4CDBA7AD0A723306D179441412F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1064,8 +1042,7 @@
 		EC5DCA83CFE22F73DF6CE4FF2C67E733 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		ECB03CBC7AC30A901F4C2FDA151772C6 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		ED0919625F904F31F1EA575C1F0056B4 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		ED5D517FB5AD68320F83EA6B1945A72C /* PNChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PNChart.modulemap; sourceTree = "<group>"; };
-		ED774B845078E9659B6F8474BFD08499 /* XWCalendarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWCalendarTransition.h; sourceTree = "<group>"; };
+		ED5D517FB5AD68320F83EA6B1945A72C /* PNChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PNChart.modulemap; sourceTree = "<group>"; };
 		ED9761E0F2F4BA5CEE797A62D4438A61 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		EDCB26D69B0412843FDD3CFA3007A514 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		EDE0BE6B2B4BCFFFC4369E2D1227C698 /* NSString+XWSecret.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XWSecret.h"; sourceTree = "<group>"; };
@@ -1086,7 +1063,7 @@
 		F6884FD4B67A0AC5DE9E00BC37BC4103 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		F92454F10861EBC9487C134D828042E8 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		F94E7EC43D59EDE8E090F1F88EBEA915 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		F978F4706ED6405D99F9B3963776A31D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F978F4706ED6405D99F9B3963776A31D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B7583ADB8C0DACD2EA571F9605F0FF /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		FA051298A52AC71EF5DB1A86A187F0EB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		FB595281BA2DE9EB0AA5594805DA07C9 /* BEMLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMLine.m; path = Classes/BEMLine.m; sourceTree = "<group>"; };
@@ -1097,7 +1074,6 @@
 		FD55E725B6492A30C8F4A9FFE61D4F0C /* PNBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNBar.m; path = PNChart/PNBar.m; sourceTree = "<group>"; };
 		FD6B2DBFA947D100AD8B325F48776613 /* BEMSimpleLineGraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMSimpleLineGraph.xcconfig; sourceTree = "<group>"; };
 		FDDDBCD7076D026DD1BEBA056993372B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		FE5A51C1B4933A3EE2F3A3324A68274A /* XWWeekCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XWWeekCollectionViewCell.h; sourceTree = "<group>"; };
 		FEA51D510DFB863C276D3B953AD6A164 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1258,9 +1234,7 @@
 		0494E38F6EF66749DD37670655532F19 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D1D43128C1210C1F0959CB70B5AED755 /* XWCalendar */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1292,7 +1266,6 @@
 				1B17BBB5453985F8E2DE28A39F0EAF0C /* XWObserver.h */,
 				72B04D34DD25FCF689855F87F7FC1728 /* XWObserver.m */,
 			);
-			name = XWEnvObserver;
 			path = XWEnvObserver;
 			sourceTree = "<group>";
 		};
@@ -1325,7 +1298,6 @@
 				8801EDCBF134A1ACE4ABAB11CDEB1D72 /* UICountingLabel.m */,
 				FE404CA93458486E57E3ED6F30C728DE /* Support Files */,
 			);
-			name = UICountingLabel;
 			path = UICountingLabel;
 			sourceTree = "<group>";
 		};
@@ -1336,7 +1308,6 @@
 				4AC7635BDE5480A7E22A529247F8BF46 /* UIScrollView+EmptyDataSet.m */,
 				CB6DD11D397AB33E37D8B3444434757E /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
@@ -1398,7 +1369,6 @@
 				E3DC00CB1D3B210D24F2B96127D2B372 /* NSMutableArray+JBStack.m */,
 				874C53AF547EBEA2FEFB59FD6C614FEB /* Support Files */,
 			);
-			name = JBChartView;
 			path = JBChartView;
 			sourceTree = "<group>";
 		};
@@ -1435,7 +1405,6 @@
 				1B4AF4E0D96B2B2002AB24337D2158A4 /* XWChartManager.h */,
 				D1198ECD682C868A92E58F772AC77C0A /* XWChartManager.m */,
 			);
-			name = ChartManger;
 			path = ChartManger;
 			sourceTree = "<group>";
 		};
@@ -1454,7 +1423,6 @@
 				365809628A4287A3D4223535CE5AD9F5 /* ChartManger */,
 				8A6B9DB5F952F031B24BDDBFAEC1D520 /* LocationManager */,
 			);
-			name = Manager;
 			path = Manager;
 			sourceTree = "<group>";
 		};
@@ -1463,7 +1431,6 @@
 			children = (
 				B64FA7A7A4C08319DF523EC16ACC2C00 /* Classes */,
 			);
-			name = XWKit;
 			path = XWKit;
 			sourceTree = "<group>";
 		};
@@ -1472,7 +1439,6 @@
 			children = (
 				0494E38F6EF66749DD37670655532F19 /* Classes */,
 			);
-			name = XWKit;
 			path = XWKit;
 			sourceTree = "<group>";
 		};
@@ -1481,7 +1447,6 @@
 			children = (
 				3D9E37686E4AC44C7AD8B1CC141261C7 /* Manager */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1504,7 +1469,6 @@
 			children = (
 				F94E5DDE23EB6F1F32A71B0C6EF219F2 /* Categories */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1568,7 +1532,6 @@
 			children = (
 				888F6C5ED78B9B614DB17C0AEE3C3328 /* Classes */,
 			);
-			name = XWKit;
 			path = XWKit;
 			sourceTree = "<group>";
 		};
@@ -1593,7 +1556,6 @@
 				621A1AA8784E01DB60BA27B86622E308 /* Support Files */,
 				4FB60DFB3B645D15C643371C692717C9 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -1616,7 +1578,6 @@
 				EE298450663EB6D3CE5A56AD7A4D0ECF /* XWKeyboard */,
 				F8ABF105B76557F4AF07987608E9EECF /* XWMoneyTextField */,
 			);
-			name = Utility;
 			path = Utility;
 			sourceTree = "<group>";
 		};
@@ -1639,7 +1600,6 @@
 			children = (
 				0F9513283B6E3FE6D2C10D423EFCE6C0 /* XWEnvObserver */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1653,7 +1613,6 @@
 				22F9887DEE091DFA1B9C7800C3173449 /* XWMapManager.h */,
 				F2BF6CDA683A7C266DBAAEF695909D62 /* XWMapManager.m */,
 			);
-			name = LocationManager;
 			path = LocationManager;
 			sourceTree = "<group>";
 		};
@@ -1670,7 +1629,6 @@
 			children = (
 				4D6A026AB50BD43B3B7032997614B77C /* Classes */,
 			);
-			name = XWKit;
 			path = XWKit;
 			sourceTree = "<group>";
 		};
@@ -1711,7 +1669,6 @@
 				224C7AF1ED544BD5AE4F07935B57C80C /* MBProgressHUD.m */,
 				2008B2B27E84A682F6CB73EA3DC2EC97 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1763,7 +1720,6 @@
 				CDF7638ABB4C42E52DB06F37117497FC /* XCTestCase+Specta.m */,
 				F8D5AD4375FDD854C4465BFFA0A41D29 /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -1786,7 +1742,6 @@
 			children = (
 				81DE8595E31EC09BBECF0F4A4694B2DA /* Utility */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1818,7 +1773,6 @@
 				AD1AFDCCD53A0580033CDC913B1F06E8 /* XWSandBoxHelper.h */,
 				D8F4E1E4ABFDFC2185DC303940C951D6 /* XWSandBoxHelper.m */,
 			);
-			name = SandBox;
 			path = SandBox;
 			sourceTree = "<group>";
 		};
@@ -1845,28 +1799,7 @@
 				13B4530894F2923E844CD5353DE93635 /* EXPMatchers+FBSnapshotTest.m */,
 				F952C082FF60837255C0F1E81FC421CF /* Support Files */,
 			);
-			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
-			sourceTree = "<group>";
-		};
-		D1D43128C1210C1F0959CB70B5AED755 /* XWCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				ED774B845078E9659B6F8474BFD08499 /* XWCalendarTransition.h */,
-				9541FE41DA7E43E98F99963CA4DFC545 /* XWCalendarTransition.m */,
-				D79957F7A95B3B267541EA4525807BFB /* XWCalendarUnit.h */,
-				9B6B50D37BA174A9CCF8E163B36F9985 /* XWCalendarUnit.m */,
-				7C1D916760D67E5D5B7A0D0CD23D7C2C /* XWCalendarView.h */,
-				2BE8BC8B27556CC6E27ADD1325D3D3B6 /* XWCalendarView.m */,
-				069ADA9820FF5278C19D6220ABC2B9A0 /* XWCalendarViewController.h */,
-				90B439E7081D8B132385A35D7C485816 /* XWCalendarViewController.m */,
-				B3B6B818BDB930D0FE19CEA19208E27D /* XWDayCollectionViewCell.h */,
-				557FB552B1BC07E8C7E92CBBA3857195 /* XWDayCollectionViewCell.m */,
-				FE5A51C1B4933A3EE2F3A3324A68274A /* XWWeekCollectionViewCell.h */,
-				9879AE63D579D763307A8912AB804545 /* XWWeekCollectionViewCell.m */,
-			);
-			name = XWCalendar;
-			path = XWCalendar;
 			sourceTree = "<group>";
 		};
 		D46B357855BD1FF07E0B91337CA29246 /* BEMSimpleLineGraph */ = {
@@ -1884,7 +1817,6 @@
 				B671096673FEE20A2ED5DC1CCF4ACF64 /* BEMSimpleLineGraphView.m */,
 				4CAF99D0641820C6AF2A5A4F19B57025 /* Support Files */,
 			);
-			name = BEMSimpleLineGraph;
 			path = BEMSimpleLineGraph;
 			sourceTree = "<group>";
 		};
@@ -1919,7 +1851,6 @@
 				FD018CFFF45E498DAA8121C62E2A9DDE /* NSTimer+Block.h */,
 				4061D8BF32947DA77A5C2A79FA8B4043 /* NSTimer+Block.m */,
 			);
-			name = Foundation;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
@@ -1949,7 +1880,6 @@
 				D73D61558CFC1ABF389CB548422808C5 /* FORScrollViewEmptyAssistant.h */,
 				C08EF896B7E7E8CFB460077BEB046AFD /* FORScrollViewEmptyAssistant.m */,
 			);
-			name = EmptyAssistant;
 			path = EmptyAssistant;
 			sourceTree = "<group>";
 		};
@@ -1964,7 +1894,6 @@
 				074C16C579B77544EDF7BD70ED18745C /* Support Files */,
 				2F5160FAFE2ABBA572C52BCB12B7F80D /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -2019,7 +1948,6 @@
 				E45A06E28610DBB78B0318BE7F8F8B4D /* XWKeyboard.h */,
 				9A76BD002099BE7DF8D5220E01647D74 /* XWKeyboard.m */,
 			);
-			name = XWKeyboard;
 			path = XWKeyboard;
 			sourceTree = "<group>";
 		};
@@ -2047,7 +1975,6 @@
 			children = (
 				49C540EFDE04AD661AAD129B671B5250 /* Classes */,
 			);
-			name = XWKit;
 			path = XWKit;
 			sourceTree = "<group>";
 		};
@@ -2156,7 +2083,6 @@
 				AB0A84CB5EA0859F044C1E4E4A70E440 /* NSValue+Expecta.m */,
 				72A3EFB74632E1A58B0FF8D8EA233F7B /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -2187,7 +2113,6 @@
 				75F5BA602F5615C241BAD4D697783D4D /* UIViewController+XWHUD.m */,
 				E16C1717385C09416BA2DC107FE481D5 /* EmptyAssistant */,
 			);
-			name = UIKit;
 			path = UIKit;
 			sourceTree = "<group>";
 		};
@@ -2199,7 +2124,6 @@
 				A9A0721A6913C340DFE93C7EE361CF16 /* XWMoneyTextFieldLimit.h */,
 				4D8A385FBB4EF66B2595AC99F96E3629 /* XWMoneyTextFieldLimit.m */,
 			);
-			name = XWMoneyTextField;
 			path = XWMoneyTextField;
 			sourceTree = "<group>";
 		};
@@ -2225,7 +2149,6 @@
 				DD12443991B35313294B35C7A44AACEC /* Foundation */,
 				F85FAF6C86A5193137E04572C512E6D8 /* UIKit */,
 			);
-			name = Categories;
 			path = Categories;
 			sourceTree = "<group>";
 		};
@@ -2288,7 +2211,6 @@
 				2ECC16ED8596C2D9BACEF5629FADF0D8 /* Resources */,
 				AFAF4D271301874D6E463A3C81D23F14 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -2331,7 +2253,6 @@
 				05B550B947019B26D2C17583A21E0DBE /* PNScatterChartDataItem.m */,
 				BC68822D44E5702525CFFA85051FAC5A /* Support Files */,
 			);
-			name = PNChart;
 			path = PNChart;
 			sourceTree = "<group>";
 		};
@@ -2472,12 +2393,7 @@
 				3589C5D8FE317696314237FE6794719B /* UIScrollView+XWEmptyView.h in Headers */,
 				A0A62C4398BB67CA3EDF24FDB77DA436 /* UIScrollView+XWRefresh.h in Headers */,
 				5F241B6F0998907715E6073D356A0429 /* UIViewController+XWHUD.h in Headers */,
-				8B53B4C9DAD1618E68E93F5F034D84B9 /* XWCalendarTransition.h in Headers */,
-				C1D957482ED2E912A140073EBF1C372A /* XWCalendarUnit.h in Headers */,
-				3B6406BB54CAAC7A9799719134AC8101 /* XWCalendarView.h in Headers */,
-				EF8983525FA3BE5D9E7B59ED7C1B916E /* XWCalendarViewController.h in Headers */,
 				12DE26AC9D408CEA87C02E8A047885F1 /* XWChartManager.h in Headers */,
-				C2A5778BF81AB896BD95E466A9FEEBD6 /* XWDayCollectionViewCell.h in Headers */,
 				78E397742ACEF8BD453BC755D5624D77 /* XWEnvObserverCenter.h in Headers */,
 				9B1ABCE3768B3F6075EEE3AE685B6127 /* XWEnvObserverCenterApplication.h in Headers */,
 				32859D9980804379AEE919CD0763F584 /* XWEnvObserverCenterUIKeyboard.h in Headers */,
@@ -2491,7 +2407,6 @@
 				C15304393C45B98493D02C0785E761C4 /* XWMoneyTextFieldLimit.h in Headers */,
 				974D95606C746E20DBD81057AAA6F55F /* XWObserver.h in Headers */,
 				DE6526945B14474F9855EFBE41C2986B /* XWSandBoxHelper.h in Headers */,
-				14018DCB7B12890CBE98B0B39901D081 /* XWWeekCollectionViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3189,12 +3104,7 @@
 				75FBD44389839AAA46F7B2F30F7A2FDB /* UIScrollView+XWEmptyView.m in Sources */,
 				925B59C38894E7933325EEBB030BB714 /* UIScrollView+XWRefresh.m in Sources */,
 				11D7A0C46634755B95378D906BFA73C0 /* UIViewController+XWHUD.m in Sources */,
-				8B62E599CA14ED1CD6F87FECF66F9B3F /* XWCalendarTransition.m in Sources */,
-				DF0BFAB0B908B511C073482E12DC7EFB /* XWCalendarUnit.m in Sources */,
-				C3EBE50D448A27512A6742A36DC23A25 /* XWCalendarView.m in Sources */,
-				A63E6A8DF875190385E8870C5FC0A39F /* XWCalendarViewController.m in Sources */,
 				A54967FA2ACCBFEB309CB157A92E0047 /* XWChartManager.m in Sources */,
-				DD8C1092BA3DD326DC723D85A310C6FA /* XWDayCollectionViewCell.m in Sources */,
 				F1368202090A3C673492C5C5B738679E /* XWEnvObserverCenter.m in Sources */,
 				233FF59750DCE1A0134F12AE0C7E4095 /* XWEnvObserverCenterApplication.m in Sources */,
 				99EAF261038F59D2356EF04052AE8698 /* XWEnvObserverCenterUIKeyboard.m in Sources */,
@@ -3208,7 +3118,6 @@
 				C2C2239B3B25C62D8778F3CDF5E11E97 /* XWMoneyTextFieldLimit.m in Sources */,
 				02AFB54DA8B9B4527DFDD518ECBD7137 /* XWObserver.m in Sources */,
 				1AD633E08918D9524F3AE55F66D54C2F /* XWSandBoxHelper.m in Sources */,
-				C87A40936208EB231491032996D7CF0E /* XWWeekCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
