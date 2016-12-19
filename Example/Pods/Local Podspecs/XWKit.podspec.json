@@ -65,12 +65,6 @@
 
         ]
       }
-    },
-    {
-      "name": "XWCalendar",
-      "source_files": "XWKit/Classes/XWCalendar/**/*.{h,m}",
-      "public_header_files": "XWKit/Classes/XWCalendar/**/*.h",
-      "frameworks": "UIKit"
     }
   ]
 }

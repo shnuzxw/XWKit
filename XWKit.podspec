@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "XWKit"
-    s.version          = "0.0.11"
+    s.version          = "0.0.12"
     s.summary          = "一个简单的Kit框架。"
     s.description      = <<-DESC
                        一个简单的框架，如果您需要，可以下载使用。
@@ -46,10 +46,5 @@ Pod::Spec.new do |s|
       cat.dependency 'MJRefresh'
     end
 
-    s.subspec 'XWCalendar' do |cal|
-    cal.source_files = 'XWKit/Classes/XWCalendar/**/*.{h,m}'
-    cal.public_header_files = 'XWKit/Classes/XWCalendar/**/*.h'
-    cal.frameworks = 'UIKit'
-    end
     s.dependency 'AFNetworking'
 end

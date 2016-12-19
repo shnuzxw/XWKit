@@ -38,7 +38,6 @@ PODS:
     - XWKit/Category (= 0.0.11)
     - XWKit/Manager (= 0.0.11)
     - XWKit/Utility (= 0.0.11)
-    - XWKit/XWCalendar (= 0.0.11)
     - XWKit/XWEnvObserver (= 0.0.11)
   - XWKit/Category (0.0.11):
     - AFNetworking
@@ -51,8 +50,6 @@ PODS:
     - JBChartView
     - PNChart
   - XWKit/Utility (0.0.11):
-    - AFNetworking
-  - XWKit/XWCalendar (0.0.11):
     - AFNetworking
   - XWKit/XWEnvObserver (0.0.11):
     - AFNetworking
@@ -81,7 +78,7 @@ SPEC CHECKSUMS:
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
-  XWKit: 1473aaec14dcc756c42f2c5c124467ec4c9835ce
+  XWKit: f60c4c9286bc1fc20b22512c5d1cf5a2d9df5fed
 
 PODFILE CHECKSUM: 60ec6b30aca363765da20e5773c418f566832335
 
