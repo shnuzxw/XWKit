@@ -32,11 +32,11 @@ SingletonInterface(XWLocationManager);
 - (void)addRequestLocationUpdateSuccessBlock:(LocationSuccessBlock)block; // 添加只请求一次的Block
 - (void)addSubScribeLocationUpdateSuccessBlock:(LocationSuccessBlock)block; // 添加监控位置的Block，重复执行
 
--(void)getCoordinateByAddress:(NSString *)address
-            completionHandler:(CLGeocodeCompletionHandler)completionHandler;
+- (void)getCoordinateByAddress:(NSString *)address
+             completionHandler:(CLGeocodeCompletionHandler)completionHandler;
 - (void)getAddressByLocation:(CLLocation *)location
            completionHandler:(CLGeocodeCompletionHandler)completionHandler;
--(void)getAddressByLatitude:(CLLocationDegrees)latitude
-                  longitude:(CLLocationDegrees)longitude
-          completionHandler:(CLGeocodeCompletionHandler)completionHandler;
+- (void)getAddressByLatitude:(CLLocationDegrees)latitude
+                   longitude:(CLLocationDegrees)longitude
+           completionHandler:(CLGeocodeCompletionHandler)completionHandler;
 @end

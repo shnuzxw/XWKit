@@ -51,7 +51,9 @@ SingletonImplementation(XWLocationManager);
 }
 
 - (void)startUpdatingLocation{
-    [self.locationManager startUpdatingLocation];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.locationManager startUpdatingLocation];
+    });
 }
 
 - (void)requestLocationWithBlock:(LocationSuccessBlock)block{
@@ -69,12 +71,14 @@ SingletonImplementation(XWLocationManager);
 }
 
 - (void)stopUpdatingLocation{
-    [self.locationManager stopUpdatingLocation];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.locationManager stopUpdatingLocation];
+    });
 }
 
 // 根据地名确定地理坐标
--(void)getCoordinateByAddress:(NSString *)address
-            completionHandler:(CLGeocodeCompletionHandler)completionHandler{
+- (void)getCoordinateByAddress:(NSString *)address
+             completionHandler:(CLGeocodeCompletionHandler)completionHandler{
     //地理编码
     [self.geoCoder geocodeAddressString:address
                       completionHandler:^(NSArray *placemarks, NSError *error) {
@@ -85,9 +89,9 @@ SingletonImplementation(XWLocationManager);
 }
 
 // 根据坐标取得地名
--(void)getAddressByLatitude:(CLLocationDegrees)latitude
-                  longitude:(CLLocationDegrees)longitude
-          completionHandler:(CLGeocodeCompletionHandler)completionHandler{
+- (void)getAddressByLatitude:(CLLocationDegrees)latitude
+                   longitude:(CLLocationDegrees)longitude
+           completionHandler:(CLGeocodeCompletionHandler)completionHandler{
     //反地理编码
     CLLocation *location = [[CLLocation alloc]initWithLatitude:latitude longitude:longitude];
     [self.geoCoder reverseGeocodeLocation:location
@@ -117,7 +121,9 @@ SingletonImplementation(XWLocationManager);
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
     [self handleLocationBlocksWithIsSuccess:NO];
-    [manager stopUpdatingLocation];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [manager stopUpdatingLocation];
+    });
 }
 
 - (void)handleLocationBlocksWithIsSuccess:(BOOL)isSuccess{
