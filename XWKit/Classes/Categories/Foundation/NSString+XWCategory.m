@@ -33,7 +33,7 @@
     return NO;
 }
 
-+ (BOOL)xw_checkStringIsEmpty:(NSString*)string {
++ (BOOL)xw_checkStringIsEmpty:(NSString *)string {
     if (string == nil) {
         return YES;
     }
@@ -46,7 +46,7 @@
     return [[self xw_getTrimStringWithString:string] isEqualToString:@""];
 }
 
-+ (NSString *)xw_getTrimStringWithString:(NSString*)string {
++ (NSString *)xw_getTrimStringWithString:(NSString *)string {
     return [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 

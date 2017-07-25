@@ -52,7 +52,7 @@
     return outputString;
 }
 
-+ (NSString*)encodeBASE64:(NSData *)data{
++ (NSString *)encodeBASE64:(NSData *)data{
     static char base64EncodingTable[64] = {
         'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
         'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f',
@@ -114,7 +114,7 @@
     return result;
 }
 
-- (NSData*)decodeBASE64{
+- (NSData *)decodeBASE64{
     
     unsigned long ixtext, lentext;
     unsigned char ch, inbuf[4], outbuf[4];

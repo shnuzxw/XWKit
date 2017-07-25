@@ -31,7 +31,7 @@
  *
  *  @return NSData
  */
-- (NSData*)decodeBASE64;
+- (NSData *)decodeBASE64;
 
 /**
  * 检验json的有效性
@@ -80,7 +80,7 @@
  *
  *  @return 加密结果
  */
-- (NSString*)SHA1;
+- (NSString *)SHA1;
 
 
 @end

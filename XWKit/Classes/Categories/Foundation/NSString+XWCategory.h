@@ -40,7 +40,7 @@
  *
  *  @return BOOL值:YES为空;NO非空.
  */
-+ (BOOL)xw_checkStringIsEmpty:(NSString*)string;
++ (BOOL)xw_checkStringIsEmpty:(NSString *)string;
 
 /**
  *  去除字符串两边的空格
@@ -49,7 +49,7 @@
  *
  *  @return 处理后字符串
  */
-+ (NSString *)xw_getTrimStringWithString:(NSString*)string;
++ (NSString *)xw_getTrimStringWithString:(NSString *)string;
 
 /**
  *  是否为空
