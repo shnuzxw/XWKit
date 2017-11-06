@@ -15,7 +15,7 @@
 }
 
 + (BOOL)xw_isValidWithDictionary:(NSDictionary *)dictionary {
-    if (![dictionary isKindOfClass:[NSDictionary class]] || !dictionary || !([dictionary allKeys].count)) {
+    if (!dictionary || ![dictionary isKindOfClass:[NSDictionary class]] || !([dictionary allKeys].count)) {
         return NO;
     } else {
         return YES;

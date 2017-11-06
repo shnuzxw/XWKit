@@ -33,7 +33,7 @@
 
 @implementation UIDevice (XWCategory)
 // 获取设备MAC地址，AABBCCDDEEFF
-+ (NSString * )macAddresses{
++ (NSString * )macAddresses {
     int mib[6];
     size_t len;
     char *buf;
@@ -121,7 +121,7 @@
 #define min(a,b)    ((a) < (b) ? (a) : (b))
 #define max(a,b)    ((a) > (b) ? (a) : (b))
 
-+ (NSString *)WLANIPAddresses{
++ (NSString *)WLANIPAddresses {
     int                 len, flags;
     char                buffer[BUFFERSIZE], *ptr, *cptr;
     struct ifconf       ifc;
@@ -178,7 +178,7 @@
     return [[NSString alloc] initWithCString:temp encoding:NSASCIIStringEncoding];
 }
 
-+ (NSString *)getHWAddresses{
++ (NSString *)getHWAddresses {
     struct ifconf ifc;
     struct ifreq *ifr;
     int  sockfd;
@@ -227,7 +227,7 @@
 }
 
 #pragma mark - 网络状态变化通知
-+ (id)fetchSSIDInfo{
++ (id)fetchSSIDInfo {
     NSArray *ifs = (__bridge NSArray *)(CNCopySupportedInterfaces());
     
     id info = nil;
@@ -258,49 +258,54 @@
     return [NSString stringWithFormat:@"%@ %@",[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion];
 }
 
-+ (NSString *)deviceUUIDString{
++ (NSString *)deviceUUIDString {
     return [[[UIDevice currentDevice] identifierForVendor] UUIDString];
 }
 
-+ (NSString *)deviceUUID{
++ (NSString *)deviceUUID {
     NSString *outstring = [self deviceUUIDString];
     // 去掉中间的横线
     outstring = [outstring stringByReplacingOccurrencesOfString:@"-" withString:@""];
     return outstring;
 }
 
-+ (NSString *)deviceModel{
++ (NSString *)deviceModel {
     return [UIDevice currentDevice].model;
 }
 
-+ (NSString *)deviceModelType{
++ (NSString *)deviceModelType {
     struct utsname systemInfo;
-    
     uname(&systemInfo);
-    
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
-    
-    if ([platform isEqualToString:@"iPhone1,1"])    return @"iPhone 1G";
-    if ([platform isEqualToString:@"iPhone1,2"])    return @"iPhone 3G";
-    if ([platform isEqualToString:@"iPhone2,1"])    return @"iPhone 3GS";
-    if ([platform isEqualToString:@"iPhone3,1"])    return @"iPhone 4 (GSM)";
-    if ([platform isEqualToString:@"iPhone3,3"])    return @"iPhone 4 (CDMA)";
-    if ([platform isEqualToString:@"iPhone4,1"])    return @"iPhone 4S";
-    if ([platform isEqualToString:@"iPhone5,1"])    return @"iPhone 5 (GSM)";
-    if ([platform isEqualToString:@"iPhone5,2"])    return @"iPhone 5 (CDMA)";
-    if ([platform isEqualToString:@"iPhone5,3"])    return @"iPhone 5c";
-    if ([platform isEqualToString:@"iPhone5,4"])    return @"iPhone 5c";
-    if ([platform isEqualToString:@"iPhone6,1"])    return @"iPhone 5s";
-    if ([platform isEqualToString:@"iPhone6,2"])    return @"iPhone 5s";
-    if ([platform isEqualToString:@"iPhone7,1"])    return @"iPhone 6 Plus";
-    if ([platform isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
-    if ([platform isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
-    if ([platform isEqualToString:@"iPhone8,2"])    return @"iPhone 6s Plus";
-    if ([platform isEqualToString:@"iPhone8,4"])    return @"iPhone SE";
-    if ([platform isEqualToString:@"iPhone9,1"])    return @"iPhone 7";
-    if ([platform isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
+    if ([platform isEqualToString:@"iPhone1,1"])  return @"iPhone";
+    if ([platform isEqualToString:@"iPhone1,2"])  return @"iPhone 3G";
+    if ([platform isEqualToString:@"iPhone2,1"])  return @"iPhone 3GS";
+    if ([platform isEqualToString:@"iPhone3,1"])  return @"iPhone 4";
+    if ([platform isEqualToString:@"iPhone3,2"])  return @"iPhone 4";
+    if ([platform isEqualToString:@"iPhone3,3"])  return @"iPhone 4";
+    if ([platform isEqualToString:@"iPhone4,1"])  return @"iPhone 4S";
+    if ([platform isEqualToString:@"iPhone5,1"])  return @"iPhone 5";
+    if ([platform isEqualToString:@"iPhone5,2"])  return @"iPhone 5c";
+    if ([platform isEqualToString:@"iPhone5,3"])  return @"iPhone 5c";
+    if ([platform isEqualToString:@"iPhone5,4"])  return @"iPhone 5c";
+    if ([platform isEqualToString:@"iPhone6,1"])  return @"iPhone 5s";
+    if ([platform isEqualToString:@"iPhone6,2"])  return @"iPhone 5s";
+    if ([platform isEqualToString:@"iPhone7,1"])  return @"iPhone 6 Plus";
+    if ([platform isEqualToString:@"iPhone7,2"])  return @"iPhone 6";
+    if ([platform isEqualToString:@"iPhone8,1"])  return @"iPhone 6s";
+    if ([platform isEqualToString:@"iPhone8,2"])  return @"iPhone 6s Plus";
+    if ([platform isEqualToString:@"iPhone8,4"])  return @"iPhone SE";
+    if ([platform isEqualToString:@"iPhone9,1"])  return @"iPhone 7";
+    if ([platform isEqualToString:@"iPhone9,3"])  return @"iPhone 7";
+    if ([platform isEqualToString:@"iPhone9,2"])  return @"iPhone 7 Plus";
+    if ([platform isEqualToString:@"iPhone9,4"])  return @"iPhone 7 Plus";
+    if ([platform isEqualToString:@"iPhone10,1"]) return @"iPhone 8";
+    if ([platform isEqualToString:@"iPhone10,4"]) return @"iPhone 8";
+    if ([platform isEqualToString:@"iPhone10,2"]) return @"iPhone 8 Plus";
+    if ([platform isEqualToString:@"iPhone10,5"]) return @"iPhone 8 Plus";
+    if ([platform isEqualToString:@"iPhone10,3"]) return @"iPhone X";
+    if ([platform isEqualToString:@"iPhone10,6"]) return @"iPhone X";
 
-    
     if ([platform isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([platform isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";
     if ([platform isEqualToString:@"iPod3,1"])      return @"iPod Touch 3G";

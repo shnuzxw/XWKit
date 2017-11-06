@@ -15,7 +15,7 @@
 }
 
 + (BOOL)xw_isValidWithArray:(NSArray *)array {
-    if (![array isKindOfClass:[NSArray class]] || !array || !array.count) {
+    if (!array || ![array isKindOfClass:[NSArray class]] || !array.count) {
         return NO;
     } else {
         return YES;
