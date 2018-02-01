@@ -17,5 +17,5 @@
 #import "NSTimer+Block.h"
 
 @interface Foundation_XWCategory : NSObject
-// 测试
+
 @end
