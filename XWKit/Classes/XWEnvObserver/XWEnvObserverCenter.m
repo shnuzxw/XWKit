@@ -14,7 +14,7 @@
 - (id)init {
     self = [super init];
     if (self) {
-        _observersAry = [[NSMutableArray alloc] initWithCapacity:0];
+        _observersAry = [NSHashTable weakObjectsHashTable];
     }
     return self;
 }
@@ -23,44 +23,49 @@
     if (observer == nil) {
         return;
     }
-    for (XWObserver * ob in _observersAry) {
-        if (ob.observer == observer) {
-            return;
-        }
+
+    if (![_observersAry containsObject:observer]) {
+        [_observersAry addObject:observer];
     }
-    XWObserver * ob = [XWObserver createWithObejct:observer];
-    [_observersAry addObject:ob];
 }
 
 - (void)removeEnvObserver:(id)observer {
-    for (NSInteger i = 0; i < [_observersAry count]; i++) {
-        XWObserver * ob = [_observersAry objectAtIndex:i];
-        if (ob.observer == observer) {
-            [_observersAry removeObjectAtIndex:i];
-            return;
-        }
+    if ([_observersAry containsObject:observer]) {
+        [_observersAry removeObject:observer];
     }
 }
 
 - (void)noticeObervers:(SEL)selector {
-    [_observersAry enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        XWObserver * observer = obj;
-        [observer noticeOberver:selector];
-    }];
+    for (id obj in _observersAry) {
+        if ([obj respondsToSelector:selector]) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+            [obj performSelector:selector];
+#pragma clang diagnostic pop
+        }
+    }
 }
 
 - (void)noticeObervers:(SEL)selector withObject:(id)object {
-    [_observersAry enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        XWObserver * observer = obj;
-        [observer noticeOberver:selector withObject:object];
-    }];
+    for (id obj in _observersAry) {
+        if ([obj respondsToSelector:selector]) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+            [obj performSelector:selector withObject:object];
+#pragma clang diagnostic pop
+        }
+    }
 }
 
 - (void)noticeObervers:(SEL)selector withObject:(id)object1 withObject:(id)object2 {
-    [_observersAry enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        XWObserver * observer = obj;
-        [observer noticeOberver:selector withObject:object1 withObject:object2];
-    }];
+    for (id obj in _observersAry) {
+        if ([obj respondsToSelector:selector]) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+            [obj performSelector:selector withObject:object1 withObject:object2];
+#pragma clang diagnostic pop
+        }
+    }
 }
 
 @end

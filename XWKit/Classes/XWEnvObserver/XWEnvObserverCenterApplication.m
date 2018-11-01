@@ -134,12 +134,12 @@ static XWEnvObserverCenterApplication *defaultCenter;
     } else {
         return;
     }
-    for (XWObserver * ob in _observersAry) {
-        id<XWEnvObserverApplicationProtocol> observer = ob.observer;
-        if ([observer respondsToSelector:s]) {       
+    
+    for (id obj in _observersAry) {
+        if ([obj respondsToSelector:s]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-            [observer performSelector:s withObject:notification];
+            [obj performSelector:s withObject:notification];
 #pragma clang diagnostic pop
         }
     }

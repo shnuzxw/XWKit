@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XWObserver.h"
+//#import "XWObserver.h"
 
 @interface XWEnvObserverCenter : NSObject {
-    NSMutableArray * _observersAry;
+    NSHashTable * _observersAry;
 }
 
-@property (nonatomic, readonly) NSArray *observers;
+@property (nonatomic, readonly)  NSHashTable *observers;
 
 - (void)addEnvObserver:(id)observer;
 - (void)removeEnvObserver:(id)observer;
